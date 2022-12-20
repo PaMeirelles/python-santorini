@@ -1,4 +1,5 @@
 import pygame as pg
+from copy import copy
 
 WIDTH = 680
 HEIGHT = 680
@@ -8,9 +9,8 @@ class GameInfo:
     def __init__(self, name):
         with open(name, "r") as f:
             linhas = [[int(y) for y in x.split()] for x in f.read().split("\n")]
-            print(linhas)
-            self.cores = linhas[0]
-            self.players = linhas[1]
+            self.cores = linhas[0].copy()
+            self.players = linhas[1].copy()
             self.linhas = linhas
             self.turn = 0
             self.blocks = [0 for _ in range(25)]
@@ -20,6 +20,17 @@ class GameInfo:
         self.turn += 1
         self.players[who] = to
         self.blocks[block] += 1
+
+    def undo_move(self):
+        self.set_turn(self.turn - 1)
+
+    def set_turn(self, turn):
+        self.turn = turn
+        self.cores = self.linhas[0].copy()
+        self.players = self.linhas[1].copy()
+        self.blocks = [0 for _ in range(25)]
+        for _ in range(turn):
+            self.make_move()
 
     def draw_players(self, win):
         for i in range(4):
@@ -117,6 +128,12 @@ while running:
         if e.type == pg.QUIT:
             running = False
         elif e.type == pg.MOUSEBUTTONDOWN:
-            info.make_move()
+            mouse = pg.mouse.get_pressed(3)
+            if mouse[0]:
+                info.make_move()
+            elif mouse[1]:
+                info.set_turn(0)
+            else:
+                info.undo_move()
 # end main loop
 pg.quit()
