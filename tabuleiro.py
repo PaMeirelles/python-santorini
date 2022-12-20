@@ -48,9 +48,28 @@ def draw_block(win, x, y, h):
         exit(1)
 
 
+def draw_player(win, x, y, p):
+    if p == 0:
+        draw_circle(win, x, y, (128, 128, 128), 0.5)
+    elif p == 1:
+        draw_circle(win, x, y, (200, 200, 200), 0.5)
+    elif p == 2:
+        draw_circle(win, x, y, (153, 153, 255), 0.5)
+    else:
+        print(f"Jogador inválido ({p})")
+
+
 def draw_all(win):
     window.fill(bg_color)
     draw_board(win)
+
+    draw_block(win, 2, 2, 1)
+    draw_block(win, 2, 2, 2)
+
+    draw_player(win, 2, 2, 1)
+    draw_player(win, 1, 2, 0)
+    draw_player(win, 3, 2, 2)
+
     pg.display.update()
 
 
