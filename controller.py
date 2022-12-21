@@ -53,7 +53,6 @@ class Controller:
                 result = self.turn * -2
                 break
             self.moves.append(move)
-            move.print()
             self.time[index] -= (stop - start)
             self.board.make_move(move)
 
@@ -73,6 +72,7 @@ class Controller:
             f.write(f"{n},{self.players[0]},{self.players[1]},{self.original_time[0]},{self.original_time[1]},{result}\n")
         with open("games/meta", "w") as f:
             f.write(str(n + 1))
+        return result
 
     def write_file(self, n):
         with open(f"games/{n}", "x") as f:

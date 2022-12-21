@@ -125,7 +125,7 @@ def draw_all(win):
     pg.display.update()
 
 
-info = GameInfo("games/2")
+info = GameInfo("games/3")
 while running:
     clock.tick(60)
     draw_all(window)
