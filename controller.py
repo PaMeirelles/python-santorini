@@ -39,7 +39,7 @@ class Controller:
                 index = 1
             start = perf_counter()
             move, score = get_best_move(self.board,
-                                        2,
+                                        1,
                                         self.turn,
                                         self.evals[index],
                                         self.searches[index])
@@ -52,7 +52,7 @@ class Controller:
             self.time[index] -= (stop - start)
             self.board.make_move(move)
 
-            if move.end == 3:
+            if self.board.blocks[move.end] == 3:
                 result = self.turn
                 break
             if self.time[index] < 0:
@@ -65,7 +65,7 @@ class Controller:
             n = int(f.read())
         self.write_file(n)
         with open("games/matches", "a") as f:
-            f.write(f"{n},{self.players[0]},{self.players[1]},{self.original_time[0]},{self.original_time[1]},{result}")
+            f.write(f"{n},{self.players[0]},{self.players[1]},{self.original_time[0]},{self.original_time[1]},{result}\n")
         with open("games/meta", "w") as f:
             f.write(str(n + 1))
 

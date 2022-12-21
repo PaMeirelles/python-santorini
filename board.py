@@ -7,6 +7,8 @@ class Board:
         self.players = players
         self.blocks = [0 for _ in range(25)]
         self.vizinhos = [[] for _ in range(25)]
+        self.rise = False
+        self.stale = False
         self.init_vizinhos()
 
     def init_vizinhos(self):
@@ -37,9 +39,14 @@ class Board:
             for v in self.vizinhos[player]:
                 if not self.valid_half_move(player, v):
                     continue
+                if self.blocks[v] == 3:
+                    moves.append(Move(i, player, v, -1))
+                    continue
+                self.players[i] = -1
                 for v2 in self.vizinhos[v]:
                     if self.is_free(v2):
                         moves.append(Move(i, player, v, v2))
+                self.players[i] = player
         return moves
 
     def valid_half_move(self, begin, end):
@@ -60,10 +67,14 @@ class Board:
     def make_move(self, move):
         self.players[move.who] = move.end
         self.blocks[move.block] += 1
+        if self.blocks[move.end] == 3:
+            self.rise = True
 
     def undo_move(self, move):
         self.players[move.who] = move.begin
         self.blocks[move.block] -= 1
+        self.rise = False
+        self.stale = False
 
     def worker_height(self, worker):
         return self.blocks[self.players[worker]]
