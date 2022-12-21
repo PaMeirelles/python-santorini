@@ -3,7 +3,7 @@ def get_best_move(board, depth, turn, eval_func, search_func):
     scores = []
 
     if len(moves) == 0:
-        board.stale = True
+        return None, float("-inf")
 
     for move in moves:
         board.make_move(move)

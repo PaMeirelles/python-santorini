@@ -39,7 +39,7 @@ class Controller:
                 index = 1
             start = perf_counter()
             move, score = get_best_move(self.board,
-                                        1,
+                                        2,
                                         self.turn,
                                         self.evals[index],
                                         self.searches[index])
