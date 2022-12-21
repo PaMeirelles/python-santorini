@@ -43,7 +43,7 @@ class Board:
         return moves
 
     def valid_half_move(self, begin, end):
-        if end - begin > 1:
+        if self.blocks[end] - self.blocks[begin] > 1:
             return False
         if not self.is_free(end):
             return False
@@ -58,11 +58,11 @@ class Board:
         return True
 
     def make_move(self, move):
-        self.players[move.player] = move.end
+        self.players[move.who] = move.end
         self.blocks[move.block] += 1
 
     def undo_move(self, move):
-        self.players[move.player] = move.begin
+        self.players[move.who] = move.begin
         self.blocks[move.block] -= 1
 
     def worker_height(self, worker):
@@ -70,3 +70,4 @@ class Board:
 
     def worker_neighbour(self, worker):
         return self.vizinhos[worker]
+
