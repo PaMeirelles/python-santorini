@@ -1,8 +1,11 @@
+from move import Move
+
+
 class Board:
-    def __init__(self):
+    def __init__(self, players):
         self.turn = 0
-        self.players = []
-        self.blocks = []
+        self.players = players
+        self.blocks = [0 for _ in range(25)]
         self.vizinhos = [[] for _ in range(25)]
         self.init_vizinhos()
 
@@ -27,6 +30,29 @@ class Board:
                     continue
                 self.vizinhos[i].append(i + d)
 
+    def gen_moves(self, turn):
+        moves = []
+        for i in range(1 - turn, 3 - turn):
+            player = self.players[i]
+            for v in self.vizinhos[player]:
+                if not self.valid_half_move(player, v):
+                    continue
+                for v2 in self.vizinhos[v]:
+                    if self.is_free(v2):
+                        moves.append(Move(i, player, v, v2))
+        return moves
 
-b = Board()
-print(b.vizinhos)
+    def valid_half_move(self, begin, end):
+        if end - begin > 1:
+            return False
+        if not self.is_free(end):
+            return False
+        return True
+
+    def is_free(self, square):
+        if self.blocks[square] == 4:
+            return False
+        for p in self.players:
+            if p == square:
+                return False
+        return True
