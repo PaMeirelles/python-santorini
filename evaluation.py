@@ -37,3 +37,8 @@ class NeighbourHeight(PositionHeight):
 class NHS(NeighbourHeight):
     def __init__(self, board):
         super().__init__(board, 6, 2, 1)
+
+
+class NHC(NeighbourHeight):
+    def __init__(self, board):
+        super().__init__(board, 4, 3, 3)

@@ -1,15 +1,14 @@
-def get_best_move(board, depth, turn, eval_func):
+def get_best_move(board, depth, turn, eval_func, search_func):
     moves = board.gen_moves(turn)
     scores = []
 
     for move in moves:
         board.make_move(move)
-        scores.append(-negamax(board, depth-1, -turn, eval_func))
+        scores.append(-search_func(board, depth-1, -turn, eval_func))
         board.undo_move(move)
-
-    print(max(scores))
-    moves[scores.index(max(scores))].print()
-    return moves[scores.index(max(scores))]
+    if len(moves) == 0:
+        return None, -float("inf")
+    return moves[scores.index(max(scores))], max(scores)
 
 
 def negamax(board, depth, turn, eval_func):
