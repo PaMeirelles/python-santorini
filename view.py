@@ -19,7 +19,8 @@ class GameInfo:
         who, to, block = self.linhas[self.turn + 2]
         self.turn += 1
         self.players[who] = to
-        self.blocks[block] += 1
+        if block > 0:
+            self.blocks[block] += 1
 
     def undo_move(self):
         self.set_turn(self.turn - 1)
