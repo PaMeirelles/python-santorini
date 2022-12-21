@@ -1,6 +1,7 @@
 from time import perf_counter
+from copy import copy
 
-DIVE_CHECK = 1
+DIVE_CHECK = 10
 MAX = 10000
 
 
@@ -10,9 +11,8 @@ def get_best_move(board, turn, eval_func, search_func, time):
     best_score = -MAX
     start = perf_counter()
     counter = 0
+
     while perf_counter() - start < time:
-        temp_best_move = None
-        temp_best_score = -MAX
         moves = board.gen_moves(turn)
         scores = []
 
@@ -28,26 +28,23 @@ def get_best_move(board, turn, eval_func, search_func, time):
             board.make_move(move)
             scores.append(-search_func(board, depth - 1, -turn, eval_func))
             board.undo_move(move)
-        temp_best_move, temp_best_score = moves[scores.index(max(scores))], max(scores)
+
+            if move == moves[-1]:
+                best_move, best_score = moves[scores.index(max(scores))], max(scores)
         depth += 1
-        best_score = temp_best_score
-        best_move = temp_best_move
 
     return best_move, best_score
 
 
 def negamax(board, depth, turn, eval_func):
+    if board.rise:
+        return -(MAX + depth) * turn
     if depth == 0:
-        if board.rise:
-            return -(MAX +depth) * turn
-        if board.stale:
-            return (MAX + depth) * turn
-
         return eval_func.eval() * turn
 
     moves = board.gen_moves(turn)
     if len(moves) == 0:
-        board.stale = True
+        return -(MAX + depth) * turn
 
     score = -MAX
     for move in moves:
