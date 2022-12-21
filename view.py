@@ -20,7 +20,7 @@ class GameInfo:
             who, to, block = self.linhas[self.turn + 2]
             self.turn += 1
             self.players[who] = to
-            if block > 0:
+            if block >= 0:
                 self.blocks[block] += 1
         except ValueError:
             pass
@@ -125,7 +125,7 @@ def draw_all(win):
     pg.display.update()
 
 
-info = GameInfo("games/1")
+info = GameInfo("games/9")
 while running:
     clock.tick(60)
     draw_all(window)

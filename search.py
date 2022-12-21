@@ -1,15 +1,34 @@
-def get_best_move(board, depth, turn, eval_func, search_func):
-    moves = board.gen_moves(turn)
-    scores = []
+from time import perf_counter
 
-    if len(moves) == 0:
-        return None, float("-inf")
+DIVE_CHECK = 1
 
-    for move in moves:
-        board.make_move(move)
-        scores.append(-search_func(board, depth-1, -turn, eval_func))
-        board.undo_move(move)
-    return moves[scores.index(max(scores))], max(scores)
+
+def get_best_move(board, turn, eval_func, search_func, time):
+    best_move = None
+    depth = 1
+    best_score = -float("inf")
+    start = perf_counter()
+    counter = 0
+    while perf_counter() - start < time:
+        moves = board.gen_moves(turn)
+        scores = []
+
+        if len(moves) == 0:
+            best_move, best_score = None, float("-inf")
+            continue
+
+        for move in moves:
+            counter += 1
+            if counter % DIVE_CHECK == 0:
+                if perf_counter() - start > time:
+                    break
+            board.make_move(move)
+            scores.append(-search_func(board, depth - 1, -turn, eval_func))
+            board.undo_move(move)
+        depth += 1
+        best_move, best_score = moves[scores.index(max(scores))], max(scores)
+
+    return best_move, best_score
 
 
 def negamax(board, depth, turn, eval_func):

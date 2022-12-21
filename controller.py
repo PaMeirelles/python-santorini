@@ -39,12 +39,12 @@ class Controller:
                 index = 1
             start = perf_counter()
             move, score = get_best_move(self.board,
-                                        2,
                                         self.turn,
                                         self.evals[index],
-                                        self.searches[index])
+                                        self.searches[index],
+                                        2)
             stop = perf_counter()
-            if score == -float("inf"):
+            if move is None:
                 result = self.turn * -2
                 break
             self.moves.append(move)
