@@ -56,3 +56,11 @@ class Board:
             if p == square:
                 return False
         return True
+
+    def make_move(self, move):
+        self.players[move.player] = move.end
+        self.blocks[move.block] += 1
+
+    def undo_move(self, move):
+        self.players[move.player] = move.begin
+        self.blocks[move.block] -= 1
