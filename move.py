@@ -7,3 +7,6 @@ class Move:
 
     def print(self):
         print(f"{self.begin} -> {self.end} ({self.block})")
+
+    def to_register(self):
+        return f"{self.who} {self.end} {self.block}"

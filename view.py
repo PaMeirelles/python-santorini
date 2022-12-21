@@ -25,7 +25,7 @@ class GameInfo:
         self.set_turn(self.turn - 1)
 
     def set_turn(self, turn):
-        self.turn = turn
+        self.turn = 0
         self.cores = self.linhas[0].copy()
         self.players = self.linhas[1].copy()
         self.blocks = [0 for _ in range(25)]
@@ -44,7 +44,8 @@ class GameInfo:
     def draw_blocks(self, win):
         for n, b in enumerate(self.blocks):
             coord = convert_to_coord(n)
-            draw_block(win, coord[0], coord[1], b)
+            for i in range(1, b + 1):
+                draw_block(win, coord[0], coord[1], i)
 
     def draw_all(self, win):
         self.draw_blocks(win)
@@ -120,7 +121,7 @@ def draw_all(win):
     pg.display.update()
 
 
-info = GameInfo("test")
+info = GameInfo("games/0")
 while running:
     clock.tick(60)
     draw_all(window)
