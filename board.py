@@ -64,3 +64,9 @@ class Board:
     def undo_move(self, move):
         self.players[move.player] = move.begin
         self.blocks[move.block] -= 1
+
+    def worker_height(self, worker):
+        return self.blocks[self.players[worker]]
+
+    def worker_neighbour(self, worker):
+        return self.vizinhos[worker]
