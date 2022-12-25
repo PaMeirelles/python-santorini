@@ -2,10 +2,12 @@ from move import Move
 
 
 class Board:
-    def __init__(self, players):
+    def __init__(self, players, blocks=None):
+        if blocks is None:
+            blocks = [0 for _ in range(25)]
         self.turn = 0
         self.players = players
-        self.blocks = [0 for _ in range(25)]
+        self.blocks = blocks
         self.vizinhos = [[] for _ in range(25)]
         self.rise = False
         self.stale = False
@@ -40,7 +42,7 @@ class Board:
                 if not self.valid_half_move(player, v):
                     continue
                 if self.blocks[v] == 3:
-                    moves.append(Move(i, player, v, -1))
+                    moves.append(Move(i, player, v, 25))
                     continue
                 self.players[i] = -1
                 for v2 in self.vizinhos[v]:
@@ -66,13 +68,15 @@ class Board:
 
     def make_move(self, move):
         self.players[move.who] = move.end
-        self.blocks[move.block] += 1
+        if move.block < 25:
+            self.blocks[move.block] += 1
         if self.blocks[move.end] == 3:
             self.rise = True
 
     def undo_move(self, move):
         self.players[move.who] = move.begin
-        self.blocks[move.block] -= 1
+        if move.block < 25:
+            self.blocks[move.block] -= 1
         self.rise = False
         self.stale = False
 

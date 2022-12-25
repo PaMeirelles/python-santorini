@@ -7,11 +7,11 @@ from time_manage import ETS
 
 
 class Controller:
-    def __init__(self, time_a, time_b, starting_pos, players):
+    def __init__(self, time_a, time_b, starting_pos, players, blocks=None):
         self.time = [time_a, time_b]
         self.original_time = [time_a, time_b]
         self.turn = 1
-        self.board = Board(starting_pos)
+        self.board = Board(starting_pos, blocks)
         self.players = players
 
         self.evals = []
@@ -25,11 +25,11 @@ class Controller:
     def assembly(self):
         for player in self.players:
             if player == "Hero":
-                self.evals.append(NHS(self.board))
+                self.evals.append(NHS())
                 self.searches.append(negamax)
                 self.timers.append(ETS())
             elif player == "Sniper":
-                self.evals.append(NHC(self.board))
+                self.evals.append(NHC())
                 self.searches.append(negamax)
                 self.timers.append(ETS())
             else:
