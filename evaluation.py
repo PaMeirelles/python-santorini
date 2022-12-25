@@ -18,7 +18,7 @@ class PositionHeight(Eval):
         for i in range(4):
             pl = board.players[i]
             s = self.a * self.b ** board.worker_height(i) + self.c * self.func(pl, board)
-            if i > 1:
+            if i <= 1:
                 score += s
             else:
                 score -= s

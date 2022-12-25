@@ -3,8 +3,12 @@ from controller import Controller
 
 
 def gen_position():
-    n = randint(0, 25 ** 4)
-    return [n // 25 ** 3, (n // 25 ** 2) % 25, (n // 25) % 25, n % 25]
+    while True:
+        n = randint(0, 25 ** 4)
+        a, b, c, d = n // 25 ** 3, (n // 25 ** 2) % 25, (n // 25) % 25, n % 25
+        if len({a, b, c, d}) != 4:
+            continue
+        return [a, b, c, d]
 
 
 def mini_match(player_a, player_b, time):
@@ -31,3 +35,16 @@ def infinite_match(player_a, player_b, time):
         result += mini_match(player_a, player_b, time)
         played += 2
         print(f"{player_a} {result} x {played - result} {player_b}")
+
+
+def torney(players, time):
+    while True:
+        scores = [0 for _ in range(len(players))]
+        for p1 in range(len(players)):
+            for p2 in range(p1 + 1, len(players)):
+                result = mini_match(players[p1], players[p2], time)
+                scores[p1] += result
+                scores[p2] += (2 - result)
+        for i in range(len(players)):
+            print(f"{players[i]} - {scores[i]}")
+        print()

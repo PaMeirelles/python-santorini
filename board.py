@@ -9,8 +9,6 @@ class Board:
         self.players = players
         self.blocks = blocks
         self.vizinhos = [[] for _ in range(25)]
-        self.rise = False
-        self.stale = False
         self.init_vizinhos()
 
     def init_vizinhos(self):
@@ -70,19 +68,21 @@ class Board:
         self.players[move.who] = move.end
         if move.block < 25:
             self.blocks[move.block] += 1
-        if self.blocks[move.end] == 3:
-            self.rise = True
+
+    def get_state(self):
+        if self.blocks[self.players[0]] == 3 or self.blocks[self.players[1]] == 3:
+            return 1
+        if self.blocks[self.players[2]] == 3 or self.blocks[self.players[3]] == 3:
+            return -1
+        return 0
 
     def undo_move(self, move):
         self.players[move.who] = move.begin
         if move.block < 25:
             self.blocks[move.block] -= 1
-        self.rise = False
-        self.stale = False
 
     def worker_height(self, worker):
         return self.blocks[self.players[worker]]
 
     def worker_neighbour(self, worker):
         return self.vizinhos[worker]
-

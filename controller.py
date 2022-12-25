@@ -3,7 +3,7 @@ from time import perf_counter
 
 from evaluation import NHS, NHC
 from search import get_best_move, negamax
-from time_manage import ETS
+from time_manage import ETS, ETP, ETF
 
 
 class Controller:
@@ -32,28 +32,39 @@ class Controller:
                 self.evals.append(NHC())
                 self.searches.append(negamax)
                 self.timers.append(ETS())
+            elif player == "Caterpillar":
+                self.evals.append(NHS())
+                self.searches.append(negamax)
+                self.timers.append(ETP())
+            elif player == "Hare":
+                self.evals.append(NHS())
+                self.searches.append(negamax)
+                self.timers.append(ETF())
             else:
                 print(f"Engine inválida ({player})")
                 exit(1)
 
     def play_game(self):
         while True:
-            if self.turn > 1:
+            if self.turn > 0:
                 index = 0
             else:
                 index = 1
             start = perf_counter()
-            move, score = get_best_move(self.board,
-                                        self.turn,
-                                        self.evals[index],
-                                        self.searches[index],
-                                        self.timers[index].calculate_time(self.time[index]))
+            move, score, depth = get_best_move(self.board,
+                                               self.turn,
+                                               self.evals[index],
+                                               self.searches[index],
+                                               self.timers[index].calculate_time(self.time[index]))
             stop = perf_counter()
             if move is None:
                 result = self.turn * -2
                 break
             self.moves.append(move)
             self.time[index] -= (stop - start)
+        #
+            #
+            # print(f"Depth:{depth} Eval: {score} Engine: {self.players[index]} Time left: {round(self.time[index], 2)}s")
             self.board.make_move(move)
 
             if self.board.blocks[move.end] == 3:
@@ -69,7 +80,8 @@ class Controller:
             n = int(f.read())
         self.write_file(n)
         with open("games/matches", "a") as f:
-            f.write(f"{n},{self.players[0]},{self.players[1]},{self.original_time[0]},{self.original_time[1]},{result}\n")
+            f.write(
+                f"{n},{str(self.headers[1])}{self.players[0]},{self.players[1]},{self.original_time[0]},{self.original_time[1]},{result}\n")
         with open("games/meta", "w") as f:
             f.write(str(n + 1))
         return result

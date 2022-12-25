@@ -18,3 +18,13 @@ class EstimatedTurnsLeft(TimeManage):
 class ETS(EstimatedTurnsLeft):
     def __init__(self):
         super().__init__(15)
+
+
+class ETP(EstimatedTurnsLeft):
+    def __init__(self):
+        super().__init__(8)
+
+
+class ETF(EstimatedTurnsLeft):
+    def __init__(self):
+        super().__init__(25)
