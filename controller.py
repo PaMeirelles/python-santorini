@@ -76,13 +76,13 @@ class Controller:
 
             self.turn *= -1
 
-        with open("games/meta", "r") as f:
+        with open("meta/counter", "r") as f:
             n = int(f.read())
         self.write_file(n)
-        with open("games/matches", "a") as f:
+        with open("meta/matches", "a") as f:
             f.write(
                 f"{n},{str(self.headers[1])}{self.players[0]},{self.players[1]},{self.original_time[0]},{self.original_time[1]},{result}\n")
-        with open("games/meta", "w") as f:
+        with open("meta/counter", "w") as f:
             f.write(str(n + 1))
         return result
 
