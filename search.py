@@ -30,7 +30,8 @@ def get_best_move(board, turn, eval_func, search_func, time):
                     break
 
             board.make_move(move)
-            scores.append(-search_func(board, depth - 1, -turn, eval_func))
+            scores.append(-search_func(board, depth - 1, -turn, eval_func,
+                                       {"alpha": -float("inf"), "beta": float("inf")}))
             board.undo_move(move)
 
         if len(scores) != 0 and running:
@@ -40,7 +41,7 @@ def get_best_move(board, turn, eval_func, search_func, time):
     return best_move, best_score, depth-1
 
 
-def negamax(board, depth, turn, eval_func):
+def negamax(board, depth, turn, eval_func, extra):
     state = board.get_state()
     if state != 0:
         return (MAX + depth) * state * turn
@@ -53,6 +54,29 @@ def negamax(board, depth, turn, eval_func):
     scores = []
     for move in moves:
         board.make_move(move)
-        scores.append(-negamax(board, depth - 1, -turn, eval_func))
+        scores.append(-negamax(board, depth - 1, -turn, eval_func, extra))
         board.undo_move(move)
     return max(scores)
+
+
+def alphabeta(board, depth, turn, eval_func, extra):
+    alpha = extra["alpha"]
+    beta = extra["beta"]
+    state = board.get_state()
+    if state != 0:
+        return (MAX + depth) * state * turn
+    if depth == 0:
+        return eval_func.eval(board) * turn
+    moves = board.gen_moves(turn)
+    if len(moves) == 0:
+        return -MAX - depth
+
+    score = -float("inf")
+    for move in moves:
+        board.make_move(move)
+        score = max(score, -alphabeta(board, depth - 1, -turn, eval_func, {"alpha": -beta, "beta": -alpha}))
+        board.undo_move(move)
+        alpha = max(alpha, score)
+        if alpha >= beta:
+            break
+    return score

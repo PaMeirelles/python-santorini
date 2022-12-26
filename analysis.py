@@ -36,9 +36,9 @@ def calculate_elo(k, n, time, starting_elos=None):
     for p in players:
         plt.plot([x[p] for x in elo_history], label=p)
     plt.legend()
-    #plt.show()
+    plt.show()
     print(new_elo)
-    calculate_elo(k/2, n-1, time, new_elo)
+    calculate_elo(k * 0.8, n-1, time, new_elo)
 
 
-calculate_elo(128, 12, 60)
+calculate_elo(32, 20, 60)

@@ -9,7 +9,7 @@ from search import get_best_move, negamax
             0, 3, 0, 0, 0,
             0, 2, 1, 0, 0,
             0, 0, 0, 0, 0]'''
-torney(["Hero", "Sniper", "Caterpillar", "Hare"], 1 * 60)
+torney(["Lumberjack", "Hero", "Sniper", "Caterpillar", "Hare"], 3 * 60)
 '''b = Board([8, 10, 1, 12], estranho)
 move, score, depth = get_best_move(b, -1, NHS(), negamax, 1)
 print(score)
