@@ -1,4 +1,13 @@
 import pandas as pd
+from math import log10
+
+
+def elo_diff(e):
+    if e == 0:
+        return -800
+    if e == 1:
+        return 800
+    return -400 * log10(1 / e - 1)
 
 
 def fill_data(time):
@@ -24,11 +33,39 @@ def fill_data(time):
 
     for p in players:
         with open(f"data/{p}", "w") as f:
-            f.write("opponent,wins,losses,matches\n")
+            f.write("opponent,wins,losses,matches,eed\n")
             for op in data[p].keys():
-                f.write(f"{op},{data[p][op]['wins']},{data[p][op]['losses']},{data[p][op]['matches']}\n")
+                w = data[p][op]['wins']
+                l = data[p][op]['losses']
+                m = data[p][op]['matches']
+                if m != 0:
+                    f.write(f"{op},{w},{l},{m},{elo_diff(w/m)}\n")
+
+
+def adjust_elos(n, new_elos=None):
+    if new_elos is None:
+        new_elos = {}
+    if n == 0:
+        with open("elos", "w") as f:
+            f.write("player,elo\n")
+            for p in new_elos.keys():
+                f.write(f"{p},{new_elos[p]}\n")
+        return
+    elos = pd.read_csv("elos")
+    player = elos["player"]
+    for p in player:
+        df = pd.read_csv(f"data/{p}")
+        temp = df.merge(elos, left_on="opponent", right_on="player")
+        temp["expected_elo"] = temp["elo"] + temp["eed"]
+
+        d = temp["expected_elo"]
+        w = temp["matches"]
+
+        '''print(temp)
+        print((d * w).sum() / w.sum())'''
+        new_elos[p] = (d * w).sum() / w.sum()
+        adjust_elos(n-1, new_elos)
 
 
 fill_data(180)
-
-
+adjust_elos(3)

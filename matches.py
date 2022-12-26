@@ -1,6 +1,9 @@
 from random import randint, shuffle
+
+from analysis import fill_data
 from controller import Controller
 from search import PRINT
+import pandas as pd
 
 
 def gen_position():
@@ -17,7 +20,9 @@ def mini_match(player_a, player_b, time):
     pos = gen_position()
     if PRINT:
         print(pos)
+    print(f"{player_a} x {player_b}")
     game_1 = Controller(time, time, pos, [player_a, player_b]).play_game()
+    print(f"{player_b} x {player_a}")
     game_2 = Controller(time, time, pos,
                         [player_b, player_a]).play_game()
 
@@ -39,17 +44,29 @@ def infinite_match(player_a, player_b, time):
         print(f"{player_a} {result} x {played - result} {player_b}")
 
 
-def torney(players, time):
-    shuffle(players)
-    
+def torney(players, time, sh):
+    if sh:
+        shuffle(players)
     while True:
         scores = [0 for _ in range(len(players))]
         for p1 in range(len(players)):
             for p2 in range(p1 + 1, len(players)):
-                print(f"{players[p1]} x {players[p2]}")
                 result = mini_match(players[p1], players[p2], time)
                 scores[p1] += result
                 scores[p2] += (2 - result)
         for i in range(len(players)):
             print(f"{players[i]} - {scores[i]}")
         print()
+
+
+def smart_play(time):
+    fill_data(180)
+    elos = pd.read_csv("elos")
+    player = elos["player"]
+    for p in player:
+        df = pd.read_csv(f"data/{p}")
+        temp = df.merge(elos, left_on="opponent", right_on="player")
+        for i, row in temp.iterrows():
+            if row["wins"] == 0 or row["losses"] == 0:
+                mini_match(p, row["opponent"], time)
+                smart_play(time)

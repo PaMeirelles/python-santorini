@@ -22,6 +22,7 @@ class Controller:
         self.evals = []
         self.searches = []
         self.timers = []
+        self.extras = []
 
         self.moves = []
         self.headers = [[0, 1], starting_pos.copy()]
@@ -33,26 +34,37 @@ class Controller:
                 self.evals.append(NHS())
                 self.searches.append(negamax)
                 self.timers.append(ETS())
+                self.extras.append(None)
             elif player == "Sniper":
                 self.evals.append(NHC())
                 self.searches.append(negamax)
                 self.timers.append(ETS())
+                self.extras.append(None)
             elif player == "Caterpillar":
                 self.evals.append(NHS())
                 self.searches.append(negamax)
                 self.timers.append(ETP())
+                self.extras.append(None)
             elif player == "Hare":
                 self.evals.append(NHS())
                 self.searches.append(negamax)
                 self.timers.append(ETF())
+                self.extras.append(None)
             elif player == "Lumberjack":
                 self.evals.append(NHS())
                 self.searches.append(alphabeta)
                 self.timers.append(ETS())
+                self.extras.append(None)
+            elif player == "Economist":
+                self.evals.append(NHS())
+                self.searches.append(alphabeta)
+                self.timers.append(ETS())
+                self.extras.append({"Scrapping": True})
             elif player == "Gardener":
                 self.evals.append(DBS())
                 self.searches.append(alphabeta)
                 self.timers.append(ETS())
+                self.extras.append(None)
             else:
                 print(f"Engine inválida ({player})")
                 exit(1)
@@ -68,7 +80,8 @@ class Controller:
                                                self.turn,
                                                self.evals[index],
                                                self.searches[index],
-                                               self.timers[index].calculate_time(self.time[index]))
+                                               self.timers[index].calculate_time(self.time[index]),
+                                               extras=self.extras[index])
             stop = perf_counter()
             if move is None:
                 result = self.turn * -2
