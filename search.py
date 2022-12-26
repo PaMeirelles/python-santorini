@@ -1,6 +1,6 @@
 from time import perf_counter
-from copy import copy
 
+PRINT = False
 DIVE_CHECK = 1
 MAX = 10000
 
@@ -37,6 +37,9 @@ def get_best_move(board, turn, eval_func, search_func, time):
         if len(scores) != 0 and running:
             best_score = max(scores)
             best_move = moves[scores.index(max(scores))]
+            if PRINT:
+                print(f"Depth: {depth} Score: {best_score} Move: ", end=" ")
+                best_move.print()
             depth += 1
     return best_move, best_score, depth-1
 

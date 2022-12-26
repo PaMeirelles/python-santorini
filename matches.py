@@ -1,5 +1,6 @@
-from random import randint
+from random import randint, shuffle
 from controller import Controller
+from search import PRINT
 
 
 def gen_position():
@@ -14,7 +15,8 @@ def gen_position():
 def mini_match(player_a, player_b, time):
     result = 0
     pos = gen_position()
-
+    if PRINT:
+        print(pos)
     game_1 = Controller(time, time, pos, [player_a, player_b]).play_game()
     game_2 = Controller(time, time, pos,
                         [player_b, player_a]).play_game()
@@ -38,10 +40,13 @@ def infinite_match(player_a, player_b, time):
 
 
 def torney(players, time):
+    shuffle(players)
+    
     while True:
         scores = [0 for _ in range(len(players))]
         for p1 in range(len(players)):
             for p2 in range(p1 + 1, len(players)):
+                print(f"{players[p1]} x {players[p2]}")
                 result = mini_match(players[p1], players[p2], time)
                 scores[p1] += result
                 scores[p2] += (2 - result)

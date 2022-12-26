@@ -1,44 +1,34 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-from copy import copy
-df = pd.read_csv("meta/matches")
 
 
-def calculate_elo(k, n, time, starting_elos=None):
-    if starting_elos is None:
-        elos = pd.read_csv("elos")
-        starting_elos = {row["player"]: row["elo"] for i, row in elos.iterrows()}
-    if n == 0:
-        with open("elos", "w") as f:
-            f.write("player,elo\n")
-            for player in starting_elos.keys():
-                f.write(f"{player},{starting_elos[player]}\n")
-        return
-    players = starting_elos.keys()
-    elo_history = [starting_elos]
+def fill_data(time):
+    df = pd.read_csv("meta/matches")
+    elos = pd.read_csv("elos")
+    players = elos["player"]
+    data = {p1: {p2: {"wins": 0, "losses": 0, "matches": 0} for p2 in players} for p1 in players}
+
     for i, row in df.iterrows():
         if row["time_a"] != time:
             continue
         pa, pb = row["player_a"], row["player_b"]
         if row["result"] > 0:
-            winner,loser = pa, pb
-            r = 1
+            winner, loser = pa, pb
         else:
-            loser,winner = pa, pb
-            r = 0
-        current_elo = elo_history[-1]
-        e = 1 / (1 + 10 ** ((current_elo[pb] - current_elo[pa]) / 400))
-        elo_history.append(copy(current_elo))
-        new_elo = elo_history[-1]
-        d = k * (r - e)
-        new_elo[winner] += d
-        new_elo[loser] -= d
+            loser, winner = pa, pb
+
+        data[pa][pb]["matches"] += 1
+        data[pb][pa]["matches"] += 1
+
+        data[winner][loser]["wins"] += 1
+        data[loser][winner]["losses"] += 1
+
     for p in players:
-        plt.plot([x[p] for x in elo_history], label=p)
-    plt.legend()
-    plt.show()
-    print(new_elo)
-    calculate_elo(k * 0.8, n-1, time, new_elo)
+        with open(f"data/{p}", "w") as f:
+            f.write("opponent,wins,losses,matches\n")
+            for op in data[p].keys():
+                f.write(f"{op},{data[p][op]['wins']},{data[p][op]['losses']},{data[p][op]['matches']}\n")
 
 
-calculate_elo(32, 20, 60)
+fill_data(180)
+
+

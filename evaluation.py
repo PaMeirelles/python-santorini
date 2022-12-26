@@ -34,6 +34,23 @@ class NeighbourHeight(PositionHeight):
         return len(board.worker_neighbour(worker))
 
 
+def double_neighbour(square):
+    doubles = [9, 12, 15, 12, 9,
+               12, 16, 20, 16, 12,
+               15, 20, 25, 20, 15,
+               12, 16, 20, 16, 12,
+               9, 12, 15, 12, 9]
+    return doubles[square]
+
+
+class Double(PositionHeight):
+    def __init__(self, a, b, c):
+        super().__init__(a, b, c, self.p)
+
+    def p(self, worker, board):
+        return double_neighbour(worker)
+
+
 # Versions
 class NHS(NeighbourHeight):
     def __init__(self):
@@ -43,3 +60,8 @@ class NHS(NeighbourHeight):
 class NHC(NeighbourHeight):
     def __init__(self):
         super().__init__(4, 3, 3)
+
+
+class DBS(Double):
+    def __init__(self):
+        super().__init__(9, 3, 1)

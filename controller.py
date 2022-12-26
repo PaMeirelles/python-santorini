@@ -1,13 +1,14 @@
 from board import Board
 from time import perf_counter
-
-from evaluation import NHS, NHC
-from search import get_best_move, negamax, alphabeta
+import datetime
+from evaluation import NHS, NHC, DBS
+from search import get_best_move, negamax, alphabeta, PRINT
 from time_manage import ETS, ETP, ETF
 
 
 def format_time(time):
-    return f"{int(time // 60)}:{round(time % 60, 2)}"
+    ft = datetime.time(0, int(time // 60), int(time % 60), int(time % 1))
+    return ft.strftime("%M:%S") + "." + str(round((time * 10) % 10))
 
 
 class Controller:
@@ -48,6 +49,10 @@ class Controller:
                 self.evals.append(NHS())
                 self.searches.append(alphabeta)
                 self.timers.append(ETS())
+            elif player == "Gardener":
+                self.evals.append(DBS())
+                self.searches.append(alphabeta)
+                self.timers.append(ETS())
             else:
                 print(f"Engine inválida ({player})")
                 exit(1)
@@ -70,7 +75,9 @@ class Controller:
                 break
             self.moves.append(move)
             self.time[index] -= (stop - start)
-            print(f"Depth:{depth} Eval: {score} Engine: {self.players[index]} Time left: {format_time(self.time[index])}")
+            if PRINT:
+                print(
+                    f"Depth:{depth} Eval: {score} Engine: {self.players[index]} Time left: {format_time(self.time[index])}")
             self.board.make_move(move)
 
             if self.board.blocks[move.end] == 3:
