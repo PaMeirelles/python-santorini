@@ -70,3 +70,24 @@ def smart_play(time):
             if row["wins"] == 0 or row["losses"] == 0:
                 mini_match(p, row["opponent"], time)
                 smart_play(time)
+
+
+def fill_play(time):
+    fill_data(180)
+    elos = pd.read_csv("elos")
+    player = elos["player"]
+
+    lower_matches = float('inf')
+    pa = None
+    pb = None
+
+    for p in player:
+        df = pd.read_csv(f"data/{p}")
+        temp = df.merge(elos, left_on="opponent", right_on="player")
+        for i, row in temp.iterrows():
+            if row["matches"] < lower_matches:
+                lower_matches = row["matches"]
+                pa = p
+                pb = row["opponent"]
+    mini_match(pa, pb, time)
+    fill_play(time)
