@@ -905,3 +905,5 @@ id,starting_pos,player_a,player_b,time_a,time_b,result
 908,[5, 11, 7, 10],Hare,Hero,180,180,-1
 909,[8, 21, 18, 11],Hero,Lumberjack,180,180,-1
 910,[5, 10, 19, 11],Lumberjack,Hero,180,180,1
+911,[5, 14, 18, 21],Sniper,Caterpillar,180,180,1
+912,[7, 18, 6, 10],Caterpillar,Sniper,180,180,-1
