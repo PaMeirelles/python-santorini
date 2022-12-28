@@ -60,7 +60,7 @@ def torney(players, time, sh):
 
 
 def smart_play(time):
-    fill_data(180)
+    fill_data(time)
     elos = pd.read_csv("elos")
     player = elos["player"]
     for p in player:
@@ -72,8 +72,11 @@ def smart_play(time):
                 smart_play(time)
 
 
-def fill_play(time):
-    fill_data(180)
+def fill_play(time, any_time=True):
+    if any_time:
+        fill_data("any")
+    else:
+        fill_data(time)
     elos = pd.read_csv("elos")
     player = elos["player"]
 
@@ -85,9 +88,20 @@ def fill_play(time):
         df = pd.read_csv(f"data/{p}")
         temp = df.merge(elos, left_on="opponent", right_on="player")
         for i, row in temp.iterrows():
+            if row["opponent"] == p:
+                continue
             if row["matches"] < lower_matches:
                 lower_matches = row["matches"]
                 pa = p
                 pb = row["opponent"]
+    print(f"Matches: {lower_matches}")
     mini_match(pa, pb, time)
-    fill_play(time)
+    fill_play(time, False)
+
+
+def tour(player, time):
+    elos = pd.read_csv("elos")
+    players = elos["player"]
+    for p in players:
+        if p != player:
+            mini_match(player, p, time)

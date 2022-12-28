@@ -1,6 +1,8 @@
-opponent,wins,losses,matches,eed
-Hero,2,12,14,-311.26050015345743
-Sniper,8,6,14,49.975494643319976
-Caterpillar,6,6,12,-0.0
-Gardener,1,15,16,-470.43650362227254
-Lumberjack,4,8,12,-120.41199826559247
+opponent,wins,losses,matches,eed,wr
+Hero,22,42,64,-112.33,34.38%
+Sniper,28,32,60,-23.2,46.67%
+Caterpillar,40,48,88,-31.67,45.45%
+Lumberjack,18,34,52,-110.48,34.62%
+Gardener,15,37,52,-156.84,28.85%
+Economist,19,33,52,-95.9,36.54%
+Professor,14,39,53,-177.97,26.42%

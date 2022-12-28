@@ -1,6 +1,8 @@
-opponent,wins,losses,matches,eed
-Hero,16,1,17,481.6479930623699
-Sniper,10,2,12,279.58800173440756
-Caterpillar,10,3,13,209.15149811213513
-Hare,15,1,16,470.43650362227254
-Lumberjack,5,7,12,-58.45121427129521
+opponent,wins,losses,matches,eed,wr
+Hero,42,11,53,232.74,79.25%
+Sniper,36,16,52,140.87,69.23%
+Caterpillar,38,15,53,161.48,71.7%
+Hare,37,15,52,156.84,71.15%
+Lumberjack,24,28,52,-26.78,46.15%
+Economist,30,22,52,53.88,57.69%
+Professor,23,29,52,-40.27,44.23%

@@ -65,6 +65,11 @@ class Controller:
                 self.searches.append(alphabeta)
                 self.timers.append(ETS())
                 self.extras.append(None)
+            elif player == "Professor":
+                self.evals.append(DBS())
+                self.searches.append(alphabeta)
+                self.timers.append(ETS())
+                self.extras.append({"Scrapping": True})
             else:
                 print(f"Engine inválida ({player})")
                 exit(1)
