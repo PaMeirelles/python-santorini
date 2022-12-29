@@ -112,7 +112,7 @@ class Controller:
         self.write_file(n)
         with open("meta/matches", "a") as f:
             f.write(
-                f"{n},{str(self.headers[1])},{self.players[0]},{self.players[1]},{self.original_time[0]},{self.original_time[1]},{result}\n")
+                f"{n},{str(hash_position(self.headers[1]))},{self.players[0]},{self.players[1]},{self.original_time[0]},{self.original_time[1]},{result}\n")
         with open("meta/counter", "w") as f:
             f.write(str(n + 1))
         return result
@@ -123,3 +123,12 @@ class Controller:
                 f.write(" ".join([str(x) for x in header]) + "\n")
             for move in self.moves:
                 f.write(move.to_register() + "\n")
+
+
+def hash_position(pos):
+    return pos[3] + 25 * pos[2] + 25 ** 2 * pos[1] + 25 ** 3 * pos[0]
+
+
+def unhash_position(hashed):
+    return [hashed // 25 ** 3, (hashed // 25 ** 2) % 25, (hashed // 25) % 25, hashed % 25]
+

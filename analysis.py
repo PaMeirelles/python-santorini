@@ -12,7 +12,7 @@ def elo_diff(e):
 
 def fill_data(time):
     df = pd.read_csv("meta/matches")
-    elos = pd.read_csv("elos")
+    elos = pd.read_csv("elos.txt")
     players = elos["player"]
     data = {p1: {p2: {"wins": 0, "losses": 0, "matches": 0} for p2 in players} for p1 in players}
     for i, row in df.iterrows():
@@ -40,14 +40,15 @@ def fill_data(time):
                 l = data[p][op]['losses']
                 m = data[p][op]['matches']
                 if m != 0:
-                    f.write(f"{op},{w},{l},{m},{round(elo_diff(w/m), 2)},{round(100*w/m, 2)}%\n")
+                    f.write(f"{op},{w},{l},{m},{round(elo_diff(w / m), 2)},{round(100 * w / m, 2)}%\n")
 
 
-def adjust_elos(n, avg, first=True):
+def adjust_elos(n, anchor, first=True):
     if n == 0:
         return
+    avg = anchor[1]
     new_elos = {}
-    elos = pd.read_csv("elos")
+    elos = pd.read_csv("elos.txt")
     player = elos["player"]
     for p in player:
         df = pd.read_csv(f"data/{p}")
@@ -63,13 +64,15 @@ def adjust_elos(n, avg, first=True):
         print((d * w).sum() / w.sum())'''
         new_elos[p] = (d * w).sum() / w.sum()
         # print(new_elos)
-    with open("elos", "w") as f:
+    diff = new_elos[anchor[0]] - anchor[1]
+    new_elos = {k: v - diff for k, v in new_elos.items()}
+    with open("elos.txt", "w") as f:
         f.write("player,elo\n")
         for p in new_elos.keys():
             f.write(f"{p},{round(new_elos[p], 2)}\n")
     print(f"Adjusting...{n} left")
-    return adjust_elos(n-1, avg, False)
+    return adjust_elos(n - 1, anchor, False)
 
 
 fill_data(180)
-adjust_elos(10, 1000)
+adjust_elos(10, ("Hero", 1000))

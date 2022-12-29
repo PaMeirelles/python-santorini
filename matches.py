@@ -1,7 +1,7 @@
 from random import randint, shuffle
 
 from analysis import fill_data
-from controller import Controller
+from controller import Controller, hash_position, unhash_position
 from search import PRINT
 import pandas as pd
 
@@ -15,15 +15,16 @@ def gen_position():
         return [a, b, c, d]
 
 
-def mini_match(player_a, player_b, time):
+def mini_match(player_a, player_b, time, pos=None, half=False):
     result = 0
-    pos = gen_position()
+    if pos is None:
+        pos = gen_position()
     if PRINT:
         print(pos)
-    print(f"{player_a} x {player_b}")
-    game_1 = Controller(time, time, pos, [player_a, player_b]).play_game()
-    print(f"{player_b} x {player_a}")
-    game_2 = Controller(time, time, pos,
+    print(f"{player_a} x {player_b} {pos}")
+    game_1 = Controller(time, time, pos.copy(), [player_a, player_b]).play_game()
+    print(f"{player_b} x {player_a} {pos}")
+    game_2 = Controller(time, time, pos.copy(),
                         [player_b, player_a]).play_game()
 
     if game_1 > 0:
@@ -61,7 +62,7 @@ def torney(players, time, sh):
 
 def smart_play(time):
     fill_data(time)
-    elos = pd.read_csv("elos")
+    elos = pd.read_csv("elos.txt")
     player = elos["player"]
     for p in player:
         df = pd.read_csv(f"data/{p}")
@@ -77,7 +78,7 @@ def fill_play(time, any_time=True):
         fill_data("any")
     else:
         fill_data(time)
-    elos = pd.read_csv("elos")
+    elos = pd.read_csv("elos.txt")
     player = elos["player"]
 
     lower_matches = float('inf')
@@ -100,8 +101,28 @@ def fill_play(time, any_time=True):
 
 
 def tour(player, time):
-    elos = pd.read_csv("elos")
+    elos = pd.read_csv("elos.txt")
     players = elos["player"]
     for p in players:
         if p != player:
             mini_match(player, p, time)
+
+
+def repair(time):
+    df = pd.read_csv("meta/matches")
+    missing_matches = []
+    for i, row in df.iterrows():
+        if row["time_a"] != time:
+            continue
+        pos = row["starting_pos"]
+        fair = df[df["player_a"] == row["player_b"]]
+        fair = fair[fair["player_b"] == row["player_a"]]
+        fair = fair[fair["starting_pos"] == pos]
+        fair = fair[fair["time_a"] == row["time_a"]]
+        if fair.empty:
+            missing_matches.append((row["player_b"], row["player_a"], pos))
+    shuffle(missing_matches)
+    for i, m in enumerate(missing_matches):
+        print(f"Reparando partidas {time}s {i}/{len(missing_matches)} {m[2]}")
+        print(f"{m[0]} x {m[1]}")
+        Controller(time, time, unhash_position(m[2]), (m[0], m[1])).play_game()

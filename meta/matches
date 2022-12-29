@@ -1,1961 +1,2136 @@
 id,starting_pos,player_a,player_b,time_a,time_b,result
-0,[4, 22, 21, 7],Hero,Sniper,3.0,3.0,-1
-1,[4, 18, 6, 8],Sniper,Hero,3.0,3.0,-1
-2,[0, 23, 11, 19],Hero,Sniper,3.0,3.0,1
-3,[6, 9, 12, 11],Sniper,Hero,3.0,3.0,-1
-4,[3, 5, 22, 1],Hero,Sniper,3.0,3.0,1
-5,[4, 0, 7, 6],Sniper,Hero,3.0,3.0,1
-6,[18, 11, 8, 1],Hero,Sniper,3.0,3.0,-1
-7,[9, 8, 21, 7],Sniper,Hero,3.0,3.0,-1
-8,[3, 20, 1, 14],Hero,Sniper,3.0,3.0,1
-9,[4, 8, 15, 7],Sniper,Hero,3.0,3.0,1
-10,[22, 20, 24, 3],Hero,Sniper,3.0,3.0,1
-11,[14, 0, 7, 8],Sniper,Hero,3.0,3.0,-1
-12,[6, 23, 24, 3],Hero,Sniper,3.0,3.0,1
-13,[0, 9, 7, 6],Sniper,Hero,3.0,3.0,2
-14,[15, 1, 9, 0],Hero,Sniper,3.0,3.0,1
-15,[16, 10, 7, 8],Sniper,Hero,3.0,3.0,-1
-16,[13, 6, 11, 2],Hero,Sniper,3.0,3.0,1
-17,[4, 0, 10, 7],Sniper,Hero,3.0,3.0,-1
-18,[11, 23, 5, 8],Hero,Sniper,3.0,3.0,1
-19,[11, 5, 17, 8],Sniper,Hero,3.0,3.0,1
-20,[6, 5, 1, 23],Hero,Sniper,3.0,3.0,1
-21,[8, 5, 6, 15],Sniper,Hero,3.0,3.0,-1
-22,[20, 8, 14, 0],Hero,Sniper,3.0,3.0,1
-23,[15, 4, 7, 8],Sniper,Hero,3.0,3.0,-1
-24,[7, 10, 23, 6],Hero,Sniper,30.0,30.0,-1
-25,[4, 21, 6, 7],Sniper,Hero,30.0,30.0,-1
-26,[19, 10, 21, 20],Hero,Sniper,30.0,30.0,-1
-27,[16, 2, 5, 9],Sniper,Hero,30.0,30.0,-1
-28,[5, 15, 22, 3],Hero,Sniper,30.0,30.0,-1
-29,[17, 8, 5, 7],Sniper,Hero,30.0,30.0,-1
-30,[15, 12, 23, 7],Hero,Sniper,30.0,30.0,1
-31,[0, 6, 7, 1],Sniper,Hero,30.0,30.0,-1
-32,[12, 15, 1, 22],Hero,Sniper,60,60,-1
-33,[1, 5, 7, 8],Sniper,Hero,60,60,1
-34,[2, 7, 23, 3],Hero,Sniper,60,60,1
-35,[1, 0, 7, 6],Sniper,Hero,60,60,1
-36,[13, 24, 5, 20],Hero,Sniper,60,60,1
-37,[5, 15, 9, 6],Hero,Sniper,60,60,1
-38,[19, 12, 18, 0],Hero,Sniper,60,60,1
-39,[8, 11, 6, 0],Sniper,Hero,60,60,1
-40,[9, 21, 2, 5],Hero,Sniper,60,60,1
-41,[2, 8, 13, 9],Sniper,Hero,60,60,1
-42,[3, 24, 20, 6],Hero,Sniper,60,60,1
-43,[7, 8, 5, 12],Sniper,Hero,60,60,1
-44,[12, 11, 0, 15],Hero,Sniper,60,60,1
-45,[21, 18, 6, 3],Hero,Sniper,60,60,1
-46,[11, 5, 8, 1],Sniper,Hero,60,60,-1
-47,[19, 2, 1, 13],Hero,Sniper,60,60,-1
-48,[1, 11, 17, 6],Sniper,Hero,60,60,1
-49,[15, 9, 19, 16],Hero,Sniper,60,60,-1
-50,[6, 1, 8, 11],Sniper,Hero,60,60,-1
-51,[10, 22, 2, 8],Hero,Sniper,60,60,-1
-52,[1, 5, 8, 12],Sniper,Hero,60,60,1
-53,[24, 13, 18, 20],Hero,Sniper,60,60,-1
-54,[11, 6, 13, 1],Sniper,Hero,60,60,-1
-55,[8, 3, 11, 10],Hero,Sniper,60,60,-1
-56,[3, 9, 7, 11],Sniper,Hero,60,60,-1
-57,[16, 3, 6, 2],Hero,Sniper,60,60,1
-58,[6, 3, 13, 14],Sniper,Hero,60,60,1
-59,[2, 0, 1, 22],Hero,Sniper,60,60,-1
-60,[0, 7, 16, 11],Sniper,Hero,60,60,1
-61,[6, 10, 18, 15],Hero,Sniper,60,60,1
-62,[2, 1, 11, 16],Sniper,Hero,60,60,1
-63,[7, 22, 10, 3],Hero,Sniper,60,60,1
-64,[1, 6, 8, 0],Sniper,Hero,60,60,-1
-65,[23, 16, 6, 4],Hero,Sniper,60,60,1
-66,[1, 17, 7, 6],Sniper,Hero,60,60,-1
-67,[13, 19, 11, 16],Hero,Sniper,60,60,-1
-68,[0, 1, 20, 11],Sniper,Hero,60,60,-1
-69,[24, 10, 2, 12],Hero,Sniper,60,60,1
-70,[2, 7, 0, 13],Sniper,Hero,60,60,1
-71,[2, 20, 13, 18],Hero,Sniper,60,60,-1
-72,[1, 15, 8, 18],Sniper,Hero,60,60,1
-73,[14, 8, 17, 16],Hero,Sniper,60,60,-1
-74,[8, 7, 10, 1],Sniper,Hero,60,60,1
-75,[22, 2, 10, 12],Hero,Sniper,60,60,1
-76,[12, 1, 3, 11],Sniper,Hero,60,60,-1
-77,[19, 11, 21, 20],Hero,Sniper,60,60,1
-78,[6, 11, 8, 12],Sniper,Hero,60,60,-1
-79,[24, 6, 3, 1],Hero,Sniper,60,60,-1
-80,[1, 2, 17, 7],Sniper,Hero,60,60,1
-81,[23, 21, 14, 20],Hero,Sniper,60,60,1
-82,[2, 10, 0, 16],Sniper,Hero,60,60,-1
-83,[15, 1, 11, 24],Hero,Sniper,60,60,1
-84,[5, 6, 21, 14],Sniper,Hero,60,60,-1
-85,[20, 4, 5, 15],Hero,Sniper,60,60,1
-86,[7, 8, 1, 12],Sniper,Hero,60,60,-1
-87,[1, 23, 12, 3],Hero,Sniper,60,60,-1
-88,[7, 17, 5, 2],Sniper,Hero,60,60,-1
-89,[14, 11, 23, 24],Hero,Sniper,60,60,1
-90,[11, 1, 0, 13],Sniper,Hero,60,60,-1
-91,[23, 4, 18, 5],Hero,Sniper,60,60,1
-92,[7, 8, 9, 10],Sniper,Hero,60,60,1
-93,[17, 14, 22, 5],Hero,Sniper,60,60,1
-94,[1, 14, 10, 2],Sniper,Hero,60,60,-1
-95,[2, 22, 14, 3],Hero,Sniper,60,60,1
-96,[12, 16, 9, 2],Sniper,Hero,60,60,-1
-97,[15, 2, 16, 19],Hero,Sniper,60,60,1
-98,[5, 12, 8, 18],Sniper,Hero,60,60,1
-99,[4, 2, 22, 13],Hero,Sniper,60,60,1
-100,[16, 0, 15, 3],Sniper,Hero,60,60,1
-101,[20, 18, 16, 19],Hero,Sniper,60,60,1
-102,[0, 9, 7, 13],Sniper,Hero,60,60,-1
-103,[0, 16, 3, 14],Hero,Sniper,60,60,1
-104,[11, 15, 8, 7],Sniper,Hero,60,60,1
-105,[1, 0, 21, 3],Hero,Sniper,60,60,1
-106,[11, 5, 3, 12],Sniper,Hero,60,60,-1
-107,[17, 23, 0, 3],Hero,Sniper,60,60,-1
-108,[2, 4, 16, 3],Sniper,Hero,60,60,-1
-109,[13, 8, 2, 15],Hero,Sniper,60,60,-1
-110,[15, 16, 0, 11],Sniper,Hero,60,60,1
-111,[17, 11, 23, 3],Hero,Sniper,60,60,1
-112,[8, 6, 9, 7],Sniper,Hero,60,60,-1
-113,[24, 17, 9, 10],Hero,Sniper,60,60,1
-114,[23, 6, 7, 11],Sniper,Hero,60,60,1
-115,[2, 17, 23, 22],Hero,Sniper,60,60,1
-116,[1, 2, 11, 16],Sniper,Hero,60,60,1
-117,[5, 21, 12, 15],Hero,Sniper,60,60,1
-118,[1, 4, 8, 10],Sniper,Hero,60,60,-1
-119,[22, 20, 9, 15],Hero,Sniper,60,60,-1
-120,[3, 13, 1, 6],Sniper,Hero,60,60,-1
-121,[19, 9, 5, 17],Hero,Sniper,60,60,1
-122,[1, 3, 4, 7],Sniper,Hero,60,60,-1
-123,[21, 1, 9, 13],Hero,Sniper,60,60,1
-124,[0, 5, 12, 8],Sniper,Hero,60,60,-1
-125,[11, 14, 0, 15],Hero,Sniper,60,60,-1
-126,[10, 20, 8, 15],Sniper,Hero,60,60,-1
-127,[8, 10, 11, 5],Hero,Sniper,60,60,1
-128,[0, 6, 9, 7],Sniper,Hero,60,60,1
-129,[6, 19, 20, 0],Hero,Sniper,60,60,-1
-130,[21, 2, 13, 16],Sniper,Hero,60,60,1
-131,[17, 14, 3, 7],Hero,Sniper,60,60,-1
-132,[3, 6, 5, 1],Sniper,Hero,60,60,1
-133,[6, 10, 16, 2],Hero,Sniper,60,60,-1
-134,[4, 16, 2, 13],Sniper,Hero,60,60,-1
-135,[0, 5, 9, 11],Hero,Sniper,60,60,1
-136,[9, 15, 12, 5],Sniper,Hero,60,60,-1
-137,[19, 24, 18, 23],Hero,Sniper,60,60,-1
-138,[0, 13, 10, 17],Sniper,Hero,60,60,1
-139,[15, 0, 7, 1],Hero,Sniper,60,60,1
-140,[12, 7, 14, 11],Sniper,Hero,60,60,-1
-141,[1, 18, 12, 8],Hero,Sniper,60,60,-1
-142,[7, 2, 5, 11],Sniper,Hero,60,60,-1
-143,[23, 15, 19, 20],Hero,Sniper,60,60,1
-144,[3, 2, 5, 21],Sniper,Hero,60,60,-1
-145,[11, 0, 5, 19],Hero,Sniper,60,60,1
-146,[0, 7, 5, 13],Sniper,Hero,60,60,-1
-147,[10, 15, 5, 2],Hero,Sniper,60,60,1
-148,[12, 1, 5, 8],Sniper,Hero,60,60,1
-149,[15, 23, 2, 0],Hero,Sniper,60,60,-1
-150,[2, 13, 5, 0],Sniper,Hero,60,60,-1
-151,[23, 9, 16, 7],Hero,Sniper,60,60,1
-152,[19, 14, 0, 1],Sniper,Hero,60,60,1
-153,[17, 4, 13, 8],Hero,Sniper,60,60,1
-154,[10, 13, 2, 18],Sniper,Hero,60,60,1
-155,[20, 15, 22, 17],Hero,Sniper,60,60,1
-156,[8, 12, 5, 17],Sniper,Hero,60,60,1
-157,[8, 3, 2, 24],Hero,Sniper,60,60,1
-158,[10, 6, 7, 13],Sniper,Hero,60,60,1
-159,[19, 20, 21, 14],Hero,Sniper,60,60,1
-160,[12, 7, 1, 18],Sniper,Hero,60,60,1
-161,[4, 23, 13, 16],Hero,Sniper,60,60,1
-162,[1, 12, 13, 17],Sniper,Hero,60,60,-1
-163,[14, 10, 5, 3],Hero,Sniper,60,60,-1
-164,[2, 1, 16, 5],Sniper,Hero,60,60,-1
-165,[5, 14, 21, 10],Hero,Sniper,60,60,1
-166,[6, 3, 1, 16],Sniper,Hero,60,60,-1
-167,[20, 15, 0, 21],Hero,Sniper,60,60,1
-168,[8, 6, 1, 17],Sniper,Hero,60,60,-1
-169,[19, 2, 16, 8],Hero,Sniper,60,60,1
-170,[17, 16, 6, 8],Sniper,Hero,60,60,-1
-171,[11, 17, 10, 23],Hero,Sniper,60,60,-1
-172,[12, 2, 3, 10],Sniper,Hero,60,60,-1
-173,[2, 8, 23, 6],Hero,Sniper,60,60,1
-174,[6, 1, 12, 2],Sniper,Hero,60,60,1
-175,[21, 13, 2, 12],Hero,Sniper,60,60,1
-176,[21, 6, 5, 12],Sniper,Hero,60,60,1
-177,[13, 10, 21, 14],Hero,Sniper,60,60,1
-178,[7, 5, 14, 1],Sniper,Hero,60,60,1
-179,[4, 24, 12, 7],Hero,Sniper,60,60,-1
-180,[3, 13, 6, 5],Sniper,Hero,60,60,-1
-181,[14, 24, 17, 0],Hero,Sniper,60,60,1
-182,[19, 14, 1, 6],Sniper,Hero,60,60,-1
-183,[11, 12, 17, 15],Hero,Sniper,60,60,1
-184,[0, 6, 2, 7],Sniper,Hero,60,60,1
-185,[24, 6, 14, 15],Hero,Sniper,60,60,1
-186,[6, 1, 5, 18],Sniper,Hero,60,60,1
-187,[15, 8, 11, 19],Hero,Sniper,60,60,1
-188,[20, 0, 12, 19],Sniper,Hero,60,60,-1
-189,[11, 12, 6, 5],Hero,Sniper,60,60,-1
-190,[5, 0, 7, 3],Sniper,Hero,60,60,-1
-191,[5, 19, 20, 16],Hero,Sniper,60,60,1
-192,[6, 10, 3, 15],Sniper,Hero,60,60,-1
-193,[19, 4, 20, 5],Hero,Sniper,60,60,-1
-194,[8, 3, 7, 1],Sniper,Hero,60,60,-1
-195,[7, 9, 11, 5],Hero,Sniper,60,60,-1
-196,[16, 13, 12, 7],Sniper,Hero,60,60,-1
-197,[1, 15, 11, 21],Hero,Sniper,60,60,1
-198,[8, 13, 11, 5],Sniper,Hero,60,60,-1
-199,[21, 11, 23, 7],Hero,Sniper,60,60,1
-200,[10, 5, 7, 8],Sniper,Hero,60,60,-1
-201,[19, 20, 6, 23],Hero,Sniper,60,60,1
-202,[13, 1, 5, 7],Sniper,Hero,60,60,-1
-203,[8, 10, 7, 19],Hero,Sniper,60,60,1
-204,[16, 7, 6, 9],Sniper,Hero,60,60,1
-205,[1, 16, 21, 7],Hero,Sniper,60,60,1
-206,[15, 10, 7, 8],Sniper,Hero,60,60,-1
-207,[11, 18, 16, 13],Hero,Sniper,60,60,1
-208,[0, 16, 2, 12],Sniper,Hero,60,60,-1
-209,[15, 24, 1, 2],Hero,Sniper,60,60,1
-210,[12, 7, 14, 11],Sniper,Hero,60,60,-1
-211,[0, 5, 17, 6],Hero,Sniper,60,60,1
-212,[14, 18, 3, 12],Sniper,Hero,60,60,1
-213,[9, 19, 8, 2],Hero,Sniper,60,60,1
-214,[18, 13, 0, 12],Sniper,Hero,60,60,1
-215,[6, 23, 12, 0],Hero,Sniper,60,60,-1
-216,[2, 15, 7, 13],Sniper,Hero,60,60,1
-217,[23, 6, 20, 12],Hero,Sniper,60,60,1
-218,[13, 5, 2, 0],Sniper,Hero,60,60,1
-219,[23, 9, 13, 5],Hero,Sniper,60,60,1
-220,[7, 8, 9, 10],Sniper,Hero,60,60,1
-221,[21, 14, 19, 7],Hero,Sniper,60,60,1
-222,[2, 17, 14, 7],Sniper,Hero,60,60,-1
-223,[3, 19, 4, 0],Hero,Sniper,60,60,1
-224,[6, 14, 2, 5],Sniper,Hero,60,60,-1
-225,[20, 8, 2, 22],Hero,Sniper,60,60,1
-226,[0, 11, 12, 23],Sniper,Hero,60,60,-1
-227,[21, 22, 2, 11],Hero,Sniper,60,60,-1
-228,[0, 16, 2, 7],Sniper,Hero,60,60,-1
-229,[3, 23, 13, 21],Hero,Sniper,60,60,1
-230,[0, 19, 8, 13],Sniper,Hero,60,60,1
-231,[23, 1, 11, 18],Hero,Sniper,60,60,-1
-232,[15, 7, 13, 9],Sniper,Hero,60,60,-1
-233,[24, 20, 0, 14],Hero,Sniper,60,60,1
-234,[12, 11, 13, 14],Sniper,Hero,60,60,-1
-235,[2, 15, 16, 12],Hero,Sniper,60,60,1
-236,[5, 16, 7, 12],Sniper,Hero,60,60,-1
-237,[22, 5, 12, 19],Hero,Sniper,60,60,-1
-238,[5, 16, 2, 14],Sniper,Hero,60,60,1
-239,[1, 2, 8, 13],Hero,Sniper,60,60,1
-240,[5, 0, 2, 18],Sniper,Hero,60,60,-1
-241,[11, 14, 24, 1],Hero,Sniper,60,60,1
-242,[6, 1, 3, 11],Sniper,Hero,60,60,1
-243,[18, 9, 8, 24],Hero,Sniper,60,60,-1
-244,[9, 6, 8, 11],Sniper,Hero,60,60,-1
-245,[23, 6, 8, 19],Hero,Sniper,60,60,1
-246,[10, 5, 2, 18],Sniper,Hero,60,60,-1
-247,[18, 7, 14, 4],Hero,Sniper,60,60,1
-248,[13, 12, 0, 7],Sniper,Hero,60,60,-1
-249,[7, 11, 13, 4],Hero,Sniper,60,60,1
-250,[0, 5, 7, 13],Sniper,Hero,60,60,-1
-251,[20, 15, 12, 0],Hero,Sniper,60,60,-1
-252,[16, 21, 11, 5],Sniper,Hero,60,60,1
-253,[6, 23, 16, 13],Hero,Sniper,60,60,1
-254,[1, 11, 7, 2],Sniper,Hero,60,60,-1
-255,[24, 12, 20, 22],Hero,Sniper,60,60,1
-256,[14, 18, 5, 17],Sniper,Hero,60,60,-1
-257,[18, 3, 2, 11],Hero,Sniper,60,60,1
-258,[0, 1, 13, 12],Sniper,Hero,60,60,1
-259,[24, 16, 4, 0],Hero,Sniper,60,60,-1
-260,[12, 11, 2, 6],Sniper,Hero,60,60,-1
-261,[22, 23, 20, 15],Hero,Sniper,60,60,-1
-262,[1, 13, 11, 10],Sniper,Hero,60,60,-1
-263,[1, 14, 13, 4],Hero,Sniper,60,60,-1
-264,[2, 14, 5, 9],Sniper,Hero,60,60,-1
-265,[20, 5, 14, 24],Hero,Sniper,60,60,1
-266,[3, 2, 5, 13],Sniper,Hero,60,60,1
-267,[14, 15, 9, 16],Hero,Sniper,60,60,1
-268,[13, 11, 2, 10],Sniper,Hero,60,60,1
-269,[19, 11, 0, 23],Hero,Sniper,60,60,1
-270,[2, 3, 6, 11],Sniper,Hero,60,60,-1
-271,[4, 15, 7, 12],Hero,Sniper,60,60,-1
-272,[5, 0, 9, 4],Sniper,Hero,60,60,-1
-273,[3, 8, 9, 17],Hero,Sniper,60,60,1
-274,[1, 6, 8, 17],Sniper,Hero,60,60,1
-275,[6, 23, 5, 0],Hero,Sniper,60,60,1
-276,[6, 13, 10, 7],Sniper,Hero,60,60,1
-277,[15, 19, 16, 17],Hero,Sniper,60,60,1
-278,[13, 9, 10, 7],Sniper,Hero,60,60,-1
-279,[21, 7, 4, 16],Hero,Sniper,60,60,-1
-280,[11, 0, 8, 13],Sniper,Hero,60,60,1
-281,[13, 16, 14, 17],Hero,Sniper,60,60,1
-282,[7, 6, 13, 17],Sniper,Hero,60,60,1
-283,[9, 8, 10, 16],Hero,Sniper,60,60,-1
-284,[3, 11, 0, 7],Sniper,Hero,60,60,1
-285,[21, 14, 22, 20],Hero,Sniper,60,60,1
-286,[12, 1, 5, 16],Sniper,Hero,60,60,1
-287,[3, 5, 14, 8],Hero,Sniper,60,60,-1
-288,[0, 10, 18, 11],Sniper,Hero,60,60,1
-289,[22, 2, 14, 24],Hero,Sniper,60,60,-1
-290,[0, 7, 2, 3],Sniper,Hero,60,60,1
-291,[20, 24, 1, 9],Hero,Sniper,60,60,-1
-292,[5, 9, 12, 3],Sniper,Hero,60,60,-1
-293,[7, 21, 19, 5],Hero,Sniper,60,60,-1
-294,[10, 16, 1, 6],Sniper,Hero,60,60,-1
-295,[17, 7, 14, 24],Hero,Sniper,60,60,1
-296,[1, 7, 3, 12],Sniper,Hero,60,60,-1
-297,[22, 4, 8, 14],Hero,Sniper,60,60,1
-298,[1, 5, 7, 3],Sniper,Hero,60,60,-1
-299,[8, 23, 13, 20],Hero,Sniper,60,60,-1
-300,[12, 14, 8, 16],Sniper,Hero,60,60,-1
-301,[3, 8, 20, 0],Hero,Sniper,60,60,1
-302,[1, 3, 5, 0],Sniper,Hero,60,60,1
-303,[20, 24, 2, 5],Hero,Sniper,60,60,-1
-304,[12, 17, 0, 5],Sniper,Hero,60,60,1
-305,[8, 3, 5, 15],Hero,Sniper,60,60,1
-306,[11, 9, 0, 6],Sniper,Hero,60,60,-1
-307,[1, 19, 18, 6],Hero,Sniper,60,60,1
-308,[6, 8, 14, 7],Sniper,Hero,60,60,1
-309,[9, 1, 5, 24],Hero,Sniper,60,60,1
-310,[9, 8, 0, 17],Sniper,Hero,60,60,-1
-311,[20, 17, 18, 10],Hero,Sniper,60,60,1
-312,[22, 21, 0, 7],Sniper,Hero,60,60,1
-313,[24, 1, 13, 2],Hero,Sniper,60,60,1
-314,[14, 5, 7, 1],Sniper,Hero,60,60,1
-315,[8, 0, 14, 15],Hero,Sniper,60,60,1
-316,[1, 10, 11, 16],Sniper,Hero,60,60,1
-317,[24, 8, 0, 1],Hero,Sniper,60,60,-1
-318,[12, 18, 0, 7],Sniper,Hero,60,60,-1
-319,[7, 17, 12, 4],Hero,Sniper,60,60,1
-320,[7, 13, 6, 8],Sniper,Hero,60,60,1
-321,[18, 15, 20, 1],Hero,Sniper,60,60,1
-322,[7, 2, 13, 11],Sniper,Hero,60,60,1
-323,[13, 6, 14, 23],Hero,Sniper,60,60,1
-324,[0, 5, 2, 17],Sniper,Hero,60,60,1
-325,[11, 1, 15, 21],Hero,Sniper,60,60,1
-326,[1, 6, 0, 17],Sniper,Hero,60,60,-1
-327,[11, 22, 1, 17],Hero,Sniper,60,60,1
-328,[14, 13, 10, 11],Sniper,Hero,60,60,1
-329,[13, 2, 15, 20],Hero,Sniper,60,60,-1
-330,[0, 12, 11, 16],Sniper,Hero,60,60,-1
-331,[22, 11, 0, 3],Hero,Sniper,60,60,-1
-332,[2, 9, 0, 7],Sniper,Hero,60,60,1
-333,[7, 20, 8, 10],Hero,Sniper,60,60,1
-334,[16, 17, 9, 8],Sniper,Hero,60,60,-1
-335,[14, 15, 24, 20],Hero,Sniper,60,60,1
-336,[7, 1, 8, 15],Sniper,Hero,60,60,1
-337,[24, 5, 4, 19],Hero,Sniper,60,60,-1
-338,[0, 12, 3, 7],Sniper,Hero,60,60,-1
-339,[6, 1, 21, 7],Hero,Sniper,60,60,1
-340,[16, 1, 0, 7],Sniper,Hero,60,60,-1
-341,[13, 6, 17, 9],Hero,Sniper,60,60,1
-342,[0, 6, 11, 8],Sniper,Hero,60,60,-1
-343,[20, 10, 24, 5],Hero,Sniper,60,60,1
-344,[15, 6, 11, 2],Sniper,Hero,60,60,-1
-345,[0, 11, 14, 4],Hero,Sniper,60,60,-1
-346,[0, 15, 13, 8],Sniper,Hero,60,60,1
-347,[21, 12, 11, 22],Hero,Sniper,60,60,1
-348,[8, 6, 1, 11],Sniper,Hero,60,60,-1
-349,[2, 23, 15, 12],Hero,Sniper,60,60,-1
-350,[1, 10, 0, 7],Sniper,Hero,60,60,1
-351,[22, 5, 6, 11],Hero,Sniper,60,60,-1
-352,[8, 0, 13, 20],Sniper,Hero,60,60,-1
-353,[14, 7, 19, 12],Hero,Sniper,60,60,-1
-354,[1, 3, 12, 18],Sniper,Hero,60,60,-1
-355,[18, 20, 16, 11],Hero,Sniper,60,60,-1
-356,[3, 12, 0, 8],Sniper,Hero,60,60,1
-357,[4, 15, 9, 19],Hero,Sniper,60,60,-1
-358,[0, 10, 13, 14],Sniper,Hero,60,60,-1
-359,[3, 14, 1, 5],Hero,Sniper,60,60,1
-360,[2, 3, 5, 6],Sniper,Hero,60,60,1
-361,[18, 17, 24, 1],Hero,Sniper,60,60,1
-362,[1, 5, 7, 2],Sniper,Hero,60,60,-1
-363,[4, 10, 11, 18],Hero,Sniper,60,60,1
-364,[8, 11, 5, 16],Sniper,Hero,60,60,-1
-365,[11, 16, 24, 3],Hero,Sniper,60,60,1
-366,[7, 5, 13, 3],Sniper,Hero,60,60,1
-367,[21, 22, 17, 12],Hero,Sniper,60,60,-1
-368,[11, 5, 1, 0],Sniper,Hero,60,60,1
-369,[2, 3, 8, 20],Hero,Sniper,60,60,1
-370,[4, 3, 10, 17],Sniper,Hero,60,60,-1
-371,[17, 21, 12, 8],Hero,Sniper,60,60,-1
-372,[17, 1, 15, 13],Sniper,Hero,60,60,-1
-373,[11, 9, 17, 13],Hero,Sniper,60,60,1
-374,[10, 5, 7, 12],Sniper,Hero,60,60,-1
-375,[15, 17, 24, 1],Hero,Sniper,60,60,-1
-376,[10, 8, 0, 6],Sniper,Hero,60,60,1
-377,[2, 14, 8, 10],Hero,Sniper,60,60,-1
-378,[2, 13, 0, 6],Sniper,Hero,60,60,-1
-379,[12, 2, 18, 22],Hero,Sniper,60,60,1
-380,[16, 20, 17, 10],Caterpillar,Hare,60,60,-1
-381,[2, 0, 10, 18],Caterpillar,Hare,60,60,1
-382,[2, 7, 11, 6],Hare,Caterpillar,60,60,-1
-383,[20, 22, 8, 7],Caterpillar,Hare,60,60,-1
-384,[1, 21, 6, 12],Hare,Caterpillar,60,60,1
-385,[4, 23, 18, 22],Caterpillar,Hare,60,60,-1
-386,[1, 22, 7, 12],Hare,Caterpillar,60,60,-1
-387,[2, 8, 21, 10],Caterpillar,Hare,60,60,1
-388,[12, 7, 9, 15],Hare,Caterpillar,60,60,1
-389,[19, 24, 10, 7],Caterpillar,Hare,60,60,-1
-390,[5, 18, 1, 3],Hare,Caterpillar,60,60,1
-391,[19, 6, 10, 24],Caterpillar,Hare,60,60,-1
-392,[3, 1, 5, 14],Hare,Caterpillar,60,60,-1
-393,[10, 22, 23, 18],Caterpillar,Hare,60,60,-1
-394,[3, 12, 5, 2],Hare,Caterpillar,60,60,1
-395,[21, 7, 20, 5],Caterpillar,Hare,60,60,1
-396,[2, 6, 10, 15],Hare,Caterpillar,60,60,1
-397,[17, 8, 11, 1],Caterpillar,Hare,60,60,-1
-398,[12, 16, 6, 3],Hare,Caterpillar,60,60,-1
-399,[8, 10, 19, 15],Caterpillar,Hare,60,60,1
-400,[7, 2, 12, 1],Hare,Caterpillar,60,60,1
-401,[16, 23, 17, 10],Caterpillar,Hare,60,60,1
-402,[8, 11, 15, 0],Hare,Caterpillar,60,60,-1
-403,[6, 22, 3, 23],Caterpillar,Hare,60,60,1
-404,[1, 13, 0, 12],Hare,Caterpillar,60,60,1
-405,[2, 10, 6, 14],Caterpillar,Hare,60,60,-1
-406,[10, 15, 7, 2],Hare,Caterpillar,60,60,-1
-407,[16, 20, 4, 0],Caterpillar,Hare,60,60,1
-408,[11, 5, 3, 1],Hare,Caterpillar,60,60,-1
-409,[7, 21, 20, 10],Caterpillar,Hare,60,60,-1
-410,[22, 19, 2, 4],Hero,Hero,60,60,1
-411,[17, 8, 1, 19],Hero,Hero,60,60,1
-412,[1, 23, 15, 20],Hero,Sniper,60,60,1
-413,[8, 17, 1, 15],Sniper,Hero,60,60,-1
-414,[9, 17, 22, 11],Hero,Caterpillar,60,60,1
-415,[2, 17, 6, 12],Caterpillar,Hero,60,60,-1
-416,[21, 22, 11, 6],Hero,Hare,60,60,-1
-417,[3, 17, 6, 1],Hare,Hero,60,60,-1
-418,[19, 12, 22, 10],Sniper,Sniper,60,60,1
-419,[3, 7, 11, 1],Sniper,Sniper,60,60,-1
-420,[21, 14, 10, 15],Sniper,Caterpillar,60,60,-1
-421,[2, 7, 10, 11],Caterpillar,Sniper,60,60,1
-422,[24, 20, 15, 22],Sniper,Hare,60,60,-1
-423,[0, 5, 6, 12],Hare,Sniper,60,60,1
-424,[6, 11, 20, 18],Caterpillar,Caterpillar,60,60,-1
-425,[2, 0, 21, 22],Caterpillar,Caterpillar,60,60,-2
-426,[5, 23, 16, 15],Caterpillar,Hare,60,60,1
-427,[6, 4, 11, 1],Hare,Caterpillar,60,60,-1
-428,[12, 22, 14, 8],Hare,Hare,60,60,1
-429,[10, 5, 2, 9],Hare,Hare,60,60,-1
-430,[21, 22, 1, 8],Hero,Hero,60,60,1
-431,[6, 12, 5, 13],Hero,Hero,60,60,1
-432,[7, 5, 21, 14],Hero,Sniper,60,60,1
-433,[2, 1, 13, 0],Sniper,Hero,60,60,-1
-434,[10, 3, 22, 6],Hero,Caterpillar,60,60,1
-435,[6, 11, 8, 2],Caterpillar,Hero,60,60,1
-436,[6, 9, 4, 23],Hero,Hare,60,60,-1
-437,[3, 21, 0, 9],Hare,Hero,60,60,1
-438,[24, 22, 15, 20],Sniper,Sniper,60,60,1
-439,[11, 1, 3, 16],Sniper,Sniper,60,60,-1
-440,[16, 2, 17, 15],Hero,Sniper,6.0,6.0,1
-441,[11, 9, 16, 6],Sniper,Hero,6.0,6.0,-1
-442,[9, 19, 16, 8],Hero,Caterpillar,6.0,6.0,1
-443,[12, 23, 13, 19],Caterpillar,Hero,6.0,6.0,-1
-444,[4, 20, 11, 19],Hero,Hare,6.0,6.0,-1
-445,[12, 20, 1, 7],Hare,Hero,6.0,6.0,1
-446,[21, 0, 9, 8],Sniper,Caterpillar,6.0,6.0,-1
-447,[7, 6, 4, 2],Caterpillar,Sniper,6.0,6.0,-1
-448,[19, 10, 16, 7],Sniper,Hare,6.0,6.0,-1
-449,[7, 17, 5, 8],Hare,Sniper,6.0,6.0,1
-450,[24, 14, 6, 15],Caterpillar,Hare,6.0,6.0,1
-451,[6, 7, 1, 12],Hare,Caterpillar,6.0,6.0,-1
-452,[14, 23, 0, 7],Hero,Sniper,6.0,6.0,1
-453,[16, 3, 8, 2],Hero,Sniper,60,60,-1
-454,[4, 7, 3, 11],Sniper,Hero,60,60,1
-455,[13, 4, 3, 22],Hero,Caterpillar,60,60,-1
-456,[1, 12, 3, 16],Caterpillar,Hero,60,60,1
-457,[8, 24, 19, 1],Hero,Hare,60,60,-1
-458,[3, 7, 6, 1],Hare,Hero,60,60,-1
-459,[24, 12, 3, 4],Sniper,Caterpillar,60,60,1
-460,[16, 10, 3, 4],Caterpillar,Sniper,60,60,-1
-461,[3, 1, 7, 6],Sniper,Hare,60,60,1
-462,[8, 2, 0, 10],Hare,Sniper,60,60,1
-463,[11, 19, 21, 4],Caterpillar,Hare,60,60,-1
-464,[2, 13, 0, 1],Hare,Caterpillar,60,60,1
-465,[1, 11, 15, 4],Hero,Sniper,60,60,1
-466,[2, 3, 5, 8],Sniper,Hero,60,60,1
-467,[0, 23, 6, 11],Hero,Caterpillar,60,60,-1
-468,[10, 12, 1, 0],Caterpillar,Hero,60,60,1
-469,[4, 15, 14, 7],Hero,Hare,60,60,1
-470,[2, 6, 7, 11],Hare,Hero,60,60,-1
-471,[22, 1, 23, 24],Sniper,Caterpillar,60,60,1
-472,[23, 6, 1, 8],Caterpillar,Sniper,60,60,-1
-473,[23, 17, 3, 10],Sniper,Hare,60,60,1
-474,[0, 5, 3, 6],Hare,Sniper,60,60,1
-475,[23, 18, 21, 17],Caterpillar,Hare,60,60,1
-476,[6, 12, 15, 13],Hare,Caterpillar,60,60,1
-477,[22, 0, 2, 3],Hero,Sniper,60,60,1
-478,[9, 1, 0, 2],Sniper,Hero,60,60,1
-479,[2, 8, 22, 9],Hero,Caterpillar,60,60,1
-480,[2, 13, 1, 3],Caterpillar,Hero,60,60,-1
-481,[19, 0, 16, 5],Hero,Hare,60,60,1
-482,[13, 12, 1, 17],Hare,Hero,60,60,1
-483,[11, 15, 23, 8],Sniper,Caterpillar,60,60,1
-484,[6, 3, 13, 1],Caterpillar,Sniper,60,60,1
-485,[10, 16, 19, 3],Sniper,Hare,60,60,1
-486,[1, 7, 10, 9],Hare,Sniper,60,60,1
-487,[7, 23, 1, 21],Caterpillar,Hare,60,60,1
-488,[1, 13, 8, 21],Hare,Caterpillar,60,60,-1
-489,[5, 22, 7, 8],Hero,Sniper,60,60,1
-490,[5, 0, 13, 8],Sniper,Hero,60,60,-1
-491,[19, 7, 1, 17],Hero,Caterpillar,60,60,1
-492,[6, 11, 0, 16],Caterpillar,Hero,60,60,1
-493,[21, 10, 13, 15],Hero,Hare,60,60,1
-494,[10, 6, 2, 5],Hare,Hero,60,60,-1
-495,[14, 16, 4, 2],Sniper,Caterpillar,60,60,-1
-496,[11, 12, 3, 7],Caterpillar,Sniper,60,60,-1
-497,[3, 14, 20, 24],Sniper,Hare,60,60,1
-498,[0, 6, 7, 8],Hare,Sniper,60,60,1
-499,[20, 23, 16, 7],Caterpillar,Hare,60,60,-1
-500,[16, 6, 0, 2],Hare,Caterpillar,60,60,-1
-501,[2, 11, 7, 13],Hero,Sniper,60,60,-1
-502,[8, 7, 17, 1],Sniper,Hero,60,60,1
-503,[23, 13, 6, 1],Hero,Caterpillar,60,60,-1
-504,[10, 7, 6, 1],Caterpillar,Hero,60,60,1
-505,[3, 16, 7, 5],Hero,Hare,60,60,-1
-506,[14, 7, 12, 1],Hare,Hero,60,60,-1
-507,[14, 5, 16, 0],Sniper,Caterpillar,60,60,-1
-508,[1, 11, 8, 5],Caterpillar,Sniper,60,60,-1
-509,[7, 1, 18, 0],Sniper,Hare,60,60,1
-510,[11, 2, 1, 16],Hare,Sniper,60,60,-1
-511,[23, 9, 8, 10],Caterpillar,Hare,60,60,1
-512,[11, 8, 3, 10],Hare,Caterpillar,60,60,-1
-513,[6, 21, 0, 13],Hero,Sniper,60,60,1
-514,[16, 15, 5, 13],Sniper,Hero,60,60,-1
-515,[0, 2, 16, 23],Hero,Caterpillar,60,60,1
-516,[0, 6, 2, 22],Caterpillar,Hero,60,60,1
-517,[13, 16, 6, 7],Hero,Hare,60,60,-1
-518,[8, 16, 1, 6],Hare,Hero,60,60,-1
-519,[9, 13, 18, 0],Sniper,Caterpillar,60,60,1
-520,[7, 13, 5, 10],Caterpillar,Sniper,60,60,1
-521,[4, 17, 18, 11],Sniper,Hare,60,60,-1
-522,[7, 17, 5, 11],Hare,Sniper,60,60,-1
-523,[5, 2, 4, 6],Caterpillar,Hare,60,60,1
-524,[10, 4, 7, 1],Hare,Caterpillar,60,60,-1
-525,[19, 24, 16, 22],Hero,Sniper,60,60,1
-526,[16, 12, 3, 23],Sniper,Hero,60,60,-1
-527,[11, 5, 23, 20],Hero,Caterpillar,60,60,1
-528,[3, 2, 10, 5],Caterpillar,Hero,60,60,1
-529,[15, 23, 2, 10],Hero,Hare,60,60,1
-530,[22, 17, 2, 0],Hare,Hero,60,60,-1
-531,[4, 6, 5, 1],Sniper,Caterpillar,60,60,1
-532,[8, 1, 0, 7],Caterpillar,Sniper,60,60,-1
-533,[7, 0, 2, 3],Sniper,Hare,60,60,-1
-534,[5, 6, 4, 9],Hare,Sniper,60,60,1
-535,[1, 3, 0, 18],Caterpillar,Hare,60,60,1
-536,[7, 3, 0, 12],Hare,Caterpillar,60,60,1
-537,[0, 2, 6, 9],Hero,Sniper,60,60,-1
-538,[0, 2, 10, 16],Sniper,Hero,60,60,1
-539,[9, 3, 15, 13],Hero,Caterpillar,60,60,1
-540,[1, 6, 10, 7],Caterpillar,Hero,60,60,-1
-541,[23, 1, 0, 17],Hero,Hare,60,60,1
-542,[13, 5, 6, 8],Hare,Hero,60,60,-2
-543,[21, 0, 7, 22],Sniper,Caterpillar,60,60,-1
-544,[11, 0, 2, 6],Caterpillar,Sniper,60,60,1
-545,[22, 6, 19, 21],Sniper,Hare,60,60,1
-546,[0, 8, 11, 12],Hare,Sniper,60,60,-1
-547,[11, 9, 7, 5],Caterpillar,Hare,60,60,1
-548,[4, 3, 2, 1],Hare,Caterpillar,60,60,1
-549,[22, 20, 23, 24],Hero,Sniper,60,60,-1
-550,[0, 21, 18, 2],Sniper,Hero,60,60,-1
-551,[0, 10, 5, 20],Hero,Caterpillar,60,60,1
-552,[16, 11, 1, 10],Caterpillar,Hero,60,60,1
-553,[10, 4, 12, 17],Hero,Hare,60,60,1
-554,[3, 2, 1, 11],Hare,Hero,60,60,1
-555,[21, 4, 9, 17],Sniper,Caterpillar,60,60,1
-556,[9, 8, 0, 11],Caterpillar,Sniper,60,60,1
-557,[3, 23, 15, 18],Sniper,Hare,60,60,1
-558,[0, 5, 2, 7],Hare,Sniper,60,60,1
-559,[24, 11, 4, 18],Caterpillar,Hare,60,60,-1
-560,[13, 8, 7, 11],Hare,Caterpillar,60,60,-1
-561,[24, 2, 5, 4],Hero,Sniper,60,60,1
-562,[11, 0, 13, 1],Sniper,Hero,60,60,-1
-563,[12, 2, 0, 17],Hero,Caterpillar,60,60,1
-564,[11, 13, 10, 1],Caterpillar,Hero,60,60,1
-565,[24, 19, 14, 2],Hero,Hare,60,60,-1
-566,[2, 18, 5, 8],Hare,Hero,60,60,1
-567,[17, 15, 8, 20],Sniper,Caterpillar,60,60,1
-568,[7, 10, 9, 8],Caterpillar,Sniper,60,60,1
-569,[18, 5, 16, 24],Sniper,Hare,60,60,1
-570,[13, 5, 2, 18],Hare,Sniper,60,60,-1
-571,[21, 7, 12, 23],Caterpillar,Hare,60,60,1
-572,[20, 12, 0, 14],Hare,Caterpillar,60,60,-1
-573,[7, 21, 17, 4],Hero,Sniper,60,60,-1
-574,[0, 21, 6, 11],Sniper,Hero,60,60,-1
-575,[20, 6, 1, 12],Hero,Caterpillar,60,60,1
-576,[5, 1, 7, 11],Caterpillar,Hero,60,60,1
-577,[11, 3, 1, 22],Hero,Hare,60,60,1
-578,[5, 6, 12, 11],Hare,Hero,60,60,1
-579,[9, 14, 17, 0],Sniper,Caterpillar,60,60,-1
-580,[11, 13, 2, 7],Caterpillar,Sniper,60,60,-1
-581,[14, 17, 3, 19],Sniper,Hare,60,60,1
-582,[16, 5, 0, 3],Hare,Sniper,60,60,-1
-583,[17, 2, 4, 22],Caterpillar,Hare,60,60,1
-584,[8, 13, 4, 5],Hare,Caterpillar,60,60,1
-585,[18, 24, 12, 7],Hero,Sniper,60,60,1
-586,[24, 23, 1, 8],Sniper,Hero,60,60,-1
-587,[15, 16, 5, 17],Hero,Caterpillar,60,60,1
-588,[15, 11, 1, 6],Caterpillar,Hero,60,60,1
-589,[13, 12, 10, 22],Hero,Hare,60,60,1
-590,[9, 3, 1, 10],Hare,Hero,60,60,1
-591,[19, 4, 2, 1],Sniper,Caterpillar,60,60,-1
-592,[13, 12, 6, 7],Caterpillar,Sniper,60,60,-1
-593,[4, 12, 14, 13],Sniper,Hare,60,60,-1
-594,[0, 1, 10, 11],Hare,Sniper,60,60,1
-595,[9, 15, 8, 11],Caterpillar,Hare,60,60,-1
-596,[2, 20, 1, 0],Hare,Caterpillar,60,60,-1
-597,[9, 12, 15, 6],Hero,Sniper,60,60,-1
-598,[12, 13, 5, 6],Sniper,Hero,60,60,1
-599,[3, 1, 19, 5],Hero,Caterpillar,60,60,1
-600,[2, 6, 5, 1],Caterpillar,Hero,60,60,-1
-601,[7, 14, 6, 4],Hero,Hare,60,60,1
-602,[1, 2, 3, 12],Hare,Hero,60,60,-1
-603,[2, 12, 18, 14],Sniper,Caterpillar,60,60,1
-604,[1, 5, 3, 13],Caterpillar,Sniper,60,60,1
-605,[23, 11, 9, 14],Sniper,Hare,60,60,1
-606,[1, 11, 3, 18],Hare,Sniper,60,60,1
-607,[10, 12, 18, 6],Caterpillar,Hare,60,60,-1
-608,[11, 10, 3, 6],Hare,Caterpillar,60,60,1
-609,[10, 22, 24, 13],Hero,Sniper,60,60,1
-610,[14, 6, 5, 3],Sniper,Hero,60,60,-1
-611,[4, 18, 0, 23],Hero,Caterpillar,60,60,1
-612,[2, 3, 9, 6],Caterpillar,Hero,60,60,-1
-613,[11, 8, 17, 7],Hero,Hare,60,60,1
-614,[15, 13, 12, 7],Hare,Hero,60,60,-1
-615,[15, 1, 6, 24],Sniper,Caterpillar,60,60,1
-616,[0, 6, 7, 12],Caterpillar,Sniper,60,60,1
-617,[22, 0, 19, 8],Sniper,Hare,60,60,1
-618,[10, 6, 8, 3],Hare,Sniper,60,60,1
-619,[2, 8, 24, 15],Caterpillar,Hare,60,60,-1
-620,[13, 3, 7, 6],Hare,Caterpillar,60,60,1
-621,[13, 12, 10, 24],Hero,Sniper,60,60,1
-622,[16, 7, 6, 24],Sniper,Hero,60,60,-1
-623,[23, 24, 12, 5],Hero,Caterpillar,60,60,-1
-624,[7, 2, 5, 10],Caterpillar,Hero,60,60,-1
-625,[4, 12, 7, 11],Hero,Hare,60,60,1
-626,[4, 8, 5, 1],Hare,Hero,60,60,-1
-627,[23, 15, 2, 20],Sniper,Caterpillar,60,60,1
-628,[11, 12, 3, 18],Caterpillar,Sniper,60,60,1
-629,[23, 18, 24, 8],Sniper,Hare,60,60,1
-630,[18, 17, 5, 14],Hare,Sniper,60,60,-1
-631,[10, 15, 6, 19],Caterpillar,Hare,60,60,-1
-632,[3, 16, 1, 14],Hare,Caterpillar,60,60,1
-633,[9, 19, 21, 4],Hero,Sniper,60,60,-1
-634,[3, 14, 6, 7],Sniper,Hero,60,60,-1
-635,[7, 10, 19, 6],Hero,Caterpillar,60,60,-1
-636,[10, 1, 3, 2],Caterpillar,Hero,60,60,1
-637,[15, 18, 22, 23],Hero,Hare,60,60,1
-638,[5, 11, 2, 19],Hare,Hero,60,60,1
-639,[3, 9, 8, 20],Sniper,Caterpillar,60,60,-1
-640,[0, 14, 6, 11],Caterpillar,Sniper,60,60,-1
-641,[18, 11, 8, 23],Sniper,Hare,60,60,-1
-642,[5, 12, 3, 7],Hare,Sniper,60,60,-1
-643,[17, 6, 24, 23],Caterpillar,Hare,60,60,1
-644,[1, 6, 4, 13],Hare,Caterpillar,60,60,-1
-645,[12, 19, 15, 2],Hero,Sniper,60,60,-1
-646,[0, 14, 12, 11],Sniper,Hero,60,60,1
-647,[7, 12, 21, 1],Hero,Caterpillar,60,60,-1
-648,[2, 9, 12, 0],Caterpillar,Hero,60,60,-1
-649,[1, 3, 17, 16],Hero,Hare,60,60,1
-650,[6, 1, 9, 16],Hare,Hero,60,60,1
-651,[7, 19, 15, 4],Sniper,Caterpillar,60,60,1
-652,[2, 1, 0, 16],Caterpillar,Sniper,60,60,1
-653,[8, 2, 20, 0],Sniper,Hare,60,60,1
-654,[7, 16, 5, 12],Hare,Sniper,60,60,-1
-655,[16, 0, 15, 7],Caterpillar,Hare,60,60,1
-656,[1, 0, 12, 7],Hare,Caterpillar,60,60,1
-657,[10, 1, 16, 13],Hero,Sniper,60,60,-1
-658,[13, 2, 1, 7],Sniper,Hero,60,60,1
-659,[24, 11, 20, 8],Hero,Caterpillar,60,60,-1
-660,[7, 6, 8, 18],Caterpillar,Hero,60,60,1
-661,[16, 14, 3, 22],Hero,Hare,60,60,1
-662,[1, 12, 10, 22],Hare,Hero,60,60,-1
-663,[7, 13, 20, 19],Sniper,Caterpillar,60,60,1
-664,[18, 13, 0, 15],Caterpillar,Sniper,60,60,1
-665,[10, 4, 17, 3],Sniper,Hare,60,60,1
-666,[12, 7, 5, 2],Hare,Sniper,60,60,-1
-667,[11, 16, 17, 23],Caterpillar,Hare,60,60,1
-668,[5, 1, 3, 12],Hare,Caterpillar,60,60,-1
-669,[18, 12, 5, 4],Hero,Sniper,60,60,-3
-670,[5, 8, 17, 10],Hero,Sniper,60,60,-1
-671,[0, 10, 11, 3],Sniper,Hero,60,60,1
-672,[12, 7, 10, 24],Hero,Caterpillar,60,60,1
-673,[8, 17, 0, 18],Caterpillar,Hero,60,60,-1
-675,[2, 5, 4, 14],Hero,Sniper,60,60,1
-676,[12, 17, 2, 9],Sniper,Hero,60,60,-1
-677,[14, 0, 22, 10],Hero,Sniper,60,60,-1
-678,[3, 5, 6, 0],Sniper,Hero,60,60,1
-679,[24, 19, 10, 22],Hero,Caterpillar,60,60,1
-680,[8, 6, 10, 3],Caterpillar,Hero,60,60,-1
-681,[0, 19, 14, 4],Hero,Hare,60,60,1
-682,[3, 19, 5, 8],Hare,Hero,60,60,1
-683,[18, 5, 24, 17],Sniper,Caterpillar,60,60,1
-684,[5, 0, 12, 13],Caterpillar,Sniper,60,60,1
-685,[20, 15, 13, 18],Sniper,Hare,60,60,-1
-686,[10, 5, 1, 7],Hare,Sniper,60,60,-1
-688,[22, 23, 17, 15],Hero,Sniper,60,60,-1
-689,[0, 16, 7, 11],Sniper,Hero,60,60,-1
-690,[5, 4, 19, 14],Hero,Caterpillar,60,60,1
-691,[12, 17, 22, 16],Hero,Sniper,60,60,1
-692,[19, 13, 5, 12],Sniper,Hero,60,60,-1
-693,[9, 22, 12, 6],Hero,Caterpillar,60,60,1
-694,[6, 16, 1, 8],Caterpillar,Hero,60,60,-1
-695,[16, 7, 17, 8],Hero,Hare,60,60,1
-696,[12, 5, 2, 9],Hare,Hero,60,60,1
-697,[12, 18, 6, 15],Sniper,Caterpillar,60,60,-1
-698,[2, 12, 0, 17],Caterpillar,Sniper,60,60,-1
-699,[24, 20, 18, 11],Sniper,Hare,60,60,1
-700,[0, 6, 2, 7],Hare,Sniper,60,60,1
-701,[2, 6, 5, 21],Caterpillar,Hare,60,60,-1
-702,[0, 5, 7, 8],Hare,Caterpillar,60,60,-1
-703,[10, 16, 14, 4],Hero,Sniper,60,60,1
-704,[3, 7, 12, 2],Sniper,Hero,60,60,-1
-705,[0, 10, 13, 19],Lumberjack,Hero,60,60,1
-706,[22, 3, 11, 8],Lumberjack,Hero,180,180,1
-707,[20, 3, 1, 8],Hero,Lumberjack,180,180,-1
-708,[13, 14, 18, 12],Lumberjack,Hero,180,180,-1
-709,[3, 18, 0, 1],Hero,Lumberjack,180,180,1
-710,[20, 11, 23, 18],Lumberjack,Sniper,180,180,1
-711,[6, 13, 12, 3],Sniper,Lumberjack,180,180,-1
-712,[17, 3, 16, 1],Lumberjack,Caterpillar,180,180,1
-713,[22, 12, 0, 1],Caterpillar,Lumberjack,180,180,-1
-714,[17, 9, 11, 10],Lumberjack,Hare,180,180,1
-715,[3, 7, 10, 1],Hare,Lumberjack,180,180,1
-716,[15, 11, 7, 0],Hero,Sniper,180,180,1
-717,[16, 11, 7, 12],Sniper,Hero,180,180,-1
-718,[7, 16, 10, 14],Hero,Caterpillar,180,180,1
-719,[6, 10, 3, 8],Caterpillar,Hero,180,180,-1
-720,[10, 7, 23, 24],Hero,Hare,180,180,1
-721,[7, 5, 2, 16],Hare,Hero,180,180,-1
-722,[11, 5, 4, 23],Sniper,Caterpillar,180,180,1
-723,[5, 0, 7, 17],Caterpillar,Sniper,180,180,-1
-724,[13, 7, 5, 14],Sniper,Hare,180,180,1
-725,[0, 16, 1, 3],Hare,Sniper,180,180,-1
-726,[13, 5, 1, 16],Caterpillar,Hare,180,180,1
-727,[8, 12, 5, 10],Hare,Caterpillar,180,180,1
-728,[22, 21, 2, 8],Gardener,Lumberjack,900,900,-1
-729,[9, 17, 3, 24],Gardener,Lumberjack,180,180,-1
-730,[3, 7, 2, 6],Lumberjack,Gardener,180,180,1
-731,[14, 0, 19, 7],Gardener,Hero,180,180,1
-732,[18, 5, 15, 12],Hero,Gardener,180,180,-1
-733,[1, 19, 16, 18],Gardener,Sniper,180,180,1
-734,[3, 8, 12, 6],Sniper,Gardener,180,180,-1
-735,[15, 3, 24, 2],Gardener,Caterpillar,180,180,2
-737,[14, 4, 6, 8],Gardener,Lumberjack,180,180,1
-738,[8, 3, 0, 11],Lumberjack,Gardener,180,180,-1
-739,[21, 14, 20, 17],Gardener,Hero,180,180,1
-740,[10, 7, 0, 17],Hero,Gardener,180,180,-1
-741,[2, 18, 20, 22],Gardener,Sniper,180,180,1
-742,[2, 22, 10, 4],Sniper,Gardener,180,180,1
-743,[6, 8, 22, 21],Gardener,Caterpillar,180,180,1
-744,[15, 13, 12, 2],Caterpillar,Gardener,180,180,-1
-745,[4, 18, 22, 10],Gardener,Hare,180,180,1
-746,[13, 12, 1, 0],Hare,Gardener,180,180,-1
-747,[3, 0, 8, 11],Lumberjack,Hero,180,180,1
-748,[6, 0, 10, 7],Hero,Lumberjack,180,180,-1
-749,[5, 14, 0, 2],Hare,Lumberjack,180,180,1
-750,[16, 14, 0, 2],Lumberjack,Hare,180,180,1
-751,[20, 14, 7, 19],Hare,Sniper,180,180,1
-752,[5, 7, 2, 9],Sniper,Hare,180,180,-1
-753,[15, 23, 19, 14],Hare,Caterpillar,180,180,1
-754,[5, 6, 9, 3],Caterpillar,Hare,180,180,1
-755,[9, 4, 3, 1],Hare,Gardener,180,180,-1
-756,[7, 11, 4, 1],Gardener,Hare,180,180,1
-757,[6, 17, 2, 1],Hare,Hero,180,180,-1
-758,[10, 6, 4, 5],Hero,Hare,180,180,-1
-759,[4, 24, 1, 19],Lumberjack,Sniper,180,180,1
-760,[0, 1, 3, 12],Sniper,Lumberjack,180,180,-1
-761,[3, 19, 15, 12],Lumberjack,Caterpillar,180,180,1
-762,[1, 8, 5, 12],Caterpillar,Lumberjack,180,180,-1
-763,[21, 23, 14, 2],Lumberjack,Hero,180,180,-1
-764,[1, 11, 13, 8],Hero,Lumberjack,180,180,1
-765,[4, 2, 15, 14],Lumberjack,Hare,180,180,1
-766,[3, 12, 5, 2],Hare,Lumberjack,180,180,1
-767,[6, 0, 13, 14],Lumberjack,Caterpillar,180,180,1
-768,[19, 13, 16, 22],Hero,Sniper,180,180,-1
-769,[5, 8, 14, 23],Hero,Caterpillar,180,180,1
-770,[1, 0, 4, 18],Caterpillar,Hero,180,180,-1
-771,[7, 3, 8, 0],Hero,Caterpillar,180,180,-1
-772,[3, 4, 18, 11],Hero,Gardener,180,180,-1
-773,[5, 18, 13, 16],Gardener,Hero,180,180,1
-774,[19, 14, 0, 23],Hero,Gardener,180,180,-1
-775,[9, 17, 2, 0],Gardener,Hero,180,180,1
-776,[23, 8, 1, 12],Hero,Gardener,180,180,-1
-777,[8, 6, 13, 1],Gardener,Hero,180,180,1
-778,[7, 1, 11, 4],Hero,Gardener,180,180,-1
-779,[12, 6, 2, 8],Gardener,Hero,180,180,1
-780,[23, 1, 0, 19],Caterpillar,Lumberjack,180,180,-1
-781,[2, 1, 13, 12],Lumberjack,Caterpillar,180,180,1
-782,[1, 12, 7, 24],Caterpillar,Gardener,180,180,1
-783,[10, 8, 2, 14],Gardener,Caterpillar,180,180,1
-784,[13, 5, 10, 3],Caterpillar,Sniper,180,180,-1
-785,[3, 12, 10, 1],Sniper,Caterpillar,180,180,-1
-786,[10, 20, 0, 3],Caterpillar,Hero,180,180,1
-787,[17, 20, 6, 15],Hero,Caterpillar,180,180,-1
-788,[24, 12, 15, 14],Caterpillar,Hare,180,180,1
-789,[17, 6, 1, 2],Hare,Caterpillar,180,180,1
-790,[23, 10, 20, 24],Lumberjack,Gardener,180,180,-1
-791,[12, 6, 1, 17],Gardener,Lumberjack,180,180,1
-792,[9, 21, 18, 15],Lumberjack,Sniper,180,180,1
-793,[12, 1, 3, 17],Sniper,Lumberjack,180,180,1
-794,[18, 20, 14, 16],Lumberjack,Hero,180,180,2
-795,[13, 5, 2, 0],Hero,Lumberjack,180,180,-1
-796,[7, 10, 4, 2],Lumberjack,Hare,180,180,1
-797,[9, 16, 4, 2],Hare,Lumberjack,180,180,-1
-798,[10, 17, 5, 23],Gardener,Sniper,180,180,-1
-799,[14, 20, 10, 17],Sniper,Gardener,180,180,-1
-800,[1, 4, 0, 19],Gardener,Hero,180,180,1
-801,[6, 4, 1, 12],Hero,Gardener,180,180,-1
-803,[18, 6, 21, 13],Gardener,Caterpillar,180,180,1
-804,[10, 11, 12, 8],Caterpillar,Gardener,180,180,-1
-805,[4, 13, 0, 19],Gardener,Lumberjack,180,180,-1
-806,[9, 24, 12, 19],Economist,Lumberjack,600,600,1
-807,[1, 4, 7, 0],Lumberjack,Economist,600,600,-1
-808,[10, 18, 12, 23],Economist,Lumberjack,600,600,1
-809,[5, 8, 2, 6],Lumberjack,Economist,600,600,-1
-810,[20, 5, 22, 7],Hero,Gardener,180,180,1
-811,[22, 17, 10, 9],Caterpillar,Lumberjack,180,180,-3
-812,[0, 10, 1, 12],Lumberjack,Caterpillar,180,180,1
-813,[3, 2, 7, 16],Caterpillar,Lumberjack,180,180,-1
-814,[5, 3, 17, 11],Lumberjack,Caterpillar,180,180,1
-815,[22, 1, 6, 13],Caterpillar,Lumberjack,180,180,1
-816,[16, 11, 6, 10],Lumberjack,Caterpillar,180,180,1
-817,[17, 13, 24, 12],Hare,Gardener,180,180,-1
-818,[5, 6, 21, 2],Gardener,Hare,180,180,1
-819,[21, 12, 18, 7],Hare,Gardener,180,180,-1
-820,[2, 10, 17, 5],Gardener,Hare,180,180,1
-821,[6, 11, 17, 0],Hare,Gardener,180,180,-1
-822,[14, 22, 12, 0],Gardener,Hare,180,180,1
-823,[24, 5, 18, 8],Hare,Gardener,180,180,-1
-824,[19, 6, 9, 12],Gardener,Hare,180,180,1
-825,[9, 11, 6, 3],Hare,Gardener,180,180,-1
-826,[6, 3, 7, 5],Gardener,Hare,180,180,1
-827,[11, 12, 10, 2],Hare,Gardener,180,180,1
-828,[3, 1, 10, 14],Gardener,Hare,180,180,1
-829,[20, 3, 10, 14],Hero,Caterpillar,180,180,1
-830,[10, 7, 0, 18],Caterpillar,Hero,180,180,-1
-831,[16, 3, 22, 6],Hero,Hare,180,180,1
-832,[10, 11, 2, 17],Hare,Hero,180,180,-1
-833,[2, 6, 12, 0],Hero,Lumberjack,180,180,-1
-834,[0, 11, 9, 13],Lumberjack,Hero,180,180,1
-835,[14, 11, 9, 22],Hero,Gardener,180,180,-1
-836,[6, 5, 12, 18],Gardener,Hero,180,180,1
-837,[7, 10, 12, 20],Hero,Sniper,180,180,-1
-838,[8, 6, 7, 20],Sniper,Hero,180,180,1
-840,[11, 23, 2, 24],Gardener,Lumberjack,180,180,-1
-841,[9, 3, 1, 13],Sniper,Caterpillar,180,180,1
-842,[8, 4, 1, 7],Caterpillar,Sniper,180,180,1
-843,[19, 24, 22, 11],Sniper,Hare,180,180,-1
-844,[7, 13, 0, 6],Hare,Sniper,180,180,-1
-845,[20, 21, 18, 8],Hero,Sniper,180,180,3
-846,[13, 1, 10, 7],Sniper,Hero,180,180,1
-847,[11, 18, 8, 22],Hero,Hare,180,180,1
-848,[8, 13, 6, 17],Hare,Hero,180,180,-1
-849,[8, 0, 11, 2],Sniper,Caterpillar,180,180,-1
-850,[1, 6, 13, 11],Caterpillar,Sniper,180,180,3
-851,[1, 2, 8, 16],Sniper,Hare,180,180,1
-852,[2, 12, 10, 6],Hare,Sniper,180,180,1
-853,[5, 1, 16, 17],Sniper,Gardener,180,180,-1
-854,[7, 1, 6, 17],Gardener,Sniper,180,180,1
-855,[16, 23, 21, 20],Sniper,Lumberjack,180,180,1
-856,[15, 7, 0, 21],Lumberjack,Sniper,180,180,-1
-857,[11, 12, 20, 7],Caterpillar,Hare,180,180,-1
-858,[12, 2, 5, 1],Hare,Caterpillar,180,180,1
-859,[16, 20, 2, 9],Hero,Sniper,180,180,1
-860,[7, 2, 12, 13],Sniper,Hero,180,180,3
-861,[6, 7, 12, 21],Caterpillar,Gardener,180,180,1
-862,[2, 7, 5, 16],Gardener,Caterpillar,180,180,-1
-863,[24, 21, 19, 6],Hero,Hare,180,180,1
-864,[22, 17, 1, 0],Hare,Hero,180,180,-1
-865,[24, 1, 4, 18],Sniper,Caterpillar,180,180,3
-866,[8, 11, 2, 16],Caterpillar,Sniper,180,180,-1
-867,[18, 14, 6, 3],Sniper,Hare,180,180,1
-868,[0, 7, 3, 18],Hare,Sniper,180,180,1
-869,[7, 1, 0, 18],Sniper,Gardener,180,180,-1
-870,[6, 21, 15, 2],Gardener,Sniper,180,180,1
-871,[4, 11, 21, 5],Sniper,Lumberjack,180,180,-1
-872,[1, 0, 8, 2],Lumberjack,Sniper,180,180,1
-873,[1, 22, 12, 21],Caterpillar,Hare,180,180,1
-874,[6, 17, 7, 21],Hare,Caterpillar,180,180,-1
-875,[1, 9, 13, 14],Hare,Lumberjack,180,180,-1
-876,[6, 13, 2, 10],Lumberjack,Hare,180,180,1
-877,[24, 21, 17, 9],Gardener,Lumberjack,180,180,-1
-878,[14, 10, 0, 17],Lumberjack,Gardener,180,180,1
-879,[18, 8, 3, 4],Hero,Sniper,180,180,-1
-880,[10, 8, 3, 2],Sniper,Hero,180,180,1
-881,[2, 4, 14, 11],Hero,Caterpillar,180,180,1
-882,[3, 8, 10, 7],Caterpillar,Hero,180,180,1
-883,[3, 11, 6, 20],Caterpillar,Gardener,180,180,-1
-884,[1, 15, 2, 10],Gardener,Caterpillar,180,180,1
-885,[16, 6, 21, 24],Hero,Hare,180,180,1
-886,[16, 0, 3, 13],Hare,Hero,180,180,1
-887,[20, 5, 7, 22],Sniper,Caterpillar,180,180,-1
-888,[2, 6, 11, 1],Caterpillar,Sniper,180,180,-1
-889,[17, 18, 21, 12],Sniper,Hare,180,180,-1
-890,[2, 12, 7, 5],Hare,Sniper,180,180,-1
-891,[23, 19, 11, 0],Sniper,Gardener,180,180,-1
-892,[0, 18, 2, 12],Gardener,Sniper,180,180,1
-893,[8, 3, 9, 20],Sniper,Lumberjack,180,180,-1
-894,[1, 6, 8, 10],Lumberjack,Sniper,180,180,1
-895,[16, 7, 1, 6],Caterpillar,Hare,180,180,-1
-896,[4, 13, 5, 7],Hare,Caterpillar,180,180,-1
-897,[22, 5, 17, 23],Hare,Lumberjack,180,180,1
-898,[5, 2, 12, 8],Lumberjack,Hare,180,180,1
-899,[12, 4, 19, 10],Gardener,Lumberjack,180,180,1
-900,[1, 23, 6, 17],Lumberjack,Gardener,180,180,1
-901,[12, 15, 0, 24],Hero,Sniper,180,180,-1
-902,[15, 13, 0, 18],Sniper,Hero,180,180,1
-903,[23, 17, 13, 2],Hero,Caterpillar,180,180,1
-904,[22, 18, 0, 1],Caterpillar,Hero,180,180,1
-905,[15, 19, 13, 14],Caterpillar,Gardener,180,180,-1
-906,[5, 18, 11, 6],Gardener,Caterpillar,180,180,1
-907,[8, 21, 1, 10],Hero,Hare,180,180,1
-908,[5, 11, 7, 10],Hare,Hero,180,180,-1
-909,[8, 21, 18, 11],Hero,Lumberjack,180,180,-1
-910,[5, 10, 19, 11],Lumberjack,Hero,180,180,1
-911,[5, 14, 18, 21],Sniper,Caterpillar,180,180,1
-912,[7, 18, 6, 10],Caterpillar,Sniper,180,180,-1
-913,[6, 14, 7, 11],Sniper,Hare,180,180,-1
-914,[9, 10, 2, 3],Hare,Sniper,180,180,1
-915,[17, 22, 9, 14],Sniper,Gardener,180,180,-1
-916,[6, 12, 16, 15],Gardener,Sniper,180,180,-3
-917,[6, 11, 18, 7],Economist,Lumberjack,180,180,1
-918,[4, 17, 0, 2],Lumberjack,Economist,180,180,-1
-919,[23, 12, 5, 10],Economist,Lumberjack,180,180,-1
-920,[12, 16, 7, 5],Lumberjack,Economist,180,180,1
-921,[13, 8, 22, 20],Lumberjack,Economist,180,180,-1
-922,[6, 8, 15, 24],Economist,Hero,180,180,1
-923,[16, 5, 0, 18],Hero,Economist,180,180,-1
-924,[23, 9, 12, 16],Economist,Sniper,180,180,1
-925,[7, 12, 2, 8],Economist,Caterpillar,180,180,1
-926,[16, 17, 0, 3],Caterpillar,Economist,180,180,-1
-927,[8, 22, 10, 12],Economist,Hare,180,180,-1
-928,[8, 11, 6, 0],Hare,Economist,180,180,1
-929,[19, 21, 9, 3],Economist,Gardener,180,180,-1
-930,[1, 10, 11, 0],Gardener,Economist,180,180,-1
-931,[8, 10, 2, 0],Sniper,Economist,180,180,-1
-932,[3, 16, 0, 10],Economist,Sniper,180,180,1
-933,[0, 14, 8, 13],Hero,Economist,180,180,-1
-934,[1, 12, 17, 23],Economist,Hero,180,180,1
-935,[1, 20, 22, 24],Caterpillar,Economist,180,180,1
-936,[4, 3, 2, 19],Economist,Caterpillar,180,180,1
-937,[21, 17, 8, 18],Hare,Economist,180,180,-1
-938,[5, 6, 14, 13],Economist,Hare,180,180,1
-939,[7, 12, 22, 1],Gardener,Economist,180,180,1
-940,[14, 18, 16, 11],Economist,Gardener,180,180,1
-941,[9, 24, 15, 23],Sniper,Economist,180,180,-1
-942,[3, 18, 15, 11],Economist,Sniper,180,180,1
-943,[6, 15, 20, 17],Hero,Economist,180,180,-1
-944,[6, 13, 15, 16],Economist,Hero,180,180,1
-945,[20, 23, 7, 19],Caterpillar,Economist,180,180,-1
-946,[0, 19, 7, 21],Economist,Caterpillar,180,180,1
-947,[1, 4, 6, 10],Hare,Economist,180,180,-1
-948,[4, 13, 3, 2],Economist,Hare,180,180,-1
-949,[18, 11, 13, 23],Gardener,Economist,180,180,-1
-950,[3, 5, 7, 11],Economist,Gardener,180,180,1
-951,[6, 17, 7, 10],Sniper,Economist,180,180,-1
-952,[2, 13, 1, 10],Economist,Sniper,180,180,1
-953,[23, 20, 9, 5],Lumberjack,Economist,180,180,1
-954,[17, 6, 9, 15],Economist,Lumberjack,180,180,1
-955,[13, 16, 6, 17],Hero,Economist,180,180,1
-956,[0, 1, 9, 5],Economist,Hero,180,180,-1
-957,[22, 12, 17, 19],Caterpillar,Economist,180,180,1
-958,[10, 16, 2, 19],Economist,Caterpillar,180,180,1
-959,[0, 11, 3, 5],Hare,Economist,180,180,-1
-960,[8, 16, 7, 0],Economist,Hare,180,180,-1
-961,[3, 22, 8, 6],Gardener,Economist,180,180,-1
-962,[7, 12, 3, 16],Economist,Gardener,180,180,1
-963,[12, 17, 15, 19],Sniper,Economist,180,180,-1
-964,[0, 17, 6, 2],Economist,Sniper,180,180,1
-965,[14, 0, 8, 12],Lumberjack,Economist,180,180,-1
-966,[6, 5, 21, 15],Economist,Lumberjack,180,180,-1
-967,[11, 21, 19, 4],Hero,Economist,180,180,-1
-968,[11, 6, 3, 9],Economist,Hero,180,180,1
-969,[0, 10, 12, 9],Caterpillar,Economist,180,180,-1
-970,[3, 6, 0, 17],Economist,Caterpillar,180,180,1
-971,[4, 13, 23, 19],Hare,Economist,180,180,-1
-972,[4, 0, 1, 14],Economist,Hare,180,180,1
-973,[0, 14, 15, 5],Gardener,Economist,180,180,-1
-974,[9, 6, 2, 0],Economist,Gardener,180,180,1
-975,[6, 0, 14, 7],Sniper,Economist,180,180,-1
-976,[10, 5, 3, 6],Economist,Sniper,180,180,1
-977,[22, 24, 10, 3],Lumberjack,Economist,180,180,-1
-978,[2, 14, 18, 5],Economist,Lumberjack,180,180,1
-979,[22, 10, 7, 14],Hero,Economist,180,180,-1
-980,[10, 13, 1, 0],Economist,Hero,180,180,1
-981,[6, 14, 23, 15],Caterpillar,Economist,180,180,1
-982,[4, 9, 12, 11],Economist,Caterpillar,180,180,1
-983,[22, 16, 11, 2],Hare,Economist,180,180,-1
-984,[8, 11, 1, 0],Economist,Hare,180,180,1
-985,[0, 2, 12, 10],Gardener,Economist,180,180,-1
-986,[2, 11, 7, 0],Economist,Gardener,180,180,1
-987,[15, 21, 8, 18],Sniper,Economist,180,180,-1
-988,[0, 16, 2, 7],Economist,Sniper,180,180,1
-989,[9, 8, 6, 17],Lumberjack,Economist,180,180,-1
-990,[13, 17, 1, 12],Economist,Lumberjack,180,180,1
-991,[1, 0, 18, 24],Hero,Economist,180,180,-1
-992,[0, 2, 12, 18],Economist,Hero,180,180,1
-993,[23, 18, 3, 14],Sniper,Lumberjack,180,180,-1
-994,[10, 3, 2, 6],Lumberjack,Sniper,180,180,-1
-995,[10, 19, 3, 16],Caterpillar,Hare,180,180,-1
-996,[6, 5, 11, 17],Hare,Caterpillar,180,180,-1
-997,[5, 6, 3, 12],Caterpillar,Economist,180,180,-1
-998,[0, 7, 2, 8],Economist,Caterpillar,180,180,-1
-999,[23, 20, 15, 10],Hare,Lumberjack,180,180,-1
-1000,[5, 22, 7, 6],Lumberjack,Hare,180,180,1
-1001,[24, 21, 0, 7],Hare,Economist,180,180,-1
-1002,[2, 0, 7, 21],Economist,Hare,180,180,1
-1003,[23, 21, 5, 12],Gardener,Lumberjack,180,180,1
-1004,[7, 13, 3, 20],Lumberjack,Gardener,180,180,1
-1005,[7, 8, 17, 20],Gardener,Economist,180,180,1
-1006,[10, 11, 7, 13],Economist,Gardener,180,180,1
-1007,[4, 7, 23, 17],Hero,Sniper,180,180,1
-1008,[6, 12, 8, 11],Sniper,Hero,180,180,-1
-1009,[21, 9, 4, 24],Hero,Caterpillar,180,180,-1
-1010,[11, 8, 13, 9],Caterpillar,Hero,180,180,1
-1011,[2, 19, 6, 10],Sniper,Economist,180,180,-1
-1012,[5, 14, 17, 22],Economist,Sniper,180,180,1
-1013,[5, 0, 17, 14],Caterpillar,Gardener,180,180,-1
-1014,[3, 2, 12, 16],Gardener,Caterpillar,180,180,1
-1015,[2, 6, 24, 1],Caterpillar,Lumberjack,180,180,-1
-1016,[3, 2, 12, 0],Lumberjack,Caterpillar,180,180,1
-1017,[0, 3, 4, 10],Lumberjack,Economist,180,180,1
-1018,[12, 7, 6, 20],Economist,Lumberjack,180,180,1
-1019,[23, 1, 24, 8],Hero,Hare,180,180,1
-1020,[10, 12, 0, 6],Hare,Hero,180,180,-1
-1021,[19, 1, 16, 12],Hero,Lumberjack,180,180,-1
-1022,[3, 1, 12, 17],Lumberjack,Hero,180,180,1
-1023,[9, 24, 6, 18],Hero,Economist,180,180,-1
-1024,[21, 2, 7, 12],Economist,Hero,180,180,1
-1025,[12, 14, 19, 17],Sniper,Caterpillar,180,180,-1
-1026,[15, 1, 0, 11],Caterpillar,Sniper,180,180,1
-1027,[11, 10, 23, 5],Sniper,Hare,180,180,-1
-1028,[0, 16, 8, 1],Hare,Sniper,180,180,-1
-1029,[21, 2, 15, 16],Sniper,Gardener,180,180,1
-1030,[5, 13, 2, 12],Gardener,Sniper,180,180,1
-1031,[6, 19, 10, 0],Sniper,Lumberjack,180,180,1
-1032,[11, 7, 4, 15],Lumberjack,Sniper,180,180,-1
-1033,[15, 1, 24, 18],Caterpillar,Hare,180,180,1
-1034,[5, 10, 7, 8],Hare,Caterpillar,180,180,-1
-1035,[18, 4, 6, 5],Caterpillar,Economist,180,180,-1
-1036,[3, 8, 0, 6],Economist,Caterpillar,180,180,1
-1037,[2, 4, 20, 7],Hare,Lumberjack,180,180,-1
-1038,[0, 7, 3, 16],Lumberjack,Hare,180,180,1
-1039,[12, 4, 10, 20],Hare,Economist,180,180,-1
-1040,[0, 9, 7, 16],Economist,Hare,180,180,1
-1041,[12, 9, 10, 20],Gardener,Lumberjack,180,180,1
-1042,[12, 8, 5, 15],Lumberjack,Gardener,180,180,1
-1043,[12, 5, 18, 6],Gardener,Economist,180,180,-1
-1044,[5, 13, 4, 1],Economist,Gardener,180,180,-1
-1045,[13, 6, 7, 23],Hero,Sniper,180,180,1
-1046,[1, 6, 10, 12],Sniper,Hero,180,180,1
-1047,[5, 0, 3, 22],Hero,Caterpillar,180,180,-1
-1048,[20, 9, 12, 15],Caterpillar,Hero,180,180,-1
-1049,[14, 2, 24, 15],Sniper,Economist,180,180,-1
-1050,[7, 1, 5, 0],Economist,Sniper,180,180,1
-1051,[1, 22, 5, 16],Sniper,Economist,180,180,1
-1052,[18, 3, 20, 23],Caterpillar,Gardener,180,180,-1
-1053,[15, 6, 5, 7],Gardener,Caterpillar,180,180,1
-1054,[8, 23, 4, 7],Caterpillar,Lumberjack,180,180,1
-1055,[21, 15, 2, 6],Lumberjack,Caterpillar,180,180,3
-1056,[23, 15, 7, 9],Lumberjack,Economist,180,180,-1
-1057,[10, 5, 8, 12],Economist,Lumberjack,180,180,-1
-1058,[0, 10, 7, 14],Hero,Hare,180,180,-1
-1059,[0, 15, 3, 9],Hare,Hero,180,180,1
-1060,[12, 3, 21, 7],Hero,Lumberjack,180,180,-1
-1061,[7, 14, 24, 5],Professor,Hero,180,180,1
-1062,[0, 3, 4, 1],Hero,Professor,180,180,-1
-1063,[9, 8, 21, 14],Professor,Sniper,180,180,1
-1064,[11, 10, 2, 14],Sniper,Professor,180,180,-1
-1065,[17, 11, 7, 6],Professor,Caterpillar,180,180,3
-1066,[22, 7, 18, 2],Caterpillar,Professor,180,180,1
-1067,[23, 24, 3, 8],Professor,Hare,180,180,-1
-1068,[8, 12, 6, 7],Hare,Professor,180,180,1
-1069,[4, 8, 0, 11],Professor,Hero,180,180,-1
-1070,[3, 17, 5, 11],Hero,Professor,180,180,-1
-1071,[23, 17, 13, 21],Professor,Sniper,180,180,-1
-1072,[2, 12, 24, 19],Sniper,Professor,180,180,1
-1073,[17, 15, 12, 6],Professor,Caterpillar,180,180,1
-1074,[5, 1, 2, 12],Caterpillar,Professor,180,180,-1
-1075,[2, 12, 19, 9],Professor,Hare,180,180,1
-1076,[14, 13, 17, 7],Hare,Professor,180,180,-1
-1077,[7, 22, 16, 2],Professor,Gardener,180,180,-1
-1078,[7, 23, 5, 10],Gardener,Professor,180,180,-1
-1079,[17, 10, 5, 2],Professor,Lumberjack,180,180,1
-1080,[18, 22, 0, 1],Lumberjack,Professor,180,180,1
-1081,[16, 14, 5, 8],Professor,Hero,60,60,1
-1082,[22, 17, 0, 7],Hero,Professor,60,60,1
-1083,[22, 18, 7, 24],Professor,Sniper,60,60,1
-1084,[12, 16, 0, 7],Sniper,Professor,60,60,-1
-1085,[3, 6, 9, 17],Professor,Caterpillar,60,60,-1
-1086,[22, 0, 9, 11],Caterpillar,Professor,60,60,1
-1087,[2, 21, 8, 14],Professor,Hare,60,60,-1
-1088,[13, 17, 0, 1],Hare,Professor,60,60,-1
-1089,[19, 9, 11, 12],Professor,Hero,60,60,-1
-1090,[8, 7, 0, 18],Hero,Professor,60,60,-1
-1091,[20, 15, 11, 13],Professor,Sniper,60,60,1
-1092,[20, 21, 0, 7],Sniper,Professor,60,60,-1
-1093,[15, 17, 23, 2],Professor,Caterpillar,60,60,1
-1094,[11, 16, 2, 7],Caterpillar,Professor,60,60,-1
-1095,[5, 22, 13, 14],Professor,Hare,60,60,-1
-1096,[16, 17, 6, 0],Hare,Professor,60,60,1
-1097,[10, 13, 9, 1],Lumberjack,Hero,60,60,-1
-1098,[10, 1, 2, 7],Hero,Lumberjack,60,60,1
-1099,[13, 2, 10, 3],Lumberjack,Sniper,60,60,-1
-1100,[7, 2, 12, 0],Sniper,Lumberjack,60,60,-1
-1101,[20, 6, 7, 12],Lumberjack,Caterpillar,60,60,-1
-1102,[1, 2, 9, 8],Caterpillar,Lumberjack,60,60,1
-1103,[23, 18, 13, 24],Lumberjack,Hare,60,60,1
-1104,[21, 18, 2, 7],Hare,Lumberjack,60,60,1
-1105,[5, 6, 18, 10],Gardener,Hero,60,60,1
-1106,[10, 12, 6, 5],Hero,Gardener,60,60,-1
-1107,[3, 14, 19, 7],Gardener,Sniper,60,60,1
-1108,[5, 8, 0, 11],Sniper,Gardener,60,60,-1
-1109,[10, 21, 18, 12],Gardener,Caterpillar,60,60,-1
-1110,[1, 10, 8, 16],Caterpillar,Gardener,60,60,-1
-1111,[6, 14, 15, 11],Gardener,Hare,60,60,-1
-1112,[12, 13, 0, 1],Hare,Gardener,60,60,1
-1113,[24, 13, 15, 1],Economist,Hero,60,60,-1
-1114,[2, 13, 1, 0],Hero,Economist,60,60,1
-1115,[16, 17, 3, 18],Economist,Sniper,60,60,-1
-1116,[5, 8, 18, 1],Sniper,Economist,60,60,-1
-1117,[14, 17, 1, 10],Economist,Caterpillar,60,60,-1
-1118,[7, 1, 13, 5],Caterpillar,Economist,60,60,-1
-1119,[6, 13, 19, 0],Economist,Hare,60,60,1
-1120,[6, 5, 7, 8],Hare,Economist,60,60,-1
-1121,[13, 14, 21, 19],Hero,Gardener,60,60,-1
-1122,[4, 2, 17, 18],Gardener,Hero,60,60,1
-1123,[21, 3, 16, 10],Hero,Gardener,60,60,-1
-1124,[2, 15, 13, 0],Gardener,Hero,60,60,-1
-1125,[19, 8, 6, 22],Hero,Economist,60,60,-1
-1126,[4, 2, 10, 16],Economist,Hero,60,60,1
-1127,[20, 11, 6, 10],Sniper,Gardener,60,60,-1
-1128,[7, 0, 18, 2],Gardener,Sniper,60,60,1
-1129,[23, 11, 13, 9],Sniper,Gardener,60,60,-1
-1130,[12, 7, 13, 5],Gardener,Sniper,60,60,1
-1131,[7, 8, 21, 6],Sniper,Gardener,60,60,-1
-1132,[2, 3, 18, 13],Gardener,Sniper,60,60,-1
-1133,[19, 11, 6, 1],Sniper,Professor,60,60,1
-1134,[16, 12, 2, 6],Professor,Sniper,60,60,-1
-1135,[22, 16, 2, 1],Caterpillar,Lumberjack,60,60,1
-1136,[17, 11, 5, 1],Lumberjack,Caterpillar,60,60,1
-1137,[16, 11, 22, 17],Hare,Gardener,60,60,-1
-1138,[5, 1, 22, 12],Gardener,Hare,60,60,1
-1139,[9, 15, 12, 14],Hare,Economist,60,60,-1
-1140,[9, 7, 3, 5],Economist,Hare,60,60,1
-1141,[16, 20, 4, 17],Hare,Economist,60,60,-1
-1142,[0, 17, 7, 13],Economist,Hare,60,60,1
-1143,[22, 17, 16, 13],Hare,Economist,60,60,-1
-1144,[3, 16, 5, 1],Economist,Hare,60,60,-1
-1145,[13, 18, 16, 0],Hare,Economist,60,60,1
-1146,[5, 0, 12, 3],Economist,Hare,60,60,1
-1147,[20, 3, 19, 4],Sniper,Professor,60,60,1
-1148,[16, 13, 19, 3],Professor,Sniper,60,60,1
-1149,[13, 10, 6, 24],Sniper,Professor,60,60,-1
-1150,[2, 1, 4, 19],Professor,Sniper,60,60,1
-1151,[10, 15, 22, 14],Sniper,Professor,60,60,-1
-1152,[0, 18, 9, 4],Professor,Sniper,60,60,1
-1153,[7, 13, 12, 21],Hero,Economist,60,60,-1
-1154,[2, 1, 21, 20],Economist,Hero,60,60,1
-1155,[20, 15, 21, 12],Hero,Economist,60,60,-1
-1156,[0, 12, 11, 9],Economist,Hero,60,60,1
-1157,[11, 7, 15, 22],Sniper,Lumberjack,60,60,-1
-1158,[3, 12, 21, 11],Lumberjack,Sniper,60,60,-1
-1159,[8, 16, 14, 1],Sniper,Economist,60,60,-1
-1160,[2, 11, 8, 1],Economist,Sniper,60,60,1
-1161,[13, 11, 18, 7],Caterpillar,Gardener,60,60,1
-1162,[21, 15, 9, 8],Gardener,Caterpillar,60,60,1
-1163,[7, 24, 11, 8],Caterpillar,Economist,60,60,1
-1164,[0, 12, 10, 3],Economist,Caterpillar,60,60,1
-1165,[12, 21, 2, 13],Hare,Lumberjack,60,60,-1
-1166,[7, 17, 0, 23],Lumberjack,Hare,60,60,-1
-1167,[23, 5, 2, 19],Hero,Lumberjack,60,60,-1
-1168,[15, 5, 7, 12],Lumberjack,Hero,60,60,-1
-1169,[12, 24, 13, 21],Hero,Professor,60,60,-1
-1170,[1, 11, 14, 17],Professor,Hero,60,60,1
-1171,[16, 23, 6, 3],Sniper,Lumberjack,60,60,-1
-1172,[2, 19, 10, 6],Lumberjack,Sniper,60,60,1
-1173,[17, 12, 10, 0],Sniper,Economist,60,60,-1
-1174,[2, 12, 0, 6],Economist,Sniper,60,60,-1
-1175,[16, 13, 3, 0],Caterpillar,Caterpillar,60,60,-1
-1176,[10, 11, 3, 0],Caterpillar,Caterpillar,60,60,1
-1177,[1, 15, 23, 8],Caterpillar,Lumberjack,60,60,-1
-1178,[7, 3, 5, 6],Lumberjack,Caterpillar,60,60,-1
-1179,[6, 4, 9, 17],Caterpillar,Gardener,60,60,-1
-1180,[3, 14, 11, 13],Gardener,Caterpillar,60,60,1
-1181,[2, 0, 20, 4],Caterpillar,Economist,60,60,1
-1182,[16, 10, 22, 12],Economist,Caterpillar,60,60,1
-1183,[15, 17, 11, 3],Caterpillar,Professor,60,60,-1
-1184,[11, 7, 12, 2],Professor,Caterpillar,60,60,1
-1185,[12, 6, 23, 10],Hare,Hare,60,60,-1
-1186,[3, 5, 0, 1],Hare,Hare,60,60,1
-1187,[0, 12, 7, 20],Hare,Lumberjack,60,60,1
-1188,[8, 17, 15, 10],Lumberjack,Hare,60,60,-1
-1189,[0, 20, 24, 16],Hare,Gardener,60,60,-1
-1190,[1, 10, 18, 11],Gardener,Hare,60,60,1
-1191,[2, 8, 18, 23],Economist,Professor,60,60,1
-1192,[7, 1, 21, 8],Professor,Economist,60,60,1
-1193,[9, 11, 13, 23],Economist,Professor,60,60,-1
-1194,[14, 7, 16, 11],Professor,Economist,60,60,1
-1195,[21, 13, 10, 6],Hare,Professor,60,60,-1
-1196,[10, 17, 6, 12],Professor,Hare,60,60,-1
-1197,[12, 2, 9, 21],Economist,Professor,60,60,-1
-1198,[9, 1, 4, 3],Professor,Economist,60,60,1
-1199,[14, 16, 24, 0],Hero,Lumberjack,60,60,2
-1200,[6, 7, 0, 5],Lumberjack,Hero,60,60,1
-1201,[23, 9, 14, 11],Hero,Gardener,60,60,-1
-1202,[1, 6, 2, 13],Gardener,Hero,60,60,1
-1203,[10, 2, 5, 16],Hero,Professor,60,60,1
-1204,[12, 13, 4, 15],Professor,Hero,60,60,1
-1205,[12, 18, 24, 9],Sniper,Lumberjack,60,60,-1
-1206,[3, 11, 6, 0],Lumberjack,Sniper,60,60,1
-1207,[5, 11, 22, 9],Sniper,Economist,60,60,-1
-1208,[0, 16, 5, 7],Economist,Sniper,60,60,1
-1209,[16, 18, 13, 9],Caterpillar,Lumberjack,60,60,-1
-1210,[0, 6, 4, 3],Lumberjack,Caterpillar,60,60,1
-1211,[8, 3, 12, 6],Caterpillar,Gardener,60,60,1
-1212,[2, 7, 5, 12],Gardener,Caterpillar,60,60,-1
-1213,[3, 15, 1, 24],Caterpillar,Economist,60,60,1
-1214,[14, 11, 15, 7],Economist,Caterpillar,60,60,1
-1215,[22, 24, 12, 21],Caterpillar,Professor,60,60,1
-1216,[7, 5, 12, 14],Professor,Caterpillar,60,60,1
-1217,[24, 18, 8, 2],Hare,Lumberjack,60,60,1
-1218,[23, 19, 0, 8],Lumberjack,Hare,60,60,1
-1219,[20, 5, 1, 4],Hare,Gardener,60,60,-1
-1220,[2, 0, 12, 7],Gardener,Hare,60,60,1
-1221,[24, 15, 1, 9],Hare,Professor,60,60,-1
-1222,[2, 6, 17, 18],Professor,Hare,60,60,1
-1223,[9, 7, 15, 13],Economist,Professor,60,60,2
-1224,[4, 10, 5, 7],Professor,Economist,60,60,1
-1225,[21, 20, 15, 24],Hero,Lumberjack,60,60,-1
-1226,[15, 21, 8, 7],Lumberjack,Professor,60,60,-1
-1227,[18, 16, 7, 8],Professor,Lumberjack,60,60,1
-1228,[4, 14, 19, 3],Lumberjack,Professor,60,60,1
-1229,[1, 8, 17, 5],Professor,Lumberjack,60,60,-1
-1230,[20, 9, 18, 3],Lumberjack,Professor,60,60,1
-1231,[10, 18, 23, 8],Professor,Lumberjack,60,60,1
-1232,[11, 10, 22, 6],Lumberjack,Professor,60,60,1
-1233,[12, 2, 18, 13],Professor,Lumberjack,60,60,1
-1234,[2, 18, 20, 5],Hero,Lumberjack,60,60,-1
-1235,[10, 5, 11, 2],Lumberjack,Hero,60,60,-1
-1236,[23, 12, 6, 9],Hero,Gardener,60,60,1
-1237,[12, 17, 0, 3],Gardener,Hero,60,60,-1
-1238,[24, 16, 8, 0],Hero,Economist,60,60,-1
-1239,[10, 3, 1, 12],Economist,Hero,60,60,1
-1240,[12, 0, 21, 22],Hero,Professor,60,60,1
-1241,[1, 5, 15, 7],Professor,Hero,60,60,1
-1242,[13, 10, 2, 14],Sniper,Lumberjack,60,60,1
-1243,[7, 16, 5, 14],Lumberjack,Sniper,60,60,1
-1244,[18, 14, 21, 23],Sniper,Gardener,60,60,-1
-1245,[1, 8, 22, 21],Gardener,Sniper,60,60,-1
-1246,[4, 11, 22, 5],Sniper,Economist,60,60,1
-1247,[8, 7, 2, 1],Economist,Sniper,60,60,1
-1248,[10, 7, 3, 4],Caterpillar,Lumberjack,60,60,1
-1249,[11, 6, 3, 4],Lumberjack,Caterpillar,60,60,1
-1250,[14, 4, 2, 10],Gardener,Professor,60,60,-2
-1251,[7, 0, 12, 1],Professor,Gardener,60,60,1
-1252,[23, 19, 1, 5],Gardener,Professor,60,60,1
-1253,[14, 7, 17, 10],Professor,Gardener,60,60,-1
-1254,[24, 5, 11, 14],Gardener,Professor,60,60,-1
-1255,[10, 6, 17, 23],Professor,Gardener,60,60,1
-1256,[19, 15, 23, 4],Gardener,Professor,60,60,1
-1257,[17, 2, 3, 20],Professor,Gardener,60,60,-1
-1258,[2, 4, 17, 3],Caterpillar,Gardener,60,60,-1
-1259,[10, 8, 0, 14],Gardener,Caterpillar,60,60,1
-1260,[20, 10, 4, 16],Caterpillar,Economist,60,60,-1
-1261,[11, 10, 8, 16],Economist,Caterpillar,60,60,-1
-1262,[2, 5, 15, 11],Caterpillar,Professor,60,60,1
-1263,[2, 7, 16, 10],Professor,Caterpillar,60,60,-1
-1264,[4, 16, 13, 0],Hare,Lumberjack,60,60,-1
-1265,[2, 15, 5, 10],Lumberjack,Hare,60,60,1
-1266,[13, 23, 11, 6],Hare,Gardener,60,60,1
-1267,[16, 11, 12, 7],Gardener,Hare,60,60,-1
-1268,[1, 10, 9, 18],Hare,Professor,60,60,1
-1269,[6, 0, 17, 16],Professor,Hare,60,60,1
-1270,[3, 18, 2, 6],Lumberjack,Professor,60,60,-1
-1271,[13, 11, 7, 1],Professor,Lumberjack,60,60,1
-1272,[6, 5, 2, 0],Gardener,Professor,60,60,-1
-1273,[5, 17, 2, 6],Professor,Gardener,60,60,-1
-1274,[7, 24, 23, 3],Economist,Professor,60,60,1
-1275,[2, 16, 8, 13],Professor,Economist,60,60,1
-1276,[20, 12, 13, 18],Hero,Lumberjack,60,60,1
-1277,[3, 6, 5, 18],Lumberjack,Hero,60,60,1
-1278,[14, 4, 15, 1],Hero,Gardener,60,60,-1
-1279,[5, 9, 12, 6],Gardener,Hero,60,60,1
-1280,[16, 7, 15, 17],Hero,Economist,60,60,1
-1281,[11, 6, 16, 21],Economist,Hero,60,60,1
-1282,[6, 11, 3, 7],Hero,Professor,60,60,1
-1283,[7, 6, 13, 21],Professor,Hero,60,60,-1
-1284,[17, 10, 6, 11],Sniper,Lumberjack,60,60,-1
-1285,[8, 2, 6, 7],Lumberjack,Sniper,60,60,-1
-1286,[22, 17, 2, 8],Sniper,Gardener,60,60,-1
-1287,[10, 11, 8, 12],Gardener,Sniper,60,60,-1
-1288,[0, 19, 18, 5],Sniper,Economist,60,60,-1
-1289,[5, 13, 12, 11],Economist,Sniper,60,60,-1
-1290,[22, 3, 6, 17],Caterpillar,Lumberjack,60,60,-1
-1291,[5, 6, 7, 2],Lumberjack,Caterpillar,60,60,1
-1292,[20, 7, 21, 6],Caterpillar,Gardener,60,60,-1
-1293,[13, 2, 15, 12],Gardener,Caterpillar,60,60,1
-1294,[0, 19, 24, 20],Caterpillar,Economist,60,60,-1
-1295,[2, 19, 6, 5],Economist,Caterpillar,60,60,1
-1296,[12, 1, 2, 10],Caterpillar,Professor,60,60,-1
-1297,[8, 7, 3, 16],Professor,Caterpillar,60,60,1
-1298,[16, 17, 14, 20],Hare,Lumberjack,60,60,-1
-1299,[11, 22, 0, 21],Lumberjack,Hare,60,60,1
-1300,[17, 9, 14, 19],Hare,Gardener,60,60,-1
-1301,[5, 3, 18, 12],Gardener,Hare,60,60,-1
-1302,[22, 19, 14, 24],Hare,Economist,60,60,1
-1303,[18, 13, 3, 5],Economist,Hare,60,60,1
-1304,[8, 10, 1, 7],Hare,Professor,60,60,-1
-1305,[10, 8, 0, 12],Professor,Hare,60,60,1
-1306,[14, 23, 12, 2],Lumberjack,Professor,60,60,-1
-1307,[8, 12, 2, 1],Professor,Lumberjack,60,60,1
-1308,[18, 4, 12, 14],Gardener,Professor,60,60,-1
-1309,[8, 1, 7, 10],Professor,Gardener,60,60,-1
-1310,[4, 22, 5, 14],Economist,Professor,60,60,1
-1311,[8, 11, 6, 12],Professor,Economist,60,60,-1
-1312,[13, 16, 21, 8],Hero,Lumberjack,60,60,-1
-1313,[1, 10, 6, 18],Lumberjack,Hero,60,60,1
-1314,[19, 11, 14, 24],Hero,Gardener,60,60,1
-1315,[7, 17, 0, 12],Gardener,Hero,60,60,-1
-1316,[20, 8, 1, 15],Hero,Economist,60,60,-1
-1317,[1, 13, 6, 15],Economist,Hero,60,60,1
-1318,[19, 4, 17, 21],Hero,Professor,60,60,-1
-1319,[12, 6, 1, 9],Professor,Hero,60,60,1
-1320,[11, 15, 0, 16],Sniper,Lumberjack,60,60,1
-1321,[1, 12, 15, 9],Lumberjack,Sniper,60,60,1
-1322,[20, 9, 4, 10],Sniper,Gardener,60,60,-1
-1323,[10, 7, 13, 18],Gardener,Sniper,60,60,1
-1324,[22, 2, 12, 8],Sniper,Economist,60,60,1
-1325,[20, 17, 21, 8],Economist,Sniper,60,60,-1
-1326,[0, 19, 21, 1],Sniper,Professor,60,60,-1
-1327,[5, 6, 18, 2],Professor,Sniper,60,60,-1
-1328,[6, 20, 11, 8],Caterpillar,Lumberjack,60,60,-1
-1329,[1, 16, 4, 3],Lumberjack,Caterpillar,60,60,1
-1330,[17, 14, 21, 4],Caterpillar,Gardener,60,60,1
-1331,[17, 9, 0, 11],Gardener,Caterpillar,60,60,1
-1332,[7, 17, 20, 24],Caterpillar,Economist,60,60,-1
-1333,[5, 6, 3, 8],Economist,Caterpillar,60,60,1
-1334,[11, 15, 18, 13],Caterpillar,Professor,60,60,1
-1335,[8, 12, 5, 22],Professor,Caterpillar,60,60,1
-1336,[21, 7, 17, 4],Hare,Lumberjack,60,60,1
-1337,[5, 3, 12, 2],Lumberjack,Hare,60,60,1
-1338,[12, 19, 24, 9],Hare,Gardener,60,60,-1
-1339,[2, 7, 11, 9],Gardener,Hare,60,60,-1
-1340,[20, 14, 10, 22],Hare,Economist,60,60,-1
-1341,[16, 0, 7, 11],Economist,Hare,60,60,1
-1342,[20, 6, 21, 13],Hare,Professor,60,60,1
-1343,[1, 6, 16, 18],Professor,Hare,60,60,1
-1344,[14, 4, 12, 24],Lumberjack,Professor,60,60,-1
-1345,[4, 6, 11, 22],Professor,Lumberjack,60,60,1
-1346,[17, 11, 14, 19],Gardener,Professor,60,60,1
-1347,[0, 1, 20, 12],Professor,Gardener,60,60,-1
-1348,[10, 14, 8, 15],Economist,Professor,60,60,-1
-1349,[22, 12, 0, 10],Professor,Economist,60,60,-1
-1350,[16, 14, 18, 20],Hero,Lumberjack,60,60,-1
-1351,[1, 6, 18, 20],Lumberjack,Hero,60,60,1
-1352,[10, 22, 21, 19],Hero,Gardener,60,60,1
-1353,[5, 10, 2, 14],Gardener,Hero,60,60,1
-1354,[23, 9, 10, 13],Hero,Economist,60,60,-1
-1355,[2, 17, 3, 16],Economist,Hero,60,60,1
-1356,[17, 7, 13, 23],Hero,Professor,60,60,-1
-1357,[2, 1, 16, 21],Professor,Hero,60,60,-1
-1358,[16, 12, 15, 1],Sniper,Lumberjack,60,60,1
-1359,[8, 7, 1, 10],Lumberjack,Sniper,60,60,1
-1360,[17, 8, 22, 1],Sniper,Gardener,60,60,-1
-1361,[1, 8, 16, 12],Gardener,Sniper,60,60,-1
-1362,[24, 6, 0, 11],Sniper,Economist,60,60,-1
-1363,[5, 6, 7, 15],Economist,Sniper,60,60,1
-1364,[16, 10, 24, 13],Sniper,Professor,60,60,-1
-1365,[0, 16, 6, 17],Professor,Sniper,60,60,1
-1366,[12, 21, 16, 22],Caterpillar,Lumberjack,60,60,1
-1367,[1, 22, 11, 18],Lumberjack,Caterpillar,60,60,1
-1368,[11, 24, 3, 17],Caterpillar,Gardener,60,60,-1
-1369,[0, 4, 7, 6],Gardener,Caterpillar,60,60,1
-1370,[18, 1, 16, 9],Caterpillar,Economist,60,60,1
-1371,[1, 7, 12, 19],Economist,Caterpillar,60,60,-1
-1372,[13, 8, 16, 12],Caterpillar,Professor,60,60,1
-1373,[5, 11, 21, 12],Professor,Caterpillar,60,60,1
-1374,[9, 8, 14, 17],Hare,Lumberjack,60,60,-1
-1375,[7, 4, 12, 0],Lumberjack,Hare,60,60,-1
-1376,[8, 6, 13, 16],Hare,Gardener,60,60,-1
-1377,[0, 8, 3, 11],Gardener,Hare,60,60,1
-1378,[11, 5, 6, 17],Hare,Economist,60,60,-1
-1379,[3, 8, 13, 10],Economist,Hare,60,60,-1
-1380,[12, 20, 17, 19],Hare,Professor,60,60,1
-1381,[24, 10, 8, 12],Professor,Hare,60,60,1
-1382,[1, 22, 13, 24],Lumberjack,Professor,60,60,1
-1383,[15, 16, 17, 13],Professor,Lumberjack,60,60,1
-1384,[5, 14, 22, 18],Gardener,Professor,60,60,-1
-1385,[13, 12, 11, 5],Professor,Gardener,60,60,1
-1386,[17, 16, 12, 3],Economist,Professor,60,60,1
-1387,[17, 7, 11, 2],Professor,Economist,60,60,-1
-1388,[11, 22, 8, 0],Hero,Lumberjack,60,60,-1
-1389,[3, 15, 1, 7],Lumberjack,Hero,60,60,-1
-1390,[6, 17, 16, 4],Hero,Gardener,60,60,-1
-1391,[4, 3, 7, 12],Gardener,Hero,60,60,1
-1392,[24, 9, 7, 15],Hero,Economist,60,60,1
-1393,[7, 13, 2, 0],Economist,Hero,60,60,1
-1394,[12, 8, 10, 5],Hero,Professor,60,60,1
-1395,[6, 8, 5, 21],Professor,Hero,60,60,1
-1396,[24, 14, 4, 13],Sniper,Lumberjack,60,60,1
-1397,[13, 8, 19, 6],Lumberjack,Sniper,60,60,1
-1398,[15, 14, 0, 4],Sniper,Gardener,60,60,-1
-1399,[0, 10, 4, 6],Gardener,Sniper,60,60,-1
-1400,[17, 18, 9, 11],Sniper,Economist,60,60,-1
-1401,[19, 12, 0, 11],Economist,Sniper,60,60,1
-1402,[1, 6, 20, 15],Sniper,Professor,60,60,1
-1403,[9, 18, 6, 3],Professor,Sniper,60,60,-1
-1404,[20, 12, 2, 17],Caterpillar,Lumberjack,60,60,-1
-1405,[0, 12, 3, 11],Lumberjack,Caterpillar,60,60,-1
-1406,[21, 3, 12, 23],Caterpillar,Gardener,60,60,-1
-1407,[6, 2, 12, 1],Gardener,Caterpillar,60,60,-1
-1408,[0, 22, 8, 6],Caterpillar,Economist,60,60,-1
-1409,[0, 10, 9, 12],Economist,Caterpillar,60,60,1
-1410,[15, 16, 7, 0],Caterpillar,Professor,60,60,1
-1411,[6, 1, 18, 11],Professor,Caterpillar,60,60,1
-1412,[2, 13, 0, 12],Hare,Lumberjack,60,60,-1
-1413,[3, 5, 1, 6],Lumberjack,Hare,60,60,1
-1414,[18, 17, 19, 12],Hare,Gardener,60,60,-1
-1415,[5, 6, 13, 3],Gardener,Hare,60,60,1
-1416,[6, 1, 0, 2],Hare,Economist,60,60,-1
-1417,[15, 11, 0, 2],Economist,Hare,60,60,-1
-1418,[20, 9, 11, 19],Hare,Professor,60,60,-1
-1419,[1, 8, 11, 15],Professor,Hare,60,60,1
-1420,[22, 21, 3, 1],Lumberjack,Professor,60,60,1
-1421,[16, 11, 18, 7],Professor,Lumberjack,60,60,1
-1422,[16, 6, 5, 1],Gardener,Professor,60,60,-1
-1423,[5, 12, 1, 16],Professor,Gardener,60,60,-1
-1424,[2, 12, 22, 0],Economist,Professor,60,60,-1
-1425,[4, 2, 12, 13],Professor,Economist,60,60,1
-1426,[10, 9, 11, 6],Hero,Lumberjack,60,60,-1
-1427,[2, 3, 0, 19],Lumberjack,Hero,60,60,-1
-1428,[13, 2, 16, 6],Hero,Gardener,60,60,-1
-1429,[7, 6, 18, 13],Gardener,Hero,60,60,1
-1430,[14, 15, 21, 1],Hero,Economist,60,60,-1
-1431,[9, 5, 8, 7],Economist,Hero,60,60,1
-1432,[19, 20, 7, 0],Hero,Professor,60,60,1
-1433,[2, 7, 13, 5],Professor,Hero,60,60,1
-1434,[22, 17, 12, 1],Sniper,Lumberjack,60,60,-1
-1435,[12, 0, 1, 7],Lumberjack,Sniper,60,60,-1
-1436,[24, 8, 0, 6],Sniper,Gardener,60,60,-1
-1437,[10, 7, 1, 13],Gardener,Sniper,60,60,1
-1438,[20, 2, 22, 12],Sniper,Economist,60,60,1
-1439,[0, 6, 21, 11],Economist,Sniper,60,60,-1
-1440,[7, 17, 20, 9],Sniper,Professor,60,60,-1
-1441,[13, 10, 5, 18],Professor,Sniper,60,60,1
-1442,[12, 7, 20, 3],Caterpillar,Lumberjack,60,60,-1
-1443,[9, 6, 10, 2],Lumberjack,Caterpillar,60,60,1
-1444,[20, 19, 14, 0],Caterpillar,Gardener,60,60,-1
-1445,[10, 11, 9, 7],Gardener,Caterpillar,60,60,1
-1446,[0, 17, 19, 15],Caterpillar,Economist,60,60,-1
-1447,[3, 11, 24, 1],Economist,Caterpillar,60,60,1
-1448,[5, 11, 20, 22],Caterpillar,Professor,60,60,-1
-1449,[0, 1, 18, 12],Professor,Caterpillar,60,60,1
-1450,[15, 22, 6, 2],Hare,Lumberjack,60,60,1
-1451,[11, 7, 20, 1],Lumberjack,Hare,60,60,1
-1452,[8, 24, 22, 13],Hare,Gardener,60,60,-1
-1453,[0, 18, 17, 12],Gardener,Hare,60,60,-1
-1454,[4, 3, 6, 24],Hare,Economist,60,60,1
-1455,[2, 3, 1, 22],Economist,Hare,60,60,1
-1456,[18, 11, 19, 12],Hare,Professor,60,60,-1
-1457,[0, 6, 19, 9],Professor,Hare,60,60,1
-1458,[2, 9, 0, 8],Lumberjack,Professor,60,60,-1
-1459,[15, 8, 1, 11],Professor,Lumberjack,60,60,1
-1460,[21, 20, 6, 1],Gardener,Professor,60,60,-1
-1461,[9, 21, 12, 7],Professor,Gardener,60,60,1
-1462,[10, 16, 22, 19],Economist,Professor,60,60,1
-1463,[6, 7, 8, 14],Professor,Economist,60,60,1
-1464,[7, 2, 24, 8],Hero,Lumberjack,60,60,-1
-1465,[2, 7, 12, 8],Lumberjack,Hero,60,60,1
-1466,[19, 20, 21, 17],Hero,Gardener,60,60,-1
-1467,[2, 20, 1, 13],Gardener,Hero,60,60,-1
-1468,[9, 21, 12, 2],Hero,Economist,60,60,1
-1469,[5, 11, 17, 7],Economist,Hero,60,60,1
-1470,[1, 21, 0, 12],Hero,Professor,60,60,1
-1471,[2, 7, 1, 11],Professor,Hero,60,60,-1
-1472,[10, 3, 14, 16],Sniper,Lumberjack,60,60,1
-1473,[7, 11, 0, 17],Lumberjack,Sniper,60,60,1
-1474,[18, 2, 15, 21],Sniper,Gardener,60,60,-1
-1475,[16, 1, 5, 0],Gardener,Sniper,60,60,-1
-1476,[12, 6, 10, 16],Sniper,Economist,60,60,-1
-1477,[10, 6, 5, 7],Economist,Sniper,60,60,-1
-1478,[11, 15, 4, 8],Sniper,Professor,60,60,1
-1479,[12, 17, 2, 11],Professor,Sniper,60,60,-1
-1480,[2, 20, 14, 18],Caterpillar,Lumberjack,60,60,-1
-1481,[0, 6, 9, 7],Lumberjack,Caterpillar,60,60,1
-1482,[4, 18, 21, 3],Caterpillar,Gardener,60,60,-1
-1483,[3, 13, 21, 16],Gardener,Caterpillar,60,60,1
-1484,[6, 2, 12, 19],Caterpillar,Economist,60,60,1
-1485,[6, 1, 14, 12],Economist,Caterpillar,60,60,-1
-1486,[19, 18, 16, 13],Caterpillar,Professor,60,60,1
-1487,[19, 18, 22, 12],Professor,Caterpillar,60,60,1
-1488,[4, 0, 11, 22],Hare,Lumberjack,60,60,1
-1489,[2, 7, 0, 6],Lumberjack,Hare,60,60,-1
-1490,[19, 18, 12, 8],Hare,Gardener,60,60,1
-1491,[19, 18, 0, 13],Gardener,Hare,60,60,-1
-1492,[0, 4, 24, 9],Hare,Economist,60,60,-1
-1493,[1, 13, 3, 8],Economist,Hare,60,60,-1
-1494,[1, 7, 15, 13],Hare,Professor,60,60,-1
-1495,[7, 3, 10, 5],Professor,Hare,60,60,1
-1496,[3, 0, 19, 6],Lumberjack,Professor,60,60,-1
-1497,[2, 0, 18, 12],Professor,Lumberjack,60,60,1
-1498,[11, 10, 21, 20],Gardener,Professor,60,60,1
-1499,[7, 8, 16, 19],Professor,Gardener,60,60,-1
-1500,[12, 24, 21, 14],Economist,Professor,60,60,1
-1501,[16, 12, 13, 5],Professor,Economist,60,60,-1
-1502,[3, 4, 19, 23],Hero,Lumberjack,60,60,1
-1503,[3, 6, 1, 23],Lumberjack,Hero,60,60,-1
-1504,[9, 18, 22, 1],Hero,Gardener,60,60,1
-1505,[6, 17, 16, 9],Gardener,Hero,60,60,-1
-1506,[11, 21, 1, 17],Hero,Economist,60,60,-1
-1507,[5, 10, 6, 16],Economist,Hero,60,60,1
-1508,[15, 12, 13, 10],Hero,Professor,60,60,-1
-1509,[0, 4, 18, 12],Professor,Hero,60,60,1
-1510,[24, 18, 2, 8],Sniper,Lumberjack,60,60,-1
-1511,[10, 8, 5, 1],Lumberjack,Sniper,60,60,-1
-1512,[18, 1, 10, 13],Sniper,Gardener,60,60,1
-1513,[15, 6, 1, 4],Gardener,Sniper,60,60,1
-1514,[5, 14, 22, 24],Sniper,Economist,60,60,1
-1515,[6, 11, 15, 12],Economist,Sniper,60,60,1
-1516,[20, 17, 21, 2],Sniper,Professor,60,60,1
-1517,[5, 16, 17, 11],Professor,Sniper,60,60,-1
-1518,[18, 24, 20, 23],Caterpillar,Lumberjack,60,60,-1
-1519,[1, 14, 21, 16],Lumberjack,Caterpillar,60,60,1
-1520,[24, 13, 18, 10],Caterpillar,Gardener,60,60,-1
-1521,[2, 7, 11, 12],Gardener,Caterpillar,60,60,1
-1522,[0, 13, 7, 16],Caterpillar,Economist,60,60,-1
-1523,[0, 2, 11, 16],Economist,Caterpillar,60,60,1
-1524,[11, 2, 0, 21],Caterpillar,Professor,60,60,1
-1525,[17, 7, 10, 6],Professor,Caterpillar,60,60,1
-1526,[12, 0, 1, 14],Hare,Lumberjack,60,60,1
-1527,[10, 6, 4, 3],Lumberjack,Hare,60,60,1
-1528,[9, 3, 20, 5],Hare,Gardener,60,60,-1
-1529,[1, 12, 15, 11],Gardener,Hare,60,60,1
-1530,[21, 6, 17, 10],Hare,Economist,60,60,1
-1531,[20, 1, 6, 12],Economist,Hare,60,60,-1
-1532,[22, 19, 4, 16],Hare,Professor,60,60,-1
-1533,[1, 12, 3, 8],Professor,Hare,60,60,1
-1534,[9, 6, 15, 5],Lumberjack,Professor,60,60,-1
-1535,[0, 5, 8, 7],Professor,Lumberjack,60,60,1
-1536,[16, 22, 19, 10],Gardener,Professor,60,60,-1
-1537,[3, 24, 6, 2],Professor,Gardener,60,60,1
-1538,[8, 24, 21, 16],Economist,Professor,60,60,-1
-1539,[3, 21, 12, 24],Professor,Economist,60,60,1
-1540,[5, 7, 20, 3],Hero,Lumberjack,60,60,-2
-1541,[1, 10, 15, 2],Lumberjack,Hero,60,60,1
-1542,[2, 21, 8, 18],Hero,Gardener,60,60,-1
-1543,[1, 21, 10, 15],Gardener,Hero,60,60,1
-1544,[14, 12, 0, 24],Hero,Economist,60,60,1
-1545,[16, 11, 20, 1],Economist,Hero,60,60,1
-1546,[11, 16, 24, 22],Hero,Professor,60,60,-1
-1547,[0, 1, 17, 22],Professor,Hero,60,60,1
-1548,[3, 16, 5, 2],Sniper,Lumberjack,60,60,-1
-1549,[7, 11, 0, 5],Lumberjack,Sniper,60,60,-1
-1550,[23, 12, 6, 7],Sniper,Gardener,60,60,1
-1551,[10, 12, 2, 15],Gardener,Sniper,60,60,1
-1552,[1, 13, 6, 0],Sniper,Economist,60,60,-1
-1553,[6, 11, 2, 1],Economist,Sniper,60,60,1
-1554,[7, 19, 4, 11],Sniper,Professor,60,60,-1
-1555,[9, 18, 8, 7],Professor,Sniper,60,60,-1
-1556,[16, 10, 0, 19],Caterpillar,Lumberjack,60,60,1
-1557,[2, 3, 10, 19],Lumberjack,Caterpillar,60,60,1
-1558,[12, 7, 15, 21],Caterpillar,Gardener,60,60,-1
-1559,[3, 2, 15, 20],Gardener,Caterpillar,60,60,-1
-1560,[17, 4, 1, 22],Caterpillar,Economist,60,60,1
-1561,[3, 6, 16, 11],Economist,Caterpillar,60,60,1
-1562,[11, 22, 9, 21],Gardener,Economist,60,60,1
-1563,[3, 10, 17, 6],Economist,Gardener,60,60,-1
-1564,[20, 18, 23, 12],Gardener,Economist,60,60,-1
-1565,[14, 23, 5, 3],Economist,Gardener,60,60,-1
-1566,[13, 24, 6, 8],Gardener,Economist,60,60,-1
-1567,[9, 12, 7, 8],Economist,Gardener,60,60,-1
-1568,[8, 10, 0, 17],Gardener,Economist,60,60,-1
-1569,[3, 22, 1, 11],Economist,Gardener,60,60,-1
-1570,[10, 6, 12, 24],Gardener,Economist,60,60,1
-1571,[0, 24, 5, 23],Lumberjack,Gardener,60,60,-1
-1572,[6, 22, 19, 3],Lumberjack,Gardener,60,60,1
-1573,[10, 15, 7, 8],Gardener,Lumberjack,60,60,-1
-1574,[21, 3, 8, 20],Lumberjack,Gardener,60,60,1
-1575,[11, 13, 5, 15],Gardener,Lumberjack,60,60,-1
-1576,[15, 23, 14, 0],Lumberjack,Economist,60,60,-1
-1577,[2, 1, 10, 15],Economist,Lumberjack,60,60,-1
-1578,[17, 7, 8, 9],Lumberjack,Gardener,60,60,1
-1579,[5, 0, 12, 13],Gardener,Lumberjack,60,60,1
-1580,[7, 14, 17, 19],Lumberjack,Economist,60,60,1
-1581,[0, 7, 13, 23],Economist,Lumberjack,60,60,1
-1582,[23, 3, 13, 19],Lumberjack,Gardener,60,60,1
-1583,[6, 17, 14, 8],Gardener,Lumberjack,60,60,-1
-1584,[16, 4, 23, 11],Economist,Professor,60,60,1
-1585,[2, 16, 20, 19],Professor,Economist,60,60,-1
-1586,[10, 6, 11, 0],Lumberjack,Economist,60,60,-1
-1587,[1, 16, 3, 2],Economist,Lumberjack,60,60,-1
-1588,[5, 15, 9, 1],Gardener,Economist,60,60,1
-1589,[7, 12, 18, 13],Economist,Gardener,60,60,-1
-1590,[21, 17, 14, 2],Lumberjack,Gardener,60,60,-1
-1591,[12, 1, 2, 6],Gardener,Lumberjack,60,60,1
-1592,[16, 13, 23, 10],Lumberjack,Professor,60,60,-1
-1593,[0, 2, 21, 11],Professor,Lumberjack,60,60,-1
-1594,[18, 20, 9, 2],Gardener,Professor,60,60,1
-1595,[6, 11, 9, 14],Professor,Gardener,60,60,1
-1596,[16, 22, 0, 23],Economist,Professor,60,60,-1
-1597,[14, 4, 7, 22],Lumberjack,Economist,60,60,1
-1598,[3, 8, 12, 22],Economist,Lumberjack,60,60,1
-1599,[11, 9, 19, 13],Gardener,Economist,60,60,1
-1600,[22, 13, 8, 5],Economist,Gardener,60,60,-1
-1601,[8, 7, 23, 17],Economist,Professor,60,60,1
-1602,[14, 8, 3, 16],Professor,Economist,60,60,1
-1603,[19, 22, 3, 14],Caterpillar,Professor,60,60,1
-1604,[8, 17, 6, 11],Professor,Caterpillar,60,60,1
-1605,[6, 11, 22, 15],Hare,Professor,60,60,-1
-1606,[2, 13, 11, 12],Professor,Hare,60,60,1
-1607,[20, 13, 18, 17],Lumberjack,Gardener,60,60,-1
-1608,[12, 11, 3, 9],Gardener,Lumberjack,60,60,-1
-1609,[11, 13, 18, 8],Lumberjack,Professor,60,60,1
-1610,[6, 10, 1, 18],Professor,Lumberjack,60,60,1
-1611,[18, 0, 16, 23],Gardener,Professor,60,60,-1
-1612,[11, 5, 9, 2],Professor,Gardener,60,60,-1
-1613,[5, 21, 0, 7],Lumberjack,Economist,60,60,1
-1614,[13, 6, 17, 14],Economist,Lumberjack,60,60,1
-1615,[21, 10, 8, 9],Gardener,Economist,60,60,2
-1616,[12, 7, 6, 1],Economist,Gardener,60,60,-1
-1617,[4, 13, 11, 6],Economist,Professor,60,60,1
-1618,[14, 13, 17, 8],Professor,Economist,60,60,-1
-1619,[21, 2, 8, 16],Hero,Professor,60,60,-1
-1620,[3, 8, 22, 1],Professor,Hero,60,60,-1
-1621,[6, 20, 3, 13],Sniper,Professor,60,60,-1
-1622,[18, 11, 6, 19],Caterpillar,Professor,60,60,1
-1623,[13, 0, 12, 16],Professor,Caterpillar,60,60,1
-1624,[2, 13, 8, 3],Hare,Professor,60,60,-1
-1625,[6, 2, 16, 14],Professor,Hare,60,60,1
-1626,[22, 15, 6, 0],Lumberjack,Gardener,60,60,1
-1627,[21, 12, 0, 7],Gardener,Lumberjack,60,60,1
-1628,[3, 11, 17, 4],Lumberjack,Professor,60,60,-1
-1629,[0, 12, 9, 14],Professor,Lumberjack,60,60,1
-1630,[7, 17, 15, 20],Gardener,Professor,60,60,-1
-1631,[9, 8, 10, 15],Professor,Gardener,60,60,1
-1632,[20, 23, 6, 7],Sniper,Professor,60,60,1
-1633,[16, 2, 12, 5],Professor,Sniper,60,60,-1
-1634,[10, 1, 12, 2],Lumberjack,Economist,60,60,-1
-1635,[0, 10, 16, 13],Economist,Lumberjack,60,60,1
-1636,[22, 2, 12, 10],Gardener,Economist,60,60,1
-1637,[22, 1, 13, 6],Economist,Gardener,60,60,-1
-1638,[5, 0, 17, 11],Economist,Professor,60,60,1
-1639,[1, 0, 17, 18],Professor,Economist,60,60,1
-1640,[22, 14, 18, 5],Hero,Professor,60,60,-1
-1641,[7, 8, 6, 5],Professor,Hero,60,60,-1
-1642,[2, 10, 14, 24],Caterpillar,Professor,60,60,1
-1643,[5, 6, 18, 13],Professor,Caterpillar,60,60,1
-1644,[22, 0, 23, 3],Hare,Professor,60,60,-1
-1645,[10, 0, 18, 19],Professor,Hare,60,60,1
-1646,[21, 20, 7, 24],Lumberjack,Gardener,60,60,-1
-1647,[10, 16, 8, 14],Gardener,Lumberjack,60,60,1
-1648,[7, 17, 1, 10],Lumberjack,Professor,60,60,-1
-1649,[22, 1, 8, 16],Gardener,Professor,60,60,-1
-1650,[5, 13, 9, 18],Professor,Gardener,60,60,1
-1651,[23, 6, 19, 0],Sniper,Professor,60,60,1
-1652,[16, 10, 8, 5],Professor,Sniper,60,60,1
-1653,[5, 18, 14, 20],Lumberjack,Economist,60,60,1
-1654,[1, 15, 19, 0],Economist,Lumberjack,60,60,1
-1655,[22, 17, 6, 13],Lumberjack,Professor,60,60,1
-1656,[22, 6, 1, 5],Professor,Lumberjack,60,60,1
-1657,[19, 21, 12, 7],Gardener,Economist,60,60,-1
-1658,[9, 11, 2, 1],Economist,Gardener,60,60,-1
-1659,[21, 18, 7, 17],Economist,Professor,60,60,-1
-1660,[6, 16, 12, 20],Hero,Professor,60,60,-1
-1661,[7, 16, 0, 17],Professor,Hero,60,60,1
-1662,[1, 10, 23, 9],Caterpillar,Professor,60,60,1
-1663,[5, 6, 18, 13],Professor,Caterpillar,60,60,1
-1664,[21, 8, 9, 0],Hare,Professor,60,60,-1
-1665,[3, 19, 9, 2],Lumberjack,Gardener,60,60,1
-1666,[5, 14, 8, 7],Gardener,Lumberjack,60,60,1
-1667,[15, 14, 5, 4],Gardener,Professor,60,60,1
-1668,[11, 14, 1, 7],Professor,Gardener,60,60,1
-1669,[5, 15, 4, 21],Economist,Professor,60,60,1
-1670,[6, 13, 18, 16],Professor,Economist,60,60,1
-1671,[21, 3, 7, 9],Sniper,Professor,60,60,-1
-1672,[12, 7, 6, 1],Professor,Sniper,60,60,1
-1673,[8, 22, 3, 9],Hare,Professor,60,60,-1
-1674,[6, 10, 11, 3],Professor,Hare,60,60,1
-1675,[11, 4, 1, 9],Lumberjack,Economist,60,60,-1
-1676,[0, 9, 8, 14],Economist,Lumberjack,60,60,-1
-1677,[12, 18, 24, 0],Lumberjack,Professor,60,60,1
-1678,[8, 19, 11, 22],Professor,Lumberjack,60,60,-1
-1679,[7, 1, 4, 20],Gardener,Economist,60,60,1
-1680,[16, 23, 22, 9],Hero,Professor,60,60,1
-1681,[17, 11, 16, 6],Professor,Hero,60,60,1
-1682,[4, 17, 13, 3],Caterpillar,Professor,60,60,-1
-1683,[7, 1, 16, 10],Professor,Caterpillar,60,60,1
-1684,[11, 7, 16, 21],Lumberjack,Gardener,60,60,-1
-1685,[10, 8, 17, 22],Gardener,Lumberjack,60,60,1
-1686,[6, 19, 10, 0],Gardener,Economist,60,60,-1
-1687,[6, 13, 8, 5],Economist,Gardener,60,60,1
-1688,[3, 12, 11, 19],Gardener,Professor,60,60,1
-1689,[1, 2, 18, 12],Professor,Gardener,60,60,1
-1690,[19, 23, 10, 21],Economist,Professor,60,60,1
-1691,[5, 1, 22, 2],Professor,Economist,60,60,1
-1692,[24, 21, 5, 2],Sniper,Professor,60,60,-1
-1693,[5, 13, 21, 17],Professor,Sniper,60,60,-1
-1694,[20, 10, 9, 23],Hare,Professor,60,60,-1
-1695,[0, 15, 18, 6],Professor,Hare,60,60,-1
-1696,[7, 8, 18, 14],Lumberjack,Economist,60,60,1
-1697,[1, 0, 12, 17],Economist,Lumberjack,60,60,1
-1698,[23, 16, 14, 10],Lumberjack,Professor,60,60,-1
-1699,[10, 1, 14, 18],Professor,Lumberjack,60,60,-1
-1700,[6, 12, 21, 14],Hero,Professor,60,60,1
-1701,[10, 16, 22, 12],Professor,Hero,60,60,-1
-1702,[23, 12, 20, 1],Caterpillar,Professor,60,60,1
-1703,[13, 11, 17, 20],Professor,Caterpillar,60,60,1
-1704,[22, 9, 15, 18],Lumberjack,Gardener,60,60,1
-1705,[6, 8, 5, 10],Gardener,Lumberjack,60,60,-1
-1706,[7, 10, 5, 22],Gardener,Economist,60,60,1
-1707,[2, 12, 21, 18],Economist,Gardener,60,60,-1
-1708,[15, 16, 20, 11],Gardener,Professor,60,60,-1
-1709,[11, 14, 18, 0],Professor,Gardener,60,60,1
-1710,[22, 2, 12, 6],Economist,Professor,60,60,1
-1711,[18, 5, 7, 14],Professor,Economist,60,60,1
-1712,[22, 17, 21, 24],Sniper,Professor,60,60,1
-1713,[2, 7, 18, 5],Professor,Sniper,60,60,-1
-1714,[12, 17, 7, 21],Hare,Professor,60,60,-1
-1715,[0, 12, 10, 21],Professor,Hare,60,60,1
-1716,[0, 16, 24, 20],Lumberjack,Economist,60,60,1
-1717,[16, 14, 8, 18],Economist,Lumberjack,60,60,1
-1718,[15, 12, 2, 16],Lumberjack,Professor,60,60,-1
-1719,[5, 11, 7, 12],Professor,Lumberjack,60,60,1
-1720,[5, 21, 1, 0],Hero,Professor,60,60,1
-1721,[2, 8, 12, 5],Professor,Hero,60,60,1
-1722,[22, 7, 12, 19],Caterpillar,Professor,60,60,1
-1723,[10, 6, 7, 17],Professor,Caterpillar,60,60,-1
-1724,[1, 8, 14, 13],Hare,Lumberjack,60,60,-1
-1725,[3, 1, 17, 12],Lumberjack,Hare,60,60,-1
-1726,[12, 23, 20, 6],Hare,Gardener,60,60,1
-1727,[13, 6, 10, 18],Gardener,Hare,60,60,-1
-1728,[15, 8, 17, 5],Hare,Economist,60,60,-1
-1729,[0, 3, 18, 11],Economist,Hare,60,60,-1
-1730,[18, 23, 9, 7],Lumberjack,Gardener,60,60,-1
-1731,[11, 8, 6, 2],Gardener,Lumberjack,60,60,-1
-1732,[19, 12, 9, 23],Gardener,Economist,60,60,1
-1733,[13, 16, 0, 17],Economist,Gardener,60,60,-1
-1734,[24, 9, 17, 22],Gardener,Professor,60,60,-1
-1735,[15, 14, 6, 10],Professor,Gardener,60,60,-1
-1736,[6, 11, 23, 20],Economist,Professor,60,60,-1
-1737,[12, 11, 8, 18],Professor,Economist,60,60,1
-1738,[13, 8, 20, 24],Sniper,Professor,60,60,-1
-1739,[0, 7, 22, 23],Professor,Sniper,60,60,-1
-1740,[7, 18, 21, 20],Hare,Professor,60,60,-1
-1741,[2, 5, 15, 0],Professor,Hare,60,60,1
-1742,[7, 16, 24, 6],Lumberjack,Economist,60,60,1
-1743,[16, 11, 13, 7],Economist,Lumberjack,60,60,1
-1744,[24, 11, 10, 1],Lumberjack,Professor,60,60,-1
-1745,[11, 1, 4, 10],Professor,Lumberjack,60,60,1
-1746,[1, 7, 24, 19],Hero,Economist,60,60,-1
-1747,[0, 14, 2, 10],Economist,Hero,60,60,1
-1748,[6, 15, 2, 0],Hero,Professor,60,60,-1
-1749,[2, 16, 0, 6],Professor,Hero,60,60,1
-1750,[13, 11, 19, 4],Sniper,Lumberjack,60,60,1
-1751,[6, 5, 2, 1],Lumberjack,Sniper,60,60,1
-1752,[18, 4, 20, 23],Sniper,Gardener,60,60,-1
-1753,[2, 0, 16, 7],Gardener,Sniper,60,60,1
-1754,[4, 11, 18, 1],Caterpillar,Economist,60,60,-1
-1755,[0, 6, 23, 2],Economist,Caterpillar,60,60,1
-1756,[13, 10, 6, 21],Caterpillar,Professor,60,60,-1
-1757,[16, 8, 19, 0],Professor,Caterpillar,60,60,1
-1758,[16, 18, 12, 5],Hare,Lumberjack,60,60,-1
-1759,[3, 12, 5, 11],Lumberjack,Hare,60,60,1
-1760,[4, 13, 7, 3],Hare,Gardener,60,60,-1
-1761,[10, 1, 6, 14],Gardener,Hare,60,60,1
-1762,[18, 15, 5, 7],Hare,Economist,60,60,1
-1763,[1, 6, 17, 8],Economist,Hare,60,60,-1
-1764,[5, 12, 24, 11],Lumberjack,Gardener,60,60,1
-1765,[2, 8, 6, 3],Gardener,Lumberjack,60,60,1
-1766,[0, 1, 23, 9],Gardener,Economist,60,60,1
-1767,[1, 5, 12, 2],Economist,Gardener,60,60,1
-1768,[8, 13, 17, 15],Gardener,Professor,60,60,-1
-1769,[1, 22, 23, 6],Professor,Gardener,60,60,-1
-1770,[0, 6, 21, 9],Economist,Professor,60,60,1
-1771,[11, 5, 13, 17],Professor,Economist,60,60,1
-1772,[2, 0, 5, 24],Hero,Lumberjack,60,60,1
-1773,[6, 7, 5, 23],Lumberjack,Hero,60,60,-1
-1774,[24, 12, 11, 10],Hero,Gardener,60,60,1
-1775,[2, 7, 5, 1],Gardener,Hero,60,60,1
-1776,[2, 17, 8, 21],Sniper,Professor,60,60,1
-1777,[6, 17, 13, 15],Professor,Sniper,60,60,1
-1778,[18, 13, 14, 3],Caterpillar,Lumberjack,60,60,-1
-1779,[11, 13, 1, 0],Lumberjack,Caterpillar,60,60,-1
-1780,[13, 15, 7, 3],Caterpillar,Gardener,60,60,-1
-1781,[2, 10, 6, 13],Gardener,Caterpillar,60,60,-1
-1782,[21, 0, 12, 18],Hare,Professor,60,60,1
-1783,[11, 5, 13, 14],Professor,Hare,60,60,1
-1784,[2, 0, 12, 18],Lumberjack,Economist,60,60,1
-1785,[6, 0, 12, 11],Economist,Lumberjack,60,60,1
-1786,[24, 15, 10, 18],Lumberjack,Professor,60,60,1
-1787,[7, 10, 17, 23],Professor,Lumberjack,60,60,1
-1788,[13, 5, 12, 24],Hero,Economist,60,60,-1
-1789,[3, 2, 7, 22],Economist,Hero,60,60,1
-1790,[21, 22, 20, 8],Hero,Professor,60,60,1
-1791,[10, 16, 15, 17],Professor,Hero,60,60,-1
-1792,[8, 17, 13, 22],Sniper,Lumberjack,60,60,-1
-1793,[0, 11, 14, 13],Lumberjack,Sniper,60,60,1
-1794,[16, 13, 22, 12],Sniper,Gardener,60,60,-1
-1795,[1, 5, 21, 7],Gardener,Sniper,60,60,1
-1796,[4, 0, 15, 17],Sniper,Economist,60,60,1
-1797,[0, 12, 9, 7],Economist,Sniper,60,60,1
-1798,[2, 0, 20, 12],Caterpillar,Economist,60,60,1
-1799,[1, 6, 16, 23],Economist,Caterpillar,60,60,-1
-1800,[14, 18, 5, 2],Caterpillar,Professor,60,60,1
-1801,[7, 1, 10, 4],Professor,Caterpillar,60,60,-1
-1802,[13, 16, 14, 9],Hare,Lumberjack,60,60,1
-1803,[0, 6, 7, 13],Lumberjack,Hare,60,60,1
-1804,[17, 23, 11, 10],Hare,Gardener,60,60,1
-1805,[7, 15, 9, 5],Gardener,Hare,60,60,-1
-1806,[6, 22, 17, 10],Hare,Economist,60,60,-1
-1807,[1, 11, 9, 6],Economist,Hare,60,60,-1
-1808,[5, 13, 6, 16],Lumberjack,Gardener,60,60,1
-1809,[2, 13, 5, 0],Gardener,Lumberjack,60,60,-1
-1810,[22, 1, 7, 8],Gardener,Economist,60,60,1
-1811,[1, 12, 21, 3],Economist,Gardener,60,60,1
-1812,[3, 12, 24, 23],Gardener,Professor,60,60,-1
-1813,[1, 18, 16, 6],Professor,Gardener,60,60,-1
-1814,[13, 16, 9, 15],Economist,Professor,60,60,1
-1815,[16, 6, 22, 8],Professor,Economist,60,60,-1
-1816,[22, 18, 4, 21],Hero,Lumberjack,60,60,1
-1817,[18, 13, 0, 15],Lumberjack,Hero,60,60,1
-1818,[3, 12, 18, 4],Hero,Gardener,60,60,-1
-1819,[1, 0, 13, 8],Gardener,Hero,60,60,1
-1820,[14, 19, 22, 0],Sniper,Professor,60,60,1
-1821,[18, 9, 16, 17],Professor,Sniper,60,60,1
-1822,[0, 6, 19, 9],Caterpillar,Lumberjack,60,60,-1
-1823,[0, 11, 8, 2],Lumberjack,Caterpillar,60,60,1
-1824,[18, 20, 7, 16],Caterpillar,Gardener,60,60,1
-1825,[1, 6, 16, 7],Gardener,Caterpillar,60,60,1
-1826,[19, 16, 20, 7],Hare,Professor,60,60,-1
-1827,[1, 5, 20, 8],Professor,Hare,60,60,1
-1828,[22, 18, 14, 2],Lumberjack,Economist,60,60,-1
-1829,[10, 11, 12, 7],Economist,Lumberjack,60,60,-1
-1830,[7, 0, 22, 17],Lumberjack,Professor,60,60,1
-1831,[6, 1, 12, 16],Professor,Lumberjack,60,60,-1
-1832,[19, 11, 7, 15],Hero,Economist,60,60,-1
-1833,[17, 6, 2, 14],Economist,Hero,60,60,1
-1834,[0, 9, 15, 24],Hero,Professor,60,60,-1
-1835,[9, 12, 6, 2],Professor,Hero,60,60,-1
-1836,[11, 14, 19, 13],Sniper,Lumberjack,60,60,1
-1837,[7, 11, 14, 16],Lumberjack,Sniper,60,60,1
-1838,[17, 5, 14, 2],Sniper,Gardener,60,60,1
-1839,[6, 0, 11, 12],Gardener,Sniper,60,60,1
-1840,[5, 19, 7, 13],Sniper,Economist,60,60,-1
-1841,[2, 12, 19, 23],Economist,Sniper,60,60,1
-1842,[18, 2, 3, 0],Caterpillar,Economist,60,60,1
-1843,[6, 7, 9, 13],Economist,Caterpillar,60,60,-1
-1844,[17, 8, 1, 4],Caterpillar,Professor,60,60,1
-1845,[9, 6, 13, 7],Professor,Caterpillar,60,60,1
-1846,[8, 13, 16, 15],Hare,Lumberjack,60,60,-1
-1847,[5, 8, 12, 16],Lumberjack,Hare,60,60,1
-1848,[4, 9, 13, 22],Hare,Gardener,60,60,1
-1849,[17, 8, 9, 11],Gardener,Hare,60,60,1
-1850,[15, 10, 11, 21],Hare,Economist,60,60,1
-1851,[20, 15, 17, 7],Economist,Hare,60,60,1
-1852,[23, 0, 14, 8],Lumberjack,Gardener,60,60,-1
-1853,[9, 12, 14, 18],Gardener,Lumberjack,60,60,1
-1854,[0, 3, 20, 11],Gardener,Economist,60,60,1
-1855,[1, 12, 10, 15],Economist,Gardener,60,60,1
-1856,[12, 8, 11, 20],Gardener,Professor,60,60,1
-1857,[13, 12, 16, 7],Professor,Gardener,60,60,1
-1858,[12, 21, 3, 18],Economist,Professor,60,60,1
-1859,[6, 0, 18, 17],Professor,Economist,60,60,1
-1860,[23, 1, 4, 17],Hero,Lumberjack,60,60,-1
-1861,[5, 6, 4, 9],Lumberjack,Hero,60,60,1
-1862,[13, 6, 24, 0],Hero,Gardener,60,60,-1
-1863,[15, 10, 9, 2],Gardener,Hero,60,60,1
-1864,[15, 10, 6, 20],Sniper,Professor,60,60,-1
-1865,[1, 6, 11, 20],Professor,Sniper,60,60,1
-1866,[7, 0, 4, 6],Caterpillar,Lumberjack,60,60,-1
-1867,[9, 1, 5, 6],Lumberjack,Caterpillar,60,60,1
-1868,[11, 0, 1, 3],Caterpillar,Gardener,60,60,-1
-1869,[0, 6, 12, 14],Gardener,Caterpillar,60,60,-1
-1870,[21, 17, 10, 15],Hare,Professor,60,60,1
-1871,[6, 0, 14, 16],Professor,Hare,60,60,1
-1872,[14, 17, 20, 22],Lumberjack,Economist,60,60,1
-1873,[1, 12, 8, 4],Economist,Lumberjack,60,60,-1
-1874,[0, 21, 20, 9],Lumberjack,Professor,60,60,1
-1875,[14, 12, 21, 15],Professor,Lumberjack,60,60,1
-1876,[14, 1, 4, 17],Hero,Economist,60,60,-1
-1877,[1, 9, 8, 16],Economist,Hero,60,60,-1
-1878,[19, 18, 8, 9],Hero,Professor,60,60,1
-1879,[1, 22, 11, 17],Professor,Hero,60,60,-1
-1880,[14, 12, 0, 8],Sniper,Lumberjack,60,60,1
-1881,[17, 6, 4, 2],Lumberjack,Sniper,60,60,1
-1882,[22, 20, 18, 4],Sniper,Gardener,60,60,1
-1883,[3, 0, 7, 6],Gardener,Sniper,60,60,-1
-1884,[13, 0, 20, 1],Sniper,Economist,60,60,1
-1885,[3, 7, 15, 6],Economist,Sniper,60,60,1
-1886,[20, 5, 17, 2],Caterpillar,Economist,60,60,-2
-1887,[5, 0, 6, 16],Economist,Caterpillar,60,60,1
-1888,[21, 9, 12, 20],Caterpillar,Professor,60,60,-1
-1889,[3, 6, 0, 21],Professor,Caterpillar,60,60,-1
-1890,[17, 10, 12, 18],Hare,Lumberjack,60,60,-1
-1891,[11, 10, 8, 13],Lumberjack,Hare,60,60,1
-1892,[19, 17, 10, 22],Hare,Gardener,60,60,-1
-1893,[20, 0, 11, 16],Gardener,Hare,60,60,1
-1894,[7, 17, 19, 15],Hare,Economist,60,60,1
-1895,[6, 2, 18, 7],Economist,Hare,60,60,1
-1896,[19, 4, 20, 21],Lumberjack,Gardener,60,60,1
-1897,[13, 7, 18, 10],Gardener,Lumberjack,60,60,1
-1898,[16, 15, 23, 4],Gardener,Economist,60,60,1
-1899,[10, 15, 23, 13],Economist,Gardener,60,60,1
-1900,[22, 7, 15, 0],Gardener,Professor,60,60,1
-1901,[13, 8, 17, 16],Professor,Gardener,60,60,1
-1902,[8, 23, 15, 14],Economist,Professor,60,60,-1
-1903,[0, 16, 6, 2],Professor,Economist,60,60,1
-1904,[11, 4, 3, 2],Hero,Lumberjack,60,60,1
-1905,[1, 14, 10, 2],Lumberjack,Hero,60,60,-1
-1906,[20, 22, 6, 8],Hero,Gardener,60,60,-1
-1907,[5, 22, 12, 8],Gardener,Hero,60,60,1
-1908,[13, 1, 18, 0],Sniper,Professor,60,60,-1
-1909,[3, 10, 13, 11],Professor,Sniper,60,60,-1
-1910,[7, 13, 16, 6],Caterpillar,Lumberjack,60,60,1
-1911,[9, 8, 5, 2],Lumberjack,Caterpillar,60,60,-1
-1912,[10, 7, 12, 13],Caterpillar,Gardener,60,60,1
-1913,[6, 11, 15, 7],Gardener,Caterpillar,60,60,1
-1914,[5, 19, 20, 13],Hare,Professor,60,60,1
-1915,[1, 17, 16, 5],Professor,Hare,60,60,1
-1916,[8, 4, 17, 3],Lumberjack,Economist,60,60,-1
-1917,[1, 13, 12, 17],Economist,Lumberjack,60,60,1
-1918,[13, 6, 20, 1],Lumberjack,Professor,60,60,1
-1919,[7, 0, 15, 8],Professor,Lumberjack,60,60,1
-1920,[12, 10, 4, 20],Hero,Economist,60,60,1
-1921,[5, 6, 8, 13],Economist,Hero,60,60,1
-1922,[2, 11, 20, 10],Hero,Professor,60,60,-1
-1923,[3, 13, 5, 9],Professor,Hero,60,60,1
-1924,[24, 23, 9, 22],Sniper,Lumberjack,60,60,-1
-1925,[6, 22, 2, 7],Lumberjack,Sniper,60,60,-1
-1926,[3, 21, 16, 8],Sniper,Gardener,60,60,-1
-1927,[7, 12, 0, 2],Gardener,Sniper,60,60,-1
-1928,[11, 23, 14, 7],Sniper,Economist,60,60,-1
-1929,[0, 16, 9, 8],Economist,Sniper,60,60,-1
-1930,[4, 5, 13, 20],Caterpillar,Economist,60,60,-1
-1931,[5, 2, 12, 17],Economist,Caterpillar,60,60,-1
-1932,[1, 18, 19, 3],Caterpillar,Professor,60,60,1
-1933,[16, 6, 8, 12],Professor,Caterpillar,60,60,-1
-1934,[12, 23, 3, 9],Hare,Lumberjack,60,60,1
-1935,[0, 6, 2, 12],Lumberjack,Hare,60,60,1
-1936,[17, 18, 1, 3],Hare,Gardener,60,60,-1
-1937,[11, 3, 7, 2],Gardener,Hare,60,60,1
-1938,[4, 13, 1, 18],Hare,Economist,60,60,-1
-1939,[1, 3, 6, 17],Economist,Hare,60,60,1
-1940,[21, 12, 5, 13],Lumberjack,Gardener,60,60,1
-1941,[1, 0, 3, 9],Gardener,Lumberjack,60,60,1
-1942,[0, 19, 2, 13],Gardener,Economist,60,60,1
-1943,[6, 17, 2, 5],Economist,Gardener,60,60,-1
-1944,[24, 11, 7, 14],Gardener,Professor,60,60,1
-1945,[12, 11, 21, 8],Professor,Gardener,60,60,-1
-1946,[19, 21, 0, 8],Economist,Professor,60,60,1
-1947,[8, 2, 9, 21],Professor,Economist,60,60,-1
-1948,[16, 12, 19, 14],Hero,Lumberjack,60,60,1
-1949,[0, 5, 7, 8],Lumberjack,Hero,60,60,-1
-1950,[14, 9, 6, 19],Hero,Gardener,60,60,-1
-1951,[10, 13, 7, 0],Gardener,Hero,60,60,1
-1952,[18, 0, 24, 10],Sniper,Professor,60,60,1
-1953,[8, 17, 23, 18],Professor,Sniper,60,60,1
-1954,[21, 11, 24, 13],Caterpillar,Lumberjack,60,60,-1
-1955,[2, 11, 14, 13],Lumberjack,Caterpillar,60,60,-1
-1956,[18, 2, 7, 20],Caterpillar,Gardener,60,60,-1
-1957,[4, 1, 2, 13],Gardener,Caterpillar,60,60,-1
-1958,[22, 13, 10, 14],Hare,Professor,60,60,-1
-1959,[0, 3, 5, 6],Professor,Hare,60,60,-1
-1960,[16, 11, 2, 17],Lumberjack,Economist,180,180,-1
-1961,[12, 23, 14, 7],Lumberjack,Professor,180,180,-1
-1962,[0, 18, 21, 11],Professor,Lumberjack,180,180,1
-1963,[6, 5, 7, 14],Hero,Economist,180,180,1
-1964,[16, 12, 5, 8],Economist,Hero,180,180,1
+0,76782,Hero,Sniper,3.0,3.0,-1
+1,73908,Sniper,Hero,3.0,3.0,-1
+2,14669,Hero,Sniper,3.0,3.0,1
+3,99686,Sniper,Hero,3.0,3.0,-1
+4,50551,Hero,Sniper,3.0,3.0,1
+5,62681,Sniper,Hero,3.0,3.0,1
+6,132076,Hero,Sniper,3.0,3.0,-1
+7,146157,Sniper,Hero,3.0,3.0,-1
+8,59414,Hero,Sniper,3.0,3.0,1
+9,67882,Sniper,Hero,3.0,3.0,1
+10,44353,Hero,Sniper,3.0,3.0,1
+11,62683,Sniper,Hero,3.0,3.0,-1
+12,108728,Hero,Sniper,3.0,3.0,1
+13,5806,Sniper,Hero,3.0,3.0,2
+14,78975,Hero,Sniper,3.0,3.0,1
+15,100183,Sniper,Hero,3.0,3.0,-1
+16,50902,Hero,Sniper,3.0,3.0,1
+17,62757,Sniper,Hero,3.0,3.0,-1
+18,30133,Hero,Sniper,3.0,3.0,1
+19,19183,Sniper,Hero,3.0,3.0,1
+20,96923,Hero,Sniper,3.0,3.0,1
+21,128290,Sniper,Hero,3.0,3.0,-1
+22,5350,Hero,Sniper,3.0,3.0,1
+23,80808,Sniper,Hero,3.0,3.0,-1
+24,116206,Hero,Sniper,30.0,30.0,-1
+25,75782,Sniper,Hero,30.0,30.0,-1
+26,147420,Hero,Sniper,30.0,30.0,-1
+27,95134,Sniper,Hero,30.0,30.0,-1
+28,88053,Hero,Sniper,30.0,30.0,-1
+29,114507,Sniper,Hero,30.0,30.0,-1
+30,86207,Hero,Sniper,30.0,30.0,1
+31,3926,Sniper,Hero,30.0,30.0,-1
+32,40672,Hero,Sniper,60,60,-1
+33,18933,Sniper,Hero,60,60,1
+34,36203,Hero,Sniper,60,60,1
+35,15806,Sniper,Hero,60,60,1
+36,62020,Hero,Sniper,60,60,1
+37,87731,Hero,Sniper,60,60,1
+38,148575,Hero,Sniper,60,60,1
+39,132025,Sniper,Hero,60,60,1
+40,153805,Hero,Sniper,60,60,1
+41,36584,Sniper,Hero,60,60,1
+42,62381,Hero,Sniper,60,60,1
+43,114512,Sniper,Hero,60,60,1
+44,38140,Hero,Sniper,60,60,1
+45,27028,Hero,Sniper,60,60,1
+46,18951,Sniper,Hero,60,60,-1
+47,141913,Hero,Sniper,60,60,-1
+48,22931,Sniper,Hero,60,60,1
+49,84241,Hero,Sniper,60,60,-1
+50,94586,Sniper,Hero,60,60,-1
+51,13808,Hero,Sniper,60,60,-1
+52,18962,Sniper,Hero,60,60,1
+53,71095,Hero,Sniper,60,60,-1
+54,19701,Sniper,Hero,60,60,-1
+55,127160,Hero,Sniper,60,60,-1
+56,52686,Sniper,Hero,60,60,-1
+57,95777,Hero,Sniper,60,60,1
+58,95964,Sniper,Hero,60,60,1
+59,31297,Hero,Sniper,60,60,-1
+60,4786,Sniper,Hero,60,60,1
+61,100465,Hero,Sniper,60,60,1
+62,32166,Sniper,Hero,60,60,1
+63,123378,Hero,Sniper,60,60,1
+64,19575,Sniper,Hero,60,60,-1
+65,57029,Hero,Sniper,60,60,1
+66,26431,Sniper,Hero,60,60,-1
+67,59041,Hero,Sniper,60,60,-1
+68,1136,Sniper,Hero,60,60,-1
+69,68812,Hero,Sniper,60,60,1
+70,35638,Sniper,Hero,60,60,1
+71,44093,Hero,Sniper,60,60,-1
+72,25218,Sniper,Hero,60,60,1
+73,67941,Hero,Sniper,60,60,-1
+74,129626,Sniper,Hero,60,60,1
+75,32762,Hero,Sniper,60,60,1
+76,31961,Sniper,Hero,60,60,-1
+77,148045,Hero,Sniper,60,60,1
+78,100837,Sniper,Hero,60,60,-1
+79,66326,Hero,Sniper,60,60,-1
+80,17307,Sniper,Hero,60,60,1
+81,60370,Hero,Sniper,60,60,1
+82,37516,Sniper,Hero,60,60,-1
+83,79049,Hero,Sniper,60,60,1
+84,82414,Sniper,Hero,60,60,-1
+85,2640,Hero,Sniper,60,60,1
+86,114412,Sniper,Hero,60,60,-1
+87,30303,Hero,Sniper,60,60,-1
+88,120127,Sniper,Hero,60,60,-1
+89,69974,Hero,Sniper,60,60,1
+90,16263,Sniper,Hero,60,60,-1
+91,49830,Hero,Sniper,60,60,1
+92,114610,Sniper,Hero,60,60,1
+93,118680,Hero,Sniper,60,60,1
+94,24627,Sniper,Hero,60,60,-1
+95,45353,Hero,Sniper,60,60,1
+96,41477,Sniper,Hero,60,60,-1
+97,79794,Hero,Sniper,60,60,1
+98,85843,Sniper,Hero,60,60,1
+99,64313,Hero,Sniper,60,60,1
+100,94128,Sniper,Hero,60,60,1
+101,11669,Hero,Sniper,60,60,1
+102,5813,Sniper,Hero,60,60,-1
+103,10089,Hero,Sniper,60,60,1
+104,25207,Sniper,Hero,60,60,1
+105,16153,Hero,Sniper,60,60,1
+106,18837,Sniper,Hero,60,60,-1
+107,123753,Hero,Sniper,60,60,-1
+108,34153,Sniper,Hero,60,60,-1
+109,51940,Hero,Sniper,60,60,-1
+110,88136,Sniper,Hero,60,60,1
+111,116828,Hero,Sniper,60,60,1
+112,128982,Sniper,Hero,60,60,-1
+113,73360,Hero,Sniper,60,60,1
+114,50811,Sniper,Hero,60,60,1
+115,42472,Hero,Sniper,60,60,1
+116,17166,Sniper,Hero,60,60,1
+117,91565,Hero,Sniper,60,60,1
+118,18335,Sniper,Hero,60,60,-1
+119,43990,Hero,Sniper,60,60,-1
+120,55031,Sniper,Hero,60,60,-1
+121,146392,Hero,Sniper,60,60,1
+122,17607,Sniper,Hero,60,60,-1
+123,16488,Hero,Sniper,60,60,1
+124,3433,Sniper,Hero,60,60,-1
+125,24390,Hero,Sniper,60,60,-1
+126,12715,Sniper,Hero,60,60,-1
+127,131530,Hero,Sniper,60,60,1
+128,3982,Sniper,Hero,60,60,1
+129,106125,Hero,Sniper,60,60,-1
+130,17216,Sniper,Hero,60,60,1
+131,118207,Hero,Sniper,60,60,-1
+132,50751,Sniper,Hero,60,60,1
+133,100402,Hero,Sniper,60,60,-1
+134,72563,Sniper,Hero,60,60,-1
+135,3361,Hero,Sniper,60,60,1
+136,150305,Sniper,Hero,60,60,-1
+137,156098,Hero,Sniper,60,60,-1
+138,8392,Sniper,Hero,60,60,1
+139,78301,Hero,Sniper,60,60,1
+140,35986,Sniper,Hero,60,60,-1
+141,27183,Hero,Sniper,60,60,-1
+142,110761,Sniper,Hero,60,60,-1
+143,56745,Hero,Sniper,60,60,1
+144,48271,Sniper,Hero,60,60,-1
+145,15769,Hero,Sniper,60,60,1
+146,4513,Sniper,Hero,60,60,-1
+147,9502,Hero,Sniper,60,60,1
+148,32008,Sniper,Hero,60,60,1
+149,92550,Hero,Sniper,60,60,-1
+150,39500,Sniper,Hero,60,60,-1
+151,52907,Hero,Sniper,60,60,1
+152,149376,Sniper,Hero,60,60,1
+153,112208,Hero,Sniper,60,60,1
+154,8193,Sniper,Hero,60,60,1
+155,9942,Hero,Sniper,60,60,1
+156,132642,Sniper,Hero,60,60,1
+157,126949,Hero,Sniper,60,60,1
+158,3938,Sniper,Hero,60,60,1
+159,153664,Hero,Sniper,60,60,1
+160,35668,Sniper,Hero,60,60,1
+161,77216,Hero,Sniper,60,60,1
+162,23467,Sniper,Hero,60,60,-1
+163,68878,Hero,Sniper,60,60,-1
+164,32280,Sniper,Hero,60,60,-1
+165,87410,Hero,Sniper,60,60,1
+166,95666,Sniper,Hero,60,60,-1
+167,9396,Hero,Sniper,60,60,1
+168,128792,Sniper,Hero,60,60,-1
+169,142283,Hero,Sniper,60,60,1
+170,119533,Sniper,Hero,60,60,-1
+171,26523,Hero,Sniper,60,60,-1
+172,32585,Sniper,Hero,60,60,-1
+173,36831,Hero,Sniper,60,60,1
+174,94677,Sniper,Hero,60,60,1
+175,23812,Hero,Sniper,60,60,1
+176,19512,Sniper,Hero,60,60,1
+177,53664,Hero,Sniper,60,60,1
+178,112851,Sniper,Hero,60,60,1
+179,77807,Hero,Sniper,60,60,-1
+180,55155,Sniper,Hero,60,60,-1
+181,77925,Hero,Sniper,60,60,1
+182,149406,Sniper,Hero,60,60,-1
+183,23565,Hero,Sniper,60,60,1
+184,3807,Sniper,Hero,60,60,1
+185,66615,Hero,Sniper,60,60,1
+186,94518,Sniper,Hero,60,60,1
+187,83419,Hero,Sniper,60,60,1
+188,319,Sniper,Hero,60,60,-1
+189,23280,Hero,Sniper,60,60,-1
+190,78303,Sniper,Hero,60,60,-1
+191,90516,Hero,Sniper,60,60,1
+192,100090,Sniper,Hero,60,60,-1
+193,143630,Hero,Sniper,60,60,-1
+194,127051,Sniper,Hero,60,60,-1
+195,115280,Hero,Sniper,60,60,-1
+196,102182,Sniper,Hero,60,60,-1
+197,25296,Hero,Sniper,60,60,1
+198,133405,Sniper,Hero,60,60,-1
+199,23082,Hero,Sniper,60,60,1
+200,3308,Sniper,Hero,60,60,-1
+201,153298,Hero,Sniper,60,60,1
+202,47632,Sniper,Hero,60,60,-1
+203,131444,Hero,Sniper,60,60,1
+204,98284,Sniper,Hero,60,60,1
+205,26157,Hero,Sniper,60,60,1
+206,84558,Sniper,Hero,60,60,-1
+207,27288,Hero,Sniper,60,60,1
+208,10062,Sniper,Hero,60,60,-1
+209,93152,Hero,Sniper,60,60,1
+210,35986,Sniper,Hero,60,60,-1
+211,3556,Hero,Sniper,60,60,1
+212,73837,Sniper,Hero,60,60,1
+213,152702,Hero,Sniper,60,60,1
+214,133137,Sniper,Hero,60,60,1
+215,108425,Hero,Sniper,60,60,-1
+216,40813,Sniper,Hero,60,60,1
+217,51137,Hero,Sniper,60,60,1
+218,50050,Sniper,Hero,60,60,1
+219,52830,Hero,Sniper,60,60,1
+220,114610,Sniper,Hero,60,60,1
+221,24857,Hero,Sniper,60,60,1
+222,42232,Sniper,Hero,60,60,-1
+223,58850,Hero,Sniper,60,60,1
+224,102555,Sniper,Hero,60,60,-1
+225,5072,Hero,Sniper,60,60,1
+226,7198,Sniper,Hero,60,60,-1
+227,29436,Hero,Sniper,60,60,-1
+228,10057,Sniper,Hero,60,60,-1
+229,61596,Hero,Sniper,60,60,1
+230,12088,Sniper,Hero,60,60,1
+231,47793,Hero,Sniper,60,60,-1
+232,82834,Sniper,Hero,60,60,-1
+233,75014,Hero,Sniper,60,60,1
+234,38464,Sniper,Hero,60,60,-1
+235,41037,Hero,Sniper,60,60,1
+236,88312,Sniper,Hero,60,60,-1
+237,34694,Hero,Sniper,60,60,-1
+238,88189,Sniper,Hero,60,60,1
+239,17088,Hero,Sniper,60,60,1
+240,78193,Sniper,Hero,60,60,-1
+241,24976,Hero,Sniper,60,60,1
+242,94461,Sniper,Hero,60,60,1
+243,130849,Hero,Sniper,60,60,-1
+244,144586,Sniper,Hero,60,60,-1
+245,50844,Hero,Sniper,60,60,1
+246,3193,Sniper,Hero,60,60,-1
+247,129729,Hero,Sniper,60,60,1
+248,54382,Sniper,Hero,60,60,-1
+249,116579,Hero,Sniper,60,60,1
+250,3313,Sniper,Hero,60,60,-1
+251,9675,Hero,Sniper,60,60,-1
+252,107155,Sniper,Hero,60,60,1
+253,108538,Hero,Sniper,60,60,1
+254,22677,Sniper,Hero,60,60,-1
+255,70522,Hero,Sniper,60,60,1
+256,73892,Sniper,Hero,60,60,-1
+257,126936,Hero,Sniper,60,60,1
+258,962,Sniper,Hero,60,60,1
+259,72600,Hero,Sniper,60,60,-1
+260,38181,Sniper,Hero,60,60,-1
+261,46140,Hero,Sniper,60,60,-1
+262,24035,Sniper,Hero,60,60,-1
+263,24704,Hero,Sniper,60,60,-1
+264,40134,Sniper,Hero,60,60,-1
+265,3499,Hero,Sniper,60,60,1
+266,48263,Sniper,Hero,60,60,1
+267,72116,Hero,Sniper,60,60,1
+268,53810,Sniper,Hero,60,60,1
+269,147523,Hero,Sniper,60,60,1
+270,33286,Sniper,Hero,60,60,-1
+271,72062,Hero,Sniper,60,60,-1
+272,78354,Sniper,Hero,60,60,-1
+273,52117,Hero,Sniper,60,60,1
+274,19592,Sniper,Hero,60,60,1
+275,108250,Hero,Sniper,60,60,1
+276,102132,Sniper,Hero,60,60,1
+277,90417,Hero,Sniper,60,60,1
+278,52757,Sniper,Hero,60,60,-1
+279,20116,Hero,Sniper,60,60,-1
+280,15838,Sniper,Hero,60,60,1
+281,57242,Hero,Sniper,60,60,1
+282,113467,Sniper,Hero,60,60,1
+283,145891,Hero,Sniper,60,60,-1
+284,53757,Sniper,Hero,60,60,1
+285,24945,Hero,Sniper,60,60,1
+286,32016,Sniper,Hero,60,60,1
+287,50358,Hero,Sniper,60,60,-1
+288,6711,Sniper,Hero,60,60,1
+289,32874,Hero,Sniper,60,60,-1
+290,4428,Sniper,Hero,60,60,1
+291,15034,Hero,Sniper,60,60,-1
+292,84053,Sniper,Hero,60,60,-1
+293,122980,Hero,Sniper,60,60,-1
+294,10031,Sniper,Hero,60,60,-1
+295,114124,Hero,Sniper,60,60,1
+296,20087,Sniper,Hero,60,60,-1
+297,33964,Hero,Sniper,60,60,1
+298,18928,Sniper,Hero,60,60,-1
+299,139720,Hero,Sniper,60,60,-1
+300,40216,Sniper,Hero,60,60,-1
+301,52375,Hero,Sniper,60,60,1
+302,17625,Sniper,Hero,60,60,1
+303,15055,Hero,Sniper,60,60,-1
+304,41880,Sniper,Hero,60,60,1
+305,127015,Hero,Sniper,60,60,1
+306,21256,Sniper,Hero,60,60,-1
+307,27956,Hero,Sniper,60,60,1
+308,99107,Sniper,Hero,60,60,1
+309,141399,Hero,Sniper,60,60,1
+310,145642,Sniper,Hero,60,60,-1
+311,11085,Hero,Sniper,60,60,1
+312,44382,Sniper,Hero,60,60,1
+313,63452,Hero,Sniper,60,60,1
+314,65801,Sniper,Hero,60,60,1
+315,125365,Hero,Sniper,60,60,1
+316,22166,Sniper,Hero,60,60,1
+317,67501,Hero,Sniper,60,60,-1
+318,42507,Sniper,Hero,60,60,-1
+319,120304,Hero,Sniper,60,60,1
+320,117658,Sniper,Hero,60,60,1
+321,134876,Hero,Sniper,60,60,1
+322,110961,Sniper,Hero,60,60,1
+323,50998,Hero,Sniper,60,60,1
+324,3192,Sniper,Hero,60,60,1
+325,16646,Hero,Sniper,60,60,1
+326,19392,Sniper,Hero,60,60,-1
+327,29417,Hero,Sniper,60,60,1
+328,70886,Sniper,Hero,60,60,1
+329,48520,Hero,Sniper,60,60,-1
+330,7791,Sniper,Hero,60,60,-1
+331,38128,Hero,Sniper,60,60,-1
+332,36882,Sniper,Hero,60,60,1
+333,122085,Hero,Sniper,60,60,1
+334,104608,Sniper,Hero,60,60,-1
+335,72495,Hero,Sniper,60,60,1
+336,110215,Sniper,Hero,60,60,1
+337,65744,Hero,Sniper,60,60,-1
+338,7582,Sniper,Hero,60,60,-1
+339,94907,Hero,Sniper,60,60,1
+340,94382,Sniper,Hero,60,60,-1
+341,51059,Hero,Sniper,60,60,1
+342,4033,Sniper,Hero,60,60,-1
+343,6855,Hero,Sniper,60,60,1
+344,82152,Sniper,Hero,60,60,-1
+345,7229,Hero,Sniper,60,60,-1
+346,9708,Sniper,Hero,60,60,1
+347,23422,Hero,Sniper,60,60,1
+348,128786,Sniper,Hero,60,60,-1
+349,46012,Hero,Sniper,60,60,-1
+350,21882,Sniper,Hero,60,60,1
+351,34536,Hero,Sniper,60,60,-1
+352,125345,Sniper,Hero,60,60,-1
+353,67362,Hero,Sniper,60,60,-1
+354,17818,Sniper,Hero,60,60,-1
+355,137911,Hero,Sniper,60,60,-1
+356,54383,Sniper,Hero,60,60,1
+357,72119,Hero,Sniper,60,60,-1
+358,6589,Sniper,Hero,60,60,-1
+359,55655,Hero,Sniper,60,60,1
+360,33256,Sniper,Hero,60,60,1
+361,136226,Hero,Sniper,60,60,1
+362,18927,Sniper,Hero,60,60,-1
+363,69043,Hero,Sniper,60,60,1
+364,132016,Sniper,Hero,60,60,-1
+365,26228,Hero,Sniper,60,60,1
+366,112828,Sniper,Hero,60,60,1
+367,29812,Hero,Sniper,60,60,-1
+368,18775,Sniper,Hero,60,60,1
+369,33345,Hero,Sniper,60,60,1
+370,64642,Sniper,Hero,60,60,-1
+371,122808,Hero,Sniper,60,60,-1
+372,110388,Sniper,Hero,60,60,-1
+373,21688,Hero,Sniper,60,60,1
+374,3312,Sniper,Hero,60,60,-1
+375,89351,Hero,Sniper,60,60,-1
+376,5006,Sniper,Hero,60,60,1
+377,40210,Hero,Sniper,60,60,-1
+378,39381,Sniper,Hero,60,60,-1
+379,32972,Hero,Sniper,60,60,1
+380,106685,Caterpillar,Hare,60,60,-1
+381,31518,Caterpillar,Hare,60,60,1
+382,35906,Hare,Caterpillar,60,60,-1
+383,13957,Caterpillar,Hare,60,60,-1
+384,28912,Hare,Caterpillar,60,60,1
+385,77347,Caterpillar,Hare,60,60,-1
+386,29562,Hare,Caterpillar,60,60,-1
+387,36785,Caterpillar,Hare,60,60,1
+388,35865,Hare,Caterpillar,60,60,1
+389,155882,Caterpillar,Hare,60,60,-1
+390,89403,Hare,Caterpillar,60,60,1
+391,144649,Caterpillar,Hare,60,60,-1
+392,47639,Hare,Caterpillar,60,60,-1
+393,14343,Caterpillar,Hare,60,60,-1
+394,54502,Hare,Caterpillar,60,60,1
+395,20505,Caterpillar,Hare,60,60,1
+396,35265,Hare,Caterpillar,60,60,1
+397,114651,Caterpillar,Hare,60,60,-1
+398,41403,Hare,Caterpillar,60,60,-1
+399,131740,Caterpillar,Hare,60,60,1
+400,110926,Hare,Caterpillar,60,60,1
+401,108560,Caterpillar,Hare,60,60,1
+402,132250,Hare,Caterpillar,60,60,-1
+403,107598,Caterpillar,Hare,60,60,1
+404,23762,Hare,Caterpillar,60,60,1
+405,37664,Caterpillar,Hare,60,60,-1
+406,9552,Hare,Caterpillar,60,60,-1
+407,106350,Caterpillar,Hare,60,60,1
+408,18826,Hare,Caterpillar,60,60,-1
+409,123010,Caterpillar,Hare,60,60,-1
+410,43179,Hero,Hero,60,60,1
+411,114419,Hero,Hero,60,60,1
+412,30395,Hero,Sniper,60,60,1
+413,135665,Sniper,Hero,60,60,-1
+414,151811,Hero,Caterpillar,60,60,1
+415,42037,Caterpillar,Hero,60,60,-1
+416,29656,Hero,Hare,60,60,-1
+417,57651,Hare,Hero,60,60,-1
+418,148685,Sniper,Sniper,60,60,1
+419,51526,Sniper,Sniper,60,60,-1
+420,24640,Sniper,Caterpillar,60,60,-1
+421,35886,Caterpillar,Sniper,60,60,1
+422,75397,Sniper,Hare,60,60,-1
+423,3287,Hare,Sniper,60,60,1
+424,101143,Caterpillar,Caterpillar,60,60,-1
+425,31797,Caterpillar,Caterpillar,60,60,-2
+426,92915,Caterpillar,Hare,60,60,1
+427,96526,Hare,Caterpillar,60,60,-1
+428,45358,Hare,Hare,60,60,1
+429,3184,Hare,Hare,60,60,-1
+430,29408,Hero,Hero,60,60,1
+431,101388,Hero,Hero,60,60,1
+432,113039,Hero,Sniper,60,60,1
+433,32200,Sniper,Hero,60,60,-1
+434,2431,Hero,Caterpillar,60,60,1
+435,100827,Caterpillar,Hero,60,60,1
+436,99498,Hero,Hare,60,60,-1
+437,60009,Hare,Hero,60,60,1
+438,76645,Sniper,Sniper,60,60,1
+439,16341,Sniper,Sniper,60,60,-1
+440,95440,Hero,Sniper,6.0,6.0,1
+441,21656,Sniper,Hero,6.0,6.0,-1
+442,152908,Hero,Caterpillar,6.0,6.0,1
+443,45969,Caterpillar,Hero,6.0,6.0,-1
+444,75294,Hero,Hare,6.0,6.0,-1
+445,43782,Hare,Hero,6.0,6.0,1
+446,15858,Sniper,Caterpillar,6.0,6.0,-1
+447,113227,Caterpillar,Sniper,6.0,6.0,-1
+448,147282,Sniper,Hare,6.0,6.0,-1
+449,120133,Hare,Sniper,6.0,6.0,1
+450,71415,Caterpillar,Hare,6.0,6.0,1
+451,98162,Hare,Caterpillar,6.0,6.0,-1
+452,76882,Hero,Sniper,6.0,6.0,1
+453,95827,Hero,Sniper,60,60,-1
+454,66961,Sniper,Hero,60,60,1
+455,49472,Hero,Caterpillar,60,60,-1
+456,23216,Caterpillar,Hero,60,60,1
+457,140476,Hero,Hare,60,60,-1
+458,51401,Hare,Hero,60,60,-1
+459,70079,Sniper,Caterpillar,60,60,1
+460,100079,Caterpillar,Sniper,60,60,-1
+461,47681,Sniper,Hare,60,60,1
+462,126260,Hare,Sniper,60,60,1
+463,28029,Caterpillar,Hare,60,60,-1
+464,39376,Hare,Caterpillar,60,60,1
+465,22879,Hero,Sniper,60,60,1
+466,33258,Sniper,Hero,60,60,1
+467,14536,Hero,Caterpillar,60,60,-1
+468,7525,Caterpillar,Hero,60,60,1
+469,72232,Hero,Hare,60,60,1
+470,35186,Hare,Hero,60,60,-1
+471,32474,Sniper,Caterpillar,60,60,1
+472,50658,Caterpillar,Sniper,60,60,-1
+473,57585,Sniper,Hare,60,60,1
+474,3206,Hare,Sniper,60,60,1
+475,58667,Caterpillar,Hare,60,60,1
+476,101638,Hare,Caterpillar,60,60,1
+477,31303,Hero,Sniper,60,60,1
+478,141252,Sniper,Hero,60,60,1
+479,36809,Hero,Caterpillar,60,60,1
+480,39403,Caterpillar,Hero,60,60,-1
+481,141030,Hero,Hare,60,60,1
+482,54417,Hare,Hero,60,60,1
+483,25583,Sniper,Caterpillar,60,60,1
+484,95951,Caterpillar,Sniper,60,60,1
+485,10478,Sniper,Hare,60,60,1
+486,20259,Hare,Sniper,60,60,1
+487,123796,Caterpillar,Hare,60,60,1
+488,23971,Hare,Caterpillar,60,60,-1
+489,92058,Hero,Sniper,60,60,1
+490,78458,Sniper,Hero,60,60,-1
+491,145042,Hero,Caterpillar,60,60,1
+492,100641,Caterpillar,Hero,60,60,1
+493,22215,Hero,Hare,60,60,1
+494,3805,Hare,Hero,60,60,-1
+495,72602,Sniper,Caterpillar,60,60,-1
+496,23207,Caterpillar,Sniper,60,60,-1
+497,56149,Sniper,Hare,60,60,1
+498,3933,Hare,Sniper,60,60,1
+499,14782,Caterpillar,Hare,60,60,-1
+500,97502,Hare,Caterpillar,60,60,-1
+501,38313,Hero,Sniper,60,60,-1
+502,129801,Sniper,Hero,60,60,1
+503,55151,Hero,Caterpillar,60,60,-1
+504,4526,Caterpillar,Hero,60,60,1
+505,57055,Hero,Hare,60,60,-1
+506,67176,Hare,Hero,60,60,-1
+507,66025,Sniper,Caterpillar,60,60,-1
+508,22705,Caterpillar,Sniper,60,60,-1
+509,110450,Sniper,Hare,60,60,1
+510,16916,Hare,Sniper,60,60,-1
+511,52710,Caterpillar,Hare,60,60,1
+512,20710,Hare,Caterpillar,60,60,-1
+513,106888,Hero,Sniper,60,60,1
+514,103263,Sniper,Hero,60,60,-1
+515,1673,Hero,Caterpillar,60,60,1
+516,3822,Caterpillar,Hero,60,60,1
+517,57032,Hero,Hare,60,60,-1
+518,135031,Hare,Hero,60,60,-1
+519,149200,Sniper,Caterpillar,60,60,1
+520,117635,Caterpillar,Sniper,60,60,1
+521,73586,Sniper,Hare,60,60,-1
+522,120136,Hare,Sniper,60,60,-1
+523,79481,Caterpillar,Hare,60,60,1
+524,2676,Hare,Caterpillar,60,60,-1
+525,156047,Hero,Sniper,60,60,1
+526,101348,Sniper,Hero,60,60,-1
+527,19345,Hero,Caterpillar,60,60,1
+528,48380,Caterpillar,Hero,60,60,1
+529,92560,Hero,Hare,60,60,1
+530,41925,Hare,Hero,60,60,-1
+531,66376,Sniper,Caterpillar,60,60,1
+532,125632,Caterpillar,Sniper,60,60,-1
+533,109428,Sniper,Hare,60,60,-1
+534,81984,Hare,Sniper,60,60,1
+535,17518,Caterpillar,Hare,60,60,1
+536,111262,Hare,Caterpillar,60,60,1
+537,1409,Hero,Sniper,60,60,-1
+538,1516,Sniper,Hero,60,60,1
+539,142888,Hero,Caterpillar,60,60,1
+540,19632,Caterpillar,Hero,60,60,-1
+541,47517,Hero,Hare,60,60,1
+542,50158,Hare,Hero,60,60,-2
+543,15822,Sniper,Caterpillar,60,60,-1
+544,15681,Caterpillar,Sniper,60,60,1
+545,35496,Sniper,Hare,60,60,1
+546,5287,Hare,Sniper,60,60,-1
+547,21430,Caterpillar,Hare,60,60,1
+548,64426,Hare,Caterpillar,60,60,1
+549,44349,Hero,Sniper,60,60,-1
+550,13577,Sniper,Hero,60,60,-1
+551,6395,Hero,Caterpillar,60,60,1
+552,100660,Caterpillar,Hero,60,60,1
+553,2817,Hero,Hare,60,60,1
+554,48161,Hare,Hero,60,60,1
+555,18367,Sniper,Caterpillar,60,60,1
+556,145636,Caterpillar,Sniper,60,60,1
+557,61643,Sniper,Hare,60,60,1
+558,3182,Hare,Sniper,60,60,1
+559,69493,Caterpillar,Hare,60,60,-1
+560,52061,Hare,Caterpillar,60,60,-1
+561,63879,Hero,Sniper,60,60,1
+562,15951,Sniper,Hero,60,60,-1
+563,32517,Hero,Caterpillar,60,60,1
+564,24001,Caterpillar,Hero,60,60,1
+565,74727,Hero,Hare,60,60,-1
+566,42633,Hare,Hero,60,60,1
+567,118970,Sniper,Caterpillar,60,60,1
+568,115858,Caterpillar,Sniper,60,60,1
+569,128549,Sniper,Hare,60,60,1
+570,50068,Hare,Sniper,60,60,-1
+571,20323,Caterpillar,Hare,60,60,1
+572,7514,Hare,Caterpillar,60,60,-1
+573,122929,Hero,Sniper,60,60,-1
+574,13286,Sniper,Hero,60,60,-1
+575,3787,Hero,Caterpillar,60,60,1
+576,78936,Caterpillar,Hero,60,60,1
+577,17547,Hero,Hare,60,60,1
+578,82186,Hare,Hero,60,60,1
+579,149800,Sniper,Caterpillar,60,60,-1
+580,23807,Caterpillar,Sniper,60,60,-1
+581,73219,Sniper,Hare,60,60,1
+582,96878,Hare,Sniper,60,60,-1
+583,110747,Caterpillar,Hare,60,60,1
+584,133230,Hare,Caterpillar,60,60,1
+585,140307,Hero,Sniper,60,60,1
+586,76908,Sniper,Hero,60,60,-1
+587,88267,Hero,Caterpillar,60,60,1
+588,85031,Caterpillar,Hero,60,60,1
+589,54647,Hero,Hare,60,60,1
+590,142535,Hare,Hero,60,60,1
+591,143176,Sniper,Caterpillar,60,60,-1
+592,54532,Caterpillar,Sniper,60,60,-1
+593,70363,Sniper,Hare,60,60,-1
+594,886,Hare,Sniper,60,60,1
+595,150211,Caterpillar,Hare,60,60,-1
+596,43775,Hare,Caterpillar,60,60,-1
+597,148506,Hero,Sniper,60,60,-1
+598,39506,Sniper,Hero,60,60,1
+599,47980,Hero,Caterpillar,60,60,1
+600,35126,Caterpillar,Hero,60,60,-1
+601,118279,Hero,Hare,60,60,1
+602,16962,Hare,Hero,60,60,-1
+603,39214,Sniper,Caterpillar,60,60,1
+604,18838,Caterpillar,Sniper,60,60,1
+605,53989,Sniper,Hare,60,60,1
+606,22593,Hare,Sniper,60,60,1
+607,7956,Caterpillar,Hare,60,60,-1
+608,21956,Hare,Caterpillar,60,60,1
+609,14363,Hero,Sniper,60,60,1
+610,66378,Sniper,Hero,60,60,-1
+611,73773,Hero,Caterpillar,60,60,1
+612,33356,Caterpillar,Hero,60,60,-1
+613,21057,Hero,Hare,60,60,1
+614,86557,Hare,Hero,60,60,-1
+615,78924,Sniper,Caterpillar,60,60,1
+616,3937,Caterpillar,Sniper,60,60,1
+617,31733,Sniper,Hare,60,60,1
+618,3953,Hare,Sniper,60,60,1
+619,36865,Caterpillar,Hare,60,60,-1
+620,48931,Hare,Caterpillar,60,60,1
+621,54649,Hero,Sniper,60,60,1
+622,98299,Sniper,Hero,60,60,-1
+623,62180,Hero,Caterpillar,60,60,-1
+624,110760,Caterpillar,Hero,60,60,-1
+625,70186,Hero,Hare,60,60,1
+626,67626,Hare,Hero,60,60,-1
+627,56320,Sniper,Caterpillar,60,60,1
+628,23218,Caterpillar,Sniper,60,60,1
+629,58733,Sniper,Hare,60,60,1
+630,135764,Hare,Sniper,60,60,-1
+631,9544,Caterpillar,Hare,60,60,-1
+632,56914,Hare,Caterpillar,60,60,1
+633,153029,Hero,Sniper,60,60,-1
+634,55782,Sniper,Hero,60,60,-1
+635,116106,Hero,Caterpillar,60,60,-1
+636,702,Caterpillar,Hero,60,60,1
+637,89948,Hero,Hare,60,60,1
+638,85069,Hare,Hero,60,60,1
+639,52720,Sniper,Caterpillar,60,60,-1
+640,8911,Caterpillar,Sniper,60,60,-1
+641,132098,Sniper,Hare,60,60,-1
+642,85707,Hare,Sniper,60,60,-1
+643,113748,Caterpillar,Hare,60,60,1
+644,19488,Hare,Caterpillar,60,60,-1
+645,43502,Hero,Sniper,60,60,-1
+646,9061,Sniper,Hero,60,60,1
+647,117401,Hero,Caterpillar,60,60,-1
+648,37175,Caterpillar,Hero,60,60,-1
+649,17941,Hero,Hare,60,60,1
+650,94616,Hare,Hero,60,60,1
+651,121629,Sniper,Caterpillar,60,60,1
+652,31891,Caterpillar,Sniper,60,60,1
+653,126750,Sniper,Hare,60,60,1
+654,119512,Hare,Sniper,60,60,-1
+655,94132,Caterpillar,Hare,60,60,1
+656,15932,Hare,Caterpillar,60,60,1
+657,1038,Hero,Sniper,60,60,-1
+658,48157,Sniper,Hero,60,60,1
+659,69883,Hero,Caterpillar,60,60,-1
+660,113343,Caterpillar,Hero,60,60,1
+661,102597,Hero,Hare,60,60,1
+662,23397,Hare,Hero,60,60,-1
+663,118019,Sniper,Caterpillar,60,60,1
+664,133140,Caterpillar,Sniper,60,60,1
+665,2928,Sniper,Hare,60,60,1
+666,35752,Hare,Sniper,60,60,-1
+667,26073,Caterpillar,Hare,60,60,1
+668,78837,Hare,Caterpillar,60,60,-1
+669,132629,Hero,Sniper,60,60,-3
+670,83560,Hero,Sniper,60,60,-1
+671,6528,Sniper,Hero,60,60,1
+672,35899,Hero,Caterpillar,60,60,1
+673,135643,Caterpillar,Hero,60,60,-1
+675,34489,Hero,Sniper,60,60,1
+676,41934,Sniper,Hero,60,60,-1
+677,63060,Hero,Sniper,60,60,-1
+678,50150,Sniper,Hero,60,60,1
+679,74647,Hero,Caterpillar,60,60,1
+680,129003,Caterpillar,Hero,60,60,-1
+681,12229,Hero,Hare,60,60,1
+682,58883,Hare,Hero,60,60,1
+683,128742,Sniper,Caterpillar,60,60,1
+684,78438,Caterpillar,Sniper,60,60,1
+685,9718,Sniper,Hare,60,60,-1
+686,3157,Hare,Sniper,60,60,-1
+688,46065,Hero,Sniper,60,60,-1
+689,10186,Sniper,Hero,60,60,-1
+690,81114,Hero,Caterpillar,60,60,1
+691,42441,Hero,Sniper,60,60,1
+692,148887,Sniper,Hero,60,60,-1
+693,154681,Hero,Caterpillar,60,60,1
+694,103783,Caterpillar,Hero,60,60,-1
+695,98558,Hero,Hare,60,60,1
+696,34434,Hare,Hero,60,60,1
+697,42665,Sniper,Caterpillar,60,60,-1
+698,38767,Caterpillar,Sniper,60,60,-1
+699,75461,Sniper,Hare,60,60,1
+700,3807,Hare,Sniper,60,60,1
+701,35146,Caterpillar,Hare,60,60,-1
+702,3308,Hare,Caterpillar,60,60,-1
+703,10354,Hero,Sniper,60,60,1
+704,51552,Sniper,Hero,60,60,-1
+705,6594,Lumberjack,Hero,60,60,1
+706,33408,Lumberjack,Hero,180,180,1
+707,1908,Hero,Lumberjack,180,180,-1
+708,56087,Lumberjack,Hero,180,180,-1
+709,58126,Hero,Lumberjack,180,180,1
+710,7468,Lumberjack,Sniper,180,180,1
+711,102178,Sniper,Lumberjack,180,180,-1
+712,111651,Lumberjack,Caterpillar,180,180,1
+713,38751,Caterpillar,Lumberjack,180,180,-1
+714,115285,Lumberjack,Hare,180,180,1
+715,51501,Hare,Lumberjack,180,180,1
+716,85175,Hero,Sniper,180,180,1
+717,100812,Sniper,Hero,180,180,-1
+718,119639,Hero,Caterpillar,180,180,1
+719,100083,Caterpillar,Hero,180,180,-1
+720,4974,Hero,Hare,180,180,1
+721,112566,Hare,Hero,180,180,-1
+722,18873,Sniper,Caterpillar,180,180,1
+723,78317,Caterpillar,Sniper,180,180,-1
+724,51389,Sniper,Hare,180,180,1
+725,10028,Hare,Sniper,180,180,-1
+726,50041,Caterpillar,Hare,180,180,1
+727,132635,Hare,Caterpillar,180,180,1
+728,44433,Gardener,Lumberjack,900,900,-1
+729,151349,Gardener,Lumberjack,180,180,-1
+730,51306,Lumberjack,Gardener,180,180,1
+731,62982,Gardener,Hero,180,180,1
+732,128512,Hero,Gardener,180,180,-1
+733,27918,Gardener,Sniper,180,180,1
+734,52181,Sniper,Gardener,180,180,-1
+735,80602,Gardener,Caterpillar,180,180,2
+737,65158,Gardener,Lumberjack,180,180,1
+738,126886,Lumberjack,Gardener,180,180,-1
+739,24892,Gardener,Hero,180,180,1
+740,4392,Hero,Gardener,180,180,-1
+741,43022,Gardener,Sniper,180,180,1
+742,45254,Sniper,Gardener,180,180,1
+743,99321,Gardener,Caterpillar,180,180,1
+744,86552,Caterpillar,Gardener,180,180,-1
+745,74310,Gardener,Hare,180,180,1
+746,54400,Hare,Gardener,180,180,-1
+747,47086,Lumberjack,Hero,180,180,1
+748,94007,Hero,Lumberjack,180,180,-1
+749,86877,Hare,Lumberjack,180,180,1
+750,102502,Lumberjack,Hare,180,180,1
+751,8944,Hare,Sniper,180,180,1
+752,82559,Sniper,Hare,180,180,-1
+753,92989,Hare,Caterpillar,180,180,1
+754,82103,Caterpillar,Hare,180,180,1
+755,143201,Hare,Gardener,180,180,-1
+756,116351,Gardener,Hare,180,180,1
+757,104426,Hare,Hero,180,180,-1
+758,3855,Hero,Hare,180,180,-1
+759,77544,Lumberjack,Sniper,180,180,1
+760,712,Sniper,Lumberjack,180,180,-1
+761,59137,Lumberjack,Caterpillar,180,180,1
+762,20762,Caterpillar,Lumberjack,180,180,-1
+763,30352,Lumberjack,Hero,180,180,-1
+764,22833,Hero,Lumberjack,180,180,1
+765,64139,Lumberjack,Hare,180,180,1
+766,54502,Hare,Lumberjack,180,180,1
+767,94089,Lumberjack,Caterpillar,180,180,1
+768,149172,Hero,Sniper,180,180,-1
+769,83498,Hero,Caterpillar,180,180,1
+770,15743,Caterpillar,Hero,180,180,-1
+771,111450,Hero,Caterpillar,180,180,-1
+772,49836,Hero,Gardener,180,180,-1
+773,89716,Gardener,Hero,180,180,1
+774,149398,Hero,Gardener,180,180,-1
+775,151300,Gardener,Hero,180,180,1
+776,51912,Hero,Gardener,180,180,-1
+777,129076,Gardener,Hero,180,180,1
+778,110279,Hero,Gardener,180,180,-1
+779,35058,Gardener,Hero,180,180,1
+780,47519,Caterpillar,Lumberjack,180,180,-1
+781,32212,Lumberjack,Caterpillar,180,180,1
+782,23324,Caterpillar,Gardener,180,180,1
+783,5064,Gardener,Caterpillar,180,180,1
+784,50253,Caterpillar,Sniper,180,180,-1
+785,54626,Sniper,Caterpillar,180,180,-1
+786,12503,Caterpillar,Hero,180,180,1
+787,122040,Hero,Caterpillar,180,180,-1
+788,70389,Caterpillar,Hare,180,180,1
+789,113152,Hare,Caterpillar,180,180,1
+790,53649,Lumberjack,Gardener,180,180,-1
+791,35042,Gardener,Lumberjack,180,180,1
+792,154215,Lumberjack,Sniper,180,180,1
+793,31967,Sniper,Lumberjack,180,180,1
+794,137866,Lumberjack,Hero,180,180,2
+795,50050,Hero,Lumberjack,180,180,-1
+796,115727,Lumberjack,Hare,180,180,1
+797,150727,Hare,Lumberjack,180,180,-1
+798,10773,Gardener,Sniper,180,180,-1
+799,75267,Sniper,Gardener,180,180,-1
+800,18144,Gardener,Hero,180,180,1
+801,96287,Hero,Gardener,180,180,-1
+803,129288,Gardener,Caterpillar,180,180,1
+804,7183,Caterpillar,Gardener,180,180,-1
+805,70644,Gardener,Lumberjack,180,180,-1
+806,155944,Economist,Lumberjack,600,600,1
+807,18300,Lumberjack,Economist,600,600,-1
+808,11573,Economist,Lumberjack,600,600,1
+809,83181,Lumberjack,Economist,600,600,-1
+810,3682,Hero,Gardener,180,180,1
+811,42134,Caterpillar,Lumberjack,180,180,-3
+812,6287,Lumberjack,Caterpillar,180,180,1
+813,48316,Caterpillar,Lumberjack,180,180,-1
+814,80436,Lumberjack,Caterpillar,180,180,1
+815,32038,Caterpillar,Lumberjack,180,180,1
+816,100785,Lumberjack,Caterpillar,180,180,1
+817,118112,Hare,Gardener,180,180,-1
+818,82402,Gardener,Hare,180,180,1
+819,23582,Hare,Gardener,180,180,-1
+820,37930,Gardener,Hare,180,180,1
+821,101050,Hare,Gardener,180,180,-1
+822,76550,Gardener,Hare,180,180,1
+823,66083,Hare,Gardener,180,180,-1
+824,144612,Gardener,Hare,180,180,1
+825,147653,Hare,Gardener,180,180,-1
+826,95805,Gardener,Hare,180,180,1
+827,23377,Hare,Gardener,180,180,1
+828,47764,Gardener,Hare,180,180,1
+829,2139,Hero,Caterpillar,180,180,1
+830,4393,Caterpillar,Hero,180,180,-1
+831,96181,Hero,Hare,180,180,1
+832,6942,Hare,Hero,180,180,-1
+833,35300,Hero,Lumberjack,180,180,-1
+834,7113,Lumberjack,Hero,180,180,1
+835,69622,Hero,Gardener,180,180,-1
+836,97193,Gardener,Hero,180,180,1
+837,115945,Hero,Sniper,180,180,-1
+838,128945,Sniper,Hero,180,180,1
+840,30074,Gardener,Lumberjack,180,180,-1
+841,142538,Sniper,Caterpillar,180,180,1
+842,127532,Caterpillar,Sniper,180,180,1
+843,156186,Sniper,Hare,180,180,-1
+844,117506,Hare,Sniper,180,180,-1
+845,13583,Hero,Sniper,180,180,3
+846,47757,Sniper,Hero,180,180,1
+847,27097,Hero,Hare,180,180,1
+848,133292,Hare,Hero,180,180,-1
+849,125277,Sniper,Caterpillar,180,180,-1
+850,19711,Caterpillar,Sniper,180,180,3
+851,17091,Sniper,Hare,180,180,1
+852,39006,Hare,Sniper,180,180,1
+853,79167,Sniper,Gardener,180,180,-1
+854,110167,Gardener,Sniper,180,180,1
+855,108670,Sniper,Lumberjack,180,180,1
+856,82521,Lumberjack,Sniper,180,180,-1
+857,23632,Caterpillar,Hare,180,180,-1
+858,32626,Hare,Caterpillar,180,180,1
+859,106309,Hero,Sniper,180,180,1
+860,110938,Sniper,Hero,180,180,3
+861,98446,Caterpillar,Gardener,180,180,1
+862,35766,Gardener,Caterpillar,180,180,-1
+863,76106,Hero,Hare,180,180,1
+864,41900,Hare,Hero,180,180,-1
+865,63243,Sniper,Caterpillar,180,180,3
+866,131941,Caterpillar,Sniper,180,180,-1
+867,133903,Sniper,Hare,180,180,1
+868,4468,Hare,Sniper,180,180,1
+869,110018,Sniper,Gardener,180,180,-1
+870,107252,Gardener,Sniper,180,180,1
+871,69905,Sniper,Lumberjack,180,180,-1
+872,15827,Lumberjack,Sniper,180,180,1
+873,29696,Caterpillar,Hare,180,180,1
+874,104571,Hare,Caterpillar,180,180,-1
+875,21589,Hare,Lumberjack,180,180,-1
+876,101935,Lumberjack,Hare,180,180,1
+877,76059,Gardener,Lumberjack,180,180,-1
+878,68767,Lumberjack,Gardener,180,180,1
+879,130079,Hero,Sniper,180,180,-1
+880,5077,Sniper,Hero,180,180,1
+881,34111,Hero,Caterpillar,180,180,1
+882,52132,Caterpillar,Hero,180,180,1
+883,53920,Caterpillar,Gardener,180,180,-1
+884,25060,Gardener,Caterpillar,180,180,1
+885,98049,Hero,Hare,180,180,1
+886,93838,Hare,Hero,180,180,1
+887,3322,Sniper,Caterpillar,180,180,-1
+888,35276,Caterpillar,Sniper,180,180,-1
+889,121162,Sniper,Hare,180,180,-1
+890,38930,Hare,Sniper,180,180,-1
+891,59025,Sniper,Gardener,180,180,-1
+892,11312,Gardener,Sniper,180,180,1
+893,127120,Sniper,Lumberjack,180,180,-1
+894,19585,Lumberjack,Sniper,180,180,1
+895,98156,Caterpillar,Hare,180,180,-1
+896,70757,Hare,Caterpillar,180,180,-1
+897,34823,Hare,Lumberjack,180,180,1
+898,79683,Lumberjack,Hare,180,180,1
+899,34235,Gardener,Lumberjack,180,180,1
+900,30167,Lumberjack,Gardener,180,180,1
+901,40649,Hero,Sniper,180,180,-1
+902,86268,Sniper,Hero,180,180,1
+903,57827,Hero,Caterpillar,180,180,1
+904,42501,Caterpillar,Hero,180,180,1
+905,90339,Caterpillar,Gardener,180,180,-1
+906,89656,Gardener,Caterpillar,180,180,1
+907,138160,Hero,Hare,180,180,1
+908,85185,Hare,Hero,180,180,-1
+909,138586,Hero,Lumberjack,180,180,-1
+910,84861,Lumberjack,Hero,180,180,1
+911,87346,Sniper,Caterpillar,180,180,1
+912,120785,Caterpillar,Sniper,180,180,-1
+913,102686,Sniper,Hare,180,180,-1
+914,146928,Hare,Sniper,180,180,1
+915,123364,Sniper,Gardener,180,180,-1
+916,101665,Gardener,Sniper,180,180,-3
+917,101082,Economist,Lumberjack,180,180,1
+918,73127,Lumberjack,Economist,180,180,-1
+919,54510,Economist,Lumberjack,180,180,-1
+920,41430,Lumberjack,Economist,180,180,1
+921,52445,Lumberjack,Economist,180,180,-1
+922,99149,Economist,Hero,180,180,1
+923,96893,Hero,Economist,180,180,-1
+924,52816,Economist,Sniper,180,180,1
+925,116933,Economist,Caterpillar,180,180,1
+926,104378,Caterpillar,Economist,180,180,-1
+927,139012,Economist,Hare,180,180,-1
+928,132025,Hare,Economist,180,180,1
+929,153978,Economist,Gardener,180,180,-1
+930,22150,Gardener,Economist,180,180,-1
+931,131300,Sniper,Economist,180,180,-1
+932,56885,Economist,Sniper,180,180,1
+933,8963,Hero,Economist,180,180,-1
+934,23573,Economist,Hero,180,180,1
+935,28699,Caterpillar,Economist,180,180,1
+936,64444,Economist,Caterpillar,180,180,1
+937,26468,Hare,Economist,180,180,-1
+938,82238,Economist,Hare,180,180,1
+939,117426,Gardener,Economist,180,180,1
+940,74161,Economist,Gardener,180,180,1
+941,156023,Sniper,Economist,180,180,-1
+942,58511,Economist,Sniper,180,180,1
+943,103642,Hero,Economist,180,180,-1
+944,102266,Economist,Hero,180,180,1
+945,14569,Caterpillar,Economist,180,180,-1
+946,12071,Economist,Caterpillar,180,180,1
+947,18285,Hare,Economist,180,180,-1
+948,70702,Economist,Hare,180,180,-1
+949,132223,Gardener,Economist,180,180,-1
+950,50186,Economist,Gardener,180,180,1
+951,104560,Sniper,Economist,180,180,-1
+952,39410,Economist,Sniper,180,180,1
+953,59605,Lumberjack,Economist,180,180,1
+954,113365,Economist,Lumberjack,180,180,1
+955,57042,Hero,Economist,180,180,1
+956,855,Economist,Hero,180,180,-1
+957,39194,Caterpillar,Economist,180,180,1
+958,10069,Economist,Caterpillar,180,180,1
+959,6955,Hare,Economist,180,180,-1
+960,135175,Economist,Hare,180,180,-1
+961,60831,Gardener,Economist,180,180,-1
+962,116966,Economist,Gardener,180,180,1
+963,42269,Sniper,Economist,180,180,-1
+964,10777,Economist,Sniper,180,180,1
+965,62712,Lumberjack,Economist,180,180,-1
+966,97415,Economist,Lumberjack,180,180,-1
+967,29229,Hero,Economist,180,180,-1
+968,19459,Economist,Hero,180,180,1
+969,6559,Caterpillar,Economist,180,180,-1
+970,50642,Economist,Caterpillar,180,180,1
+971,71219,Hare,Economist,180,180,-1
+972,62539,Economist,Hare,180,180,1
+973,9130,Gardener,Economist,180,180,-1
+974,144425,Economist,Gardener,180,180,1
+975,94107,Sniper,Economist,180,180,-1
+976,3206,Economist,Sniper,180,180,1
+977,46503,Lumberjack,Economist,180,180,-1
+978,40455,Economist,Lumberjack,180,180,1
+979,37689,Hero,Economist,180,180,-1
+980,8150,Economist,Hero,180,180,1
+981,103090,Caterpillar,Economist,180,180,1
+982,68436,Economist,Caterpillar,180,180,1
+983,41527,Hare,Economist,180,180,-1
+984,131900,Economist,Hare,180,180,1
+985,1560,Gardener,Economist,180,180,-1
+986,38300,Economist,Gardener,180,180,1
+987,91468,Sniper,Economist,180,180,-1
+988,10057,Economist,Sniper,180,180,1
+989,145792,Lumberjack,Economist,180,180,-1
+990,57537,Economist,Lumberjack,180,180,1
+991,16099,Hero,Economist,180,180,-1
+992,1568,Economist,Hero,180,180,1
+993,58214,Sniper,Lumberjack,180,180,-1
+994,1931,Lumberjack,Sniper,180,180,-1
+995,11966,Caterpillar,Hare,180,180,-1
+996,97167,Hare,Caterpillar,180,180,-1
+997,81962,Caterpillar,Economist,180,180,-1
+998,4433,Economist,Caterpillar,180,180,-1
+999,59760,Hare,Lumberjack,180,180,-1
+1000,92056,Lumberjack,Hare,180,180,1
+1001,75632,Hare,Economist,180,180,-1
+1002,31446,Economist,Hare,180,180,1
+1003,60137,Gardener,Lumberjack,180,180,1
+1004,117595,Lumberjack,Gardener,180,180,1
+1005,114820,Gardener,Economist,180,180,1
+1006,7063,Economist,Gardener,180,180,1
+1007,67467,Hero,Sniper,180,180,1
+1008,101461,Sniper,Hero,180,180,-1
+1009,21374,Hero,Caterpillar,180,180,-1
+1010,20959,Caterpillar,Hero,180,180,1
+1011,43285,Sniper,Economist,180,180,-1
+1012,87322,Economist,Sniper,180,180,1
+1013,78564,Caterpillar,Gardener,180,180,-1
+1014,48441,Gardener,Caterpillar,180,180,1
+1015,35601,Caterpillar,Lumberjack,180,180,-1
+1016,48425,Lumberjack,Caterpillar,180,180,1
+1017,1985,Lumberjack,Economist,180,180,1
+1018,35795,Economist,Lumberjack,180,180,1
+1019,48108,Hero,Hare,180,180,1
+1020,7506,Hare,Hero,180,180,-1
+1021,141662,Hero,Lumberjack,180,180,-1
+1022,47817,Lumberjack,Hero,180,180,1
+1023,155793,Hero,Economist,180,180,-1
+1024,17062,Economist,Hero,180,180,1
+1025,40492,Sniper,Caterpillar,180,180,-1
+1026,78761,Caterpillar,Sniper,180,180,1
+1027,22455,Sniper,Hare,180,180,-1
+1028,10201,Hare,Sniper,180,180,-1
+1029,17266,Sniper,Gardener,180,180,1
+1030,86312,Gardener,Sniper,180,180,1
+1031,105875,Sniper,Lumberjack,180,180,1
+1032,20115,Lumberjack,Sniper,180,180,-1
+1033,79368,Caterpillar,Hare,180,180,1
+1034,84558,Hare,Caterpillar,180,180,-1
+1035,127655,Caterpillar,Economist,180,180,-1
+1036,51881,Economist,Caterpillar,180,180,1
+1037,34257,Hare,Lumberjack,180,180,-1
+1038,4466,Lumberjack,Hare,180,180,1
+1039,34020,Hare,Economist,180,180,-1
+1040,5816,Economist,Hare,180,180,1
+1041,37145,Gardener,Lumberjack,180,180,1
+1042,36390,Lumberjack,Gardener,180,180,1
+1043,34831,Gardener,Economist,180,180,-1
+1044,86351,Economist,Gardener,180,180,-1
+1045,50823,Hero,Sniper,180,180,1
+1046,19637,Sniper,Hero,180,180,1
+1047,78222,Hero,Caterpillar,180,180,-1
+1048,5940,Caterpillar,Hero,180,180,-1
+1049,64365,Sniper,Economist,180,180,-1
+1050,110125,Economist,Sniper,180,180,1
+1051,29516,Sniper,Economist,180,180,1
+1052,127398,Caterpillar,Gardener,180,180,-1
+1053,82007,Gardener,Caterpillar,180,180,1
+1054,139482,Caterpillar,Lumberjack,180,180,1
+1055,25056,Lumberjack,Caterpillar,180,180,3
+1056,56434,Lumberjack,Economist,180,180,-1
+1057,3337,Economist,Lumberjack,180,180,-1
+1058,6439,Hero,Hare,180,180,-1
+1059,9459,Hare,Hero,180,180,1
+1060,33657,Hero,Lumberjack,180,180,-1
+1061,118730,Professor,Hero,180,180,1
+1062,1976,Hero,Professor,180,180,-1
+1063,146164,Professor,Sniper,180,180,1
+1064,21939,Sniper,Professor,180,180,-1
+1065,116431,Professor,Caterpillar,180,180,3
+1066,36077,Caterpillar,Professor,180,180,1
+1067,61958,Professor,Hare,180,180,-1
+1068,132657,Hare,Professor,180,180,1
+1069,67511,Professor,Hero,180,180,-1
+1070,57636,Hero,Professor,180,180,-1
+1071,57846,Professor,Sniper,180,180,-1
+1072,39369,Sniper,Professor,180,180,1
+1073,119056,Professor,Caterpillar,180,180,1
+1074,78812,Caterpillar,Professor,180,180,-1
+1075,39234,Professor,Hare,180,180,1
+1076,71057,Hare,Professor,180,180,-1
+1077,123527,Professor,Gardener,180,180,-1
+1078,123885,Gardener,Professor,180,180,-1
+1079,115752,Professor,Lumberjack,180,180,1
+1080,138751,Lumberjack,Professor,180,180,1
+1081,102633,Professor,Hero,60,60,1
+1082,41882,Hero,Professor,60,60,1
+1083,42699,Professor,Sniper,60,60,1
+1084,41257,Sniper,Professor,60,60,-1
+1085,50867,Professor,Caterpillar,60,60,-1
+1086,31486,Caterpillar,Professor,60,60,1
+1087,44589,Professor,Hare,60,60,-1
+1088,57501,Hare,Professor,60,60,-1
+1089,146537,Professor,Hero,60,60,-1
+1090,129393,Hero,Professor,60,60,-1
+1091,9663,Professor,Sniper,60,60,1
+1092,13132,Sniper,Professor,60,60,-1
+1093,89327,Professor,Caterpillar,60,60,1
+1094,25682,Caterpillar,Professor,60,60,-1
+1095,92214,Professor,Hare,60,60,-1
+1096,104525,Hare,Professor,60,60,1
+1097,8351,Lumberjack,Hero,60,60,-1
+1098,682,Hero,Lumberjack,60,60,1
+1099,48378,Lumberjack,Sniper,60,60,-1
+1100,110925,Sniper,Lumberjack,60,60,-1
+1101,3937,Lumberjack,Caterpillar,60,60,-1
+1102,17108,Caterpillar,Lumberjack,60,60,1
+1103,58474,Lumberjack,Hare,60,60,1
+1104,26932,Hare,Lumberjack,60,60,1
+1105,82335,Gardener,Hero,60,60,1
+1106,7655,Hero,Gardener,60,60,-1
+1107,56107,Gardener,Sniper,60,60,1
+1108,83136,Sniper,Gardener,60,60,-1
+1109,13587,Gardener,Caterpillar,60,60,-1
+1110,22091,Caterpillar,Gardener,60,60,-1
+1111,102886,Gardener,Hare,60,60,-1
+1112,39376,Hare,Gardener,60,60,1
+1113,71001,Economist,Hero,60,60,-1
+1114,39400,Hero,Economist,60,60,1
+1115,104468,Economist,Sniper,60,60,-1
+1116,83576,Sniper,Economist,60,60,-1
+1117,73160,Economist,Caterpillar,60,60,-1
+1118,110330,Caterpillar,Economist,60,60,-1
+1119,102350,Economist,Hare,60,60,1
+1120,97058,Hare,Economist,60,60,-1
+1121,56169,Hero,Gardener,60,60,-1
+1122,64193,Gardener,Hero,60,60,1
+1123,17910,Hero,Gardener,60,60,-1
+1124,40950,Gardener,Hero,60,60,-1
+1125,145797,Hero,Economist,60,60,-1
+1126,64016,Economist,Hero,60,60,1
+1127,7035,Sniper,Gardener,60,60,-1
+1128,109827,Gardener,Sniper,60,60,1
+1129,54084,Sniper,Gardener,60,60,-1
+1130,35955,Gardener,Sniper,60,60,1
+1131,114906,Sniper,Gardener,60,60,-1
+1132,33588,Gardener,Sniper,60,60,-1
+1133,147651,Sniper,Professor,60,60,1
+1134,101306,Professor,Sniper,60,60,-1
+1135,41301,Caterpillar,Lumberjack,60,60,1
+1136,116376,Lumberjack,Caterpillar,60,60,1
+1137,101192,Hare,Gardener,60,60,-1
+1138,79312,Gardener,Hare,60,60,1
+1139,150314,Hare,Economist,60,60,-1
+1140,145080,Economist,Hare,60,60,1
+1141,106367,Hare,Economist,60,60,-1
+1142,10813,Economist,Hare,60,60,1
+1143,42288,Hare,Economist,60,60,-1
+1144,57001,Economist,Hare,60,60,-1
+1145,58525,Hare,Economist,60,60,1
+1146,78428,Economist,Hare,60,60,1
+1147,2354,Sniper,Professor,60,60,1
+1148,102353,Professor,Sniper,60,60,1
+1149,53299,Sniper,Professor,60,60,-1
+1150,31994,Professor,Sniper,60,60,1
+1151,9939,Sniper,Professor,60,60,-1
+1152,11479,Professor,Sniper,60,60,1
+1153,117821,Hero,Economist,60,60,-1
+1154,32420,Economist,Hero,60,60,1
+1155,9912,Hero,Economist,60,60,-1
+1156,7784,Economist,Hero,60,60,1
+1157,20397,Sniper,Lumberjack,60,60,-1
+1158,54911,Lumberjack,Sniper,60,60,-1
+1159,135351,Sniper,Economist,60,60,-1
+1160,38326,Economist,Sniper,60,60,1
+1161,54207,Caterpillar,Gardener,60,60,1
+1162,25233,Gardener,Caterpillar,60,60,1
+1163,124658,Caterpillar,Economist,60,60,1
+1164,7753,Economist,Caterpillar,60,60,1
+1165,44438,Hare,Lumberjack,60,60,-1
+1166,120023,Lumberjack,Hare,60,60,-1
+1167,50069,Hero,Lumberjack,60,60,-1
+1168,81437,Lumberjack,Hero,60,60,-1
+1169,46596,Hero,Professor,60,60,-1
+1170,22867,Professor,Hero,60,60,1
+1171,108278,Sniper,Lumberjack,60,60,-1
+1172,43381,Lumberjack,Sniper,60,60,1
+1173,117125,Sniper,Economist,60,60,-1
+1174,38756,Economist,Sniper,60,60,-1
+1175,101950,Caterpillar,Caterpillar,60,60,-1
+1176,6950,Caterpillar,Caterpillar,60,60,1
+1177,25583,Caterpillar,Lumberjack,60,60,-1
+1178,111381,Lumberjack,Caterpillar,60,60,-1
+1179,96492,Caterpillar,Gardener,60,60,-1
+1180,55913,Gardener,Caterpillar,60,60,1
+1181,31754,Caterpillar,Economist,60,60,1
+1182,100562,Economist,Caterpillar,60,60,1
+1183,89028,Caterpillar,Professor,60,60,-1
+1184,20302,Professor,Caterpillar,60,60,1
+1185,35585,Hare,Hare,60,60,-1
+1186,50001,Hare,Hare,60,60,1
+1187,7695,Hare,Lumberjack,60,60,1
+1188,136010,Lumberjack,Hare,60,60,-1
+1189,13116,Hare,Gardener,60,60,-1
+1190,22336,Gardener,Hare,60,60,1
+1191,36723,Economist,Professor,60,60,1
+1192,110533,Professor,Economist,60,60,1
+1193,147848,Economist,Professor,60,60,-1
+1194,67286,Professor,Economist,60,60,1
+1195,24006,Hare,Professor,60,60,-1
+1196,10787,Professor,Hare,60,60,-1
+1197,32746,Economist,Professor,60,60,-1
+1198,141353,Professor,Economist,60,60,1
+1199,73100,Hero,Lumberjack,60,60,2
+1200,98130,Lumberjack,Hero,60,60,1
+1201,52861,Hero,Gardener,60,60,-1
+1202,19438,Gardener,Hero,60,60,1
+1203,1391,Hero,Professor,60,60,1
+1204,39490,Professor,Hero,60,60,1
+1205,43109,Sniper,Lumberjack,60,60,-1
+1206,53900,Lumberjack,Sniper,60,60,1
+1207,85559,Sniper,Economist,60,60,-1
+1208,10132,Economist,Sniper,60,60,1
+1209,105334,Caterpillar,Lumberjack,60,60,-1
+1210,3853,Lumberjack,Caterpillar,60,60,1
+1211,127181,Caterpillar,Gardener,60,60,1
+1212,35762,Gardener,Caterpillar,60,60,-1
+1213,56299,Caterpillar,Economist,60,60,1
+1214,69757,Economist,Caterpillar,60,60,1
+1215,46571,Caterpillar,Professor,60,60,1
+1216,112814,Professor,Caterpillar,60,60,1
+1217,73952,Hare,Lumberjack,60,60,1
+1218,58758,Lumberjack,Hare,60,60,1
+1219,3154,Hare,Gardener,60,60,-1
+1220,31557,Gardener,Hare,60,60,1
+1221,71909,Hare,Professor,60,60,-1
+1222,35443,Professor,Hare,60,60,1
+1223,145388,Economist,Professor,60,60,2
+1224,68882,Professor,Economist,60,60,1
+1225,28524,Hero,Lumberjack,60,60,-1
+1226,91457,Lumberjack,Professor,60,60,-1
+1227,135183,Professor,Lumberjack,60,60,1
+1228,71728,Lumberjack,Professor,60,60,1
+1229,21055,Professor,Lumberjack,60,60,-1
+1230,6078,Lumberjack,Professor,60,60,1
+1231,11833,Professor,Lumberjack,60,60,1
+1232,22431,Lumberjack,Professor,60,60,1
+1233,32963,Professor,Lumberjack,60,60,1
+1234,43005,Hero,Lumberjack,60,60,-1
+1235,3402,Lumberjack,Hero,60,60,-1
+1236,54534,Hero,Gardener,60,60,1
+1237,41878,Gardener,Hero,60,60,-1
+1238,72700,Hero,Economist,60,60,-1
+1239,1912,Economist,Hero,60,60,1
+1240,31797,Hero,Professor,60,60,1
+1241,19132,Professor,Hero,60,60,1
+1242,53189,Sniper,Lumberjack,60,60,1
+1243,119514,Lumberjack,Sniper,60,60,1
+1244,134298,Sniper,Gardener,60,60,-1
+1245,21196,Gardener,Sniper,60,60,-1
+1246,69930,Sniper,Economist,60,60,1
+1247,129426,Economist,Sniper,60,60,1
+1248,4454,Caterpillar,Lumberjack,60,60,1
+1249,19454,Lumberjack,Caterpillar,60,60,1
+1250,65060,Gardener,Professor,60,60,-2
+1251,109676,Professor,Gardener,60,60,1
+1252,58780,Gardener,Professor,60,60,1
+1253,67310,Professor,Gardener,60,60,-1
+1254,65914,Gardener,Professor,60,60,-1
+1255,4198,Professor,Gardener,60,60,1
+1256,150579,Gardener,Professor,60,60,1
+1257,110720,Professor,Gardener,60,60,-1
+1258,34178,Caterpillar,Gardener,60,60,-1
+1259,5014,Gardener,Caterpillar,60,60,1
+1260,6366,Caterpillar,Economist,60,60,-1
+1261,22091,Economist,Caterpillar,60,60,-1
+1262,34761,Caterpillar,Professor,60,60,1
+1263,36035,Professor,Caterpillar,60,60,-1
+1264,72825,Hare,Lumberjack,60,60,-1
+1265,40760,Lumberjack,Hare,60,60,1
+1266,61531,Hare,Gardener,60,60,1
+1267,100932,Gardener,Hare,60,60,-1
+1268,22118,Hare,Professor,60,60,1
+1269,94191,Professor,Hare,60,60,1
+1270,58181,Lumberjack,Professor,60,60,-1
+1271,53926,Professor,Lumberjack,60,60,1
+1272,96925,Gardener,Professor,60,60,-1
+1273,88806,Professor,Gardener,60,60,-1
+1274,124953,Economist,Professor,60,60,1
+1275,41463,Professor,Economist,60,60,1
+1276,7843,Hero,Lumberjack,60,60,1
+1277,50768,Lumberjack,Hero,60,60,1
+1278,65376,Hero,Gardener,60,60,-1
+1279,84056,Gardener,Hero,60,60,1
+1280,98517,Hero,Economist,60,60,1
+1281,19796,Economist,Hero,60,60,1
+1282,100707,Hero,Professor,60,60,1
+1283,113471,Professor,Hero,60,60,-1
+1284,115786,Sniper,Lumberjack,60,60,-1
+1285,126407,Lumberjack,Sniper,60,60,-1
+1286,41933,Sniper,Gardener,60,60,-1
+1287,7087,Gardener,Sniper,60,60,-1
+1288,12330,Sniper,Economist,60,60,-1
+1289,86561,Economist,Sniper,60,60,-1
+1290,33292,Caterpillar,Lumberjack,60,60,-1
+1291,82052,Lumberjack,Caterpillar,60,60,1
+1292,4906,Caterpillar,Gardener,60,60,-1
+1293,48512,Gardener,Caterpillar,60,60,1
+1294,12495,Caterpillar,Economist,60,60,-1
+1295,43280,Economist,Caterpillar,60,60,1
+1296,31935,Caterpillar,Professor,60,60,-1
+1297,129466,Professor,Caterpillar,60,60,1
+1298,104745,Hare,Lumberjack,60,60,-1
+1299,29396,Lumberjack,Hare,60,60,1
+1300,115369,Hare,Gardener,60,60,-1
+1301,80462,Gardener,Hare,60,60,-1
+1302,43499,Hare,Economist,60,60,1
+1303,133205,Economist,Hare,60,60,1
+1304,131282,Hare,Professor,60,60,-1
+1305,5012,Professor,Hare,60,60,1
+1306,77177,Lumberjack,Professor,60,60,-1
+1307,132551,Professor,Lumberjack,60,60,1
+1308,127814,Gardener,Professor,60,60,-1
+1309,125810,Professor,Gardener,60,60,-1
+1310,76389,Economist,Professor,60,60,1
+1311,132037,Professor,Economist,60,60,-1
+1312,57408,Hero,Lumberjack,60,60,-1
+1313,22043,Lumberjack,Hero,60,60,1
+1314,147874,Hero,Gardener,60,60,1
+1315,120012,Gardener,Hero,60,60,-1
+1316,5040,Hero,Economist,60,60,-1
+1317,23915,Economist,Hero,60,60,1
+1318,143571,Hero,Professor,60,60,-1
+1319,35034,Professor,Hero,60,60,1
+1320,25016,Sniper,Lumberjack,60,60,1
+1321,23509,Lumberjack,Sniper,60,60,1
+1322,5735,Sniper,Gardener,60,60,-1
+1323,4718,Gardener,Sniper,60,60,1
+1324,32808,Sniper,Economist,60,60,1
+1325,11158,Economist,Sniper,60,60,-1
+1326,12401,Sniper,Professor,60,60,-1
+1327,82327,Professor,Sniper,60,60,-1
+1328,106533,Caterpillar,Lumberjack,60,60,-1
+1329,25728,Lumberjack,Caterpillar,60,60,1
+1330,118654,Caterpillar,Gardener,60,60,1
+1331,115011,Gardener,Caterpillar,60,60,1
+1332,120524,Caterpillar,Economist,60,60,-1
+1333,81958,Economist,Caterpillar,60,60,1
+1334,25463,Caterpillar,Professor,60,60,1
+1335,132647,Professor,Caterpillar,60,60,1
+1336,20429,Hare,Lumberjack,60,60,1
+1337,80302,Lumberjack,Hare,60,60,1
+1338,43734,Hare,Gardener,60,60,-1
+1339,35909,Gardener,Hare,60,60,-1
+1340,9022,Hare,Economist,60,60,-1
+1341,93936,Economist,Hare,60,60,1
+1342,4288,Hare,Professor,60,60,1
+1343,19793,Professor,Hare,60,60,1
+1344,65324,Lumberjack,Professor,60,60,-1
+1345,66547,Professor,Lumberjack,60,60,1
+1346,116619,Gardener,Professor,60,60,1
+1347,1137,Professor,Gardener,60,60,-1
+1348,8965,Economist,Professor,60,60,-1
+1349,38760,Professor,Economist,60,60,-1
+1350,102970,Hero,Lumberjack,60,60,-1
+1351,19845,Lumberjack,Hero,60,60,1
+1352,14294,Hero,Gardener,60,60,1
+1353,84439,Gardener,Hero,60,60,1
+1354,52763,Hero,Economist,60,60,-1
+1355,41966,Economist,Hero,60,60,1
+1356,114098,Hero,Professor,60,60,-1
+1357,32296,Professor,Hero,60,60,-1
+1358,101626,Sniper,Lumberjack,60,60,1
+1359,129410,Lumberjack,Sniper,60,60,1
+1360,114926,Sniper,Gardener,60,60,-1
+1361,21037,Gardener,Sniper,60,60,-1
+1362,66261,Sniper,Economist,60,60,-1
+1363,82065,Economist,Sniper,60,60,1
+1364,100613,Sniper,Professor,60,60,-1
+1365,10167,Professor,Sniper,60,60,1
+1366,44797,Caterpillar,Lumberjack,60,60,1
+1367,29668,Lumberjack,Caterpillar,60,60,1
+1368,30717,Caterpillar,Gardener,60,60,-1
+1369,2681,Gardener,Caterpillar,60,60,1
+1370,126034,Caterpillar,Economist,60,60,1
+1371,20319,Economist,Caterpillar,60,60,-1
+1372,52287,Caterpillar,Professor,60,60,1
+1373,85537,Professor,Caterpillar,60,60,1
+1374,145992,Hare,Lumberjack,60,60,-1
+1375,112175,Lumberjack,Hare,60,60,-1
+1376,129091,Hare,Gardener,60,60,-1
+1377,5086,Gardener,Hare,60,60,1
+1378,18917,Hare,Economist,60,60,-1
+1379,52210,Economist,Hare,60,60,-1
+1380,44194,Hare,Professor,60,60,1
+1381,68962,Professor,Hare,60,60,1
+1382,29724,Lumberjack,Professor,60,60,1
+1383,88563,Professor,Lumberjack,60,60,1
+1384,87443,Gardener,Professor,60,60,-1
+1385,54655,Professor,Gardener,60,60,1
+1386,119678,Economist,Professor,60,60,1
+1387,114027,Professor,Economist,60,60,-1
+1388,29575,Hero,Lumberjack,60,60,-1
+1389,56282,Lumberjack,Hero,60,60,-1
+1390,104779,Hero,Gardener,60,60,-1
+1391,64562,Gardener,Hero,60,60,1
+1392,68315,Hero,Economist,60,60,1
+1393,117550,Economist,Hero,60,60,1
+1394,36505,Hero,Professor,60,60,1
+1395,98896,Professor,Hero,60,60,1
+1396,71363,Sniper,Lumberjack,60,60,1
+1397,52356,Lumberjack,Sniper,60,60,1
+1398,86879,Sniper,Gardener,60,60,-1
+1399,6356,Gardener,Sniper,60,60,-1
+1400,120861,Sniper,Economist,60,60,-1
+1401,148136,Economist,Sniper,60,60,1
+1402,19890,Sniper,Professor,60,60,1
+1403,152028,Professor,Sniper,60,60,-1
+1404,7567,Caterpillar,Lumberjack,60,60,-1
+1405,7586,Lumberjack,Caterpillar,60,60,-1
+1406,17823,Caterpillar,Gardener,60,60,-1
+1407,95301,Gardener,Caterpillar,60,60,-1
+1408,13956,Caterpillar,Economist,60,60,-1
+1409,6487,Economist,Caterpillar,60,60,1
+1410,88300,Caterpillar,Professor,60,60,1
+1411,94836,Professor,Caterpillar,60,60,1
+1412,39387,Hare,Lumberjack,60,60,-1
+1413,50031,Lumberjack,Hare,60,60,1
+1414,136112,Hare,Gardener,60,60,-1
+1415,82203,Gardener,Hare,60,60,1
+1416,94377,Hare,Economist,60,60,-1
+1417,85002,Economist,Hare,60,60,-1
+1418,5919,Hare,Professor,60,60,-1
+1419,20915,Professor,Hare,60,60,1
+1420,44451,Lumberjack,Professor,60,60,1
+1421,101082,Professor,Lumberjack,60,60,1
+1422,97626,Gardener,Professor,60,60,-1
+1423,85666,Professor,Gardener,60,60,-1
+1424,39300,Economist,Professor,60,60,-1
+1425,64063,Professor,Economist,60,60,1
+1426,5906,Hero,Lumberjack,60,60,-1
+1427,33144,Lumberjack,Hero,60,60,-1
+1428,48531,Hero,Gardener,60,60,-1
+1429,113588,Gardener,Hero,60,60,1
+1430,72401,Hero,Economist,60,60,-1
+1431,143957,Economist,Hero,60,60,1
+1432,153300,Hero,Professor,60,60,1
+1433,35955,Professor,Hero,60,60,1
+1434,42176,Sniper,Lumberjack,60,60,-1
+1435,31282,Lumberjack,Sniper,60,60,-1
+1436,67506,Sniper,Gardener,60,60,-1
+1437,4413,Gardener,Sniper,60,60,1
+1438,1812,Sniper,Economist,60,60,1
+1439,4286,Economist,Sniper,60,60,-1
+1440,120509,Sniper,Professor,60,60,-1
+1441,53268,Professor,Sniper,60,60,1
+1442,36128,Caterpillar,Lumberjack,60,60,-1
+1443,144627,Lumberjack,Caterpillar,60,60,1
+1444,12225,Caterpillar,Gardener,60,60,-1
+1445,7107,Gardener,Caterpillar,60,60,1
+1446,11115,Caterpillar,Economist,60,60,-1
+1447,54351,Economist,Caterpillar,60,60,1
+1448,85522,Caterpillar,Professor,60,60,-1
+1449,1087,Professor,Caterpillar,60,60,1
+1450,92027,Hare,Lumberjack,60,60,1
+1451,20501,Lumberjack,Hare,60,60,1
+1452,140563,Hare,Gardener,60,60,-1
+1453,11687,Gardener,Hare,60,60,-1
+1454,64549,Hare,Economist,60,60,1
+1455,33172,Economist,Hare,60,60,1
+1456,132362,Hare,Professor,60,60,-1
+1457,4234,Professor,Hare,60,60,1
+1458,36883,Lumberjack,Professor,60,60,-1
+1459,83161,Professor,Lumberjack,60,60,1
+1460,28276,Gardener,Professor,60,60,-1
+1461,154057,Professor,Gardener,60,60,1
+1462,10569,Economist,Professor,60,60,1
+1463,98339,Professor,Economist,60,60,1
+1464,111233,Hero,Lumberjack,60,60,-1
+1465,35933,Lumberjack,Hero,60,60,1
+1466,153667,Hero,Gardener,60,60,-1
+1467,43788,Gardener,Hero,60,60,-1
+1468,154052,Hero,Economist,60,60,1
+1469,85432,Economist,Hero,60,60,1
+1470,28762,Hero,Professor,60,60,1
+1471,35661,Professor,Hero,60,60,-1
+1472,2241,Sniper,Lumberjack,60,60,1
+1473,116267,Lumberjack,Sniper,60,60,1
+1474,126646,Sniper,Gardener,60,60,-1
+1475,94500,Gardener,Sniper,60,60,-1
+1476,35266,Sniper,Economist,60,60,-1
+1477,3882,Economist,Sniper,60,60,-1
+1478,25108,Sniper,Professor,60,60,1
+1479,41936,Professor,Sniper,60,60,-1
+1480,44118,Caterpillar,Lumberjack,60,60,-1
+1481,3982,Lumberjack,Caterpillar,60,60,1
+1482,74278,Caterpillar,Gardener,60,60,-1
+1483,55541,Gardener,Caterpillar,60,60,1
+1484,95319,Caterpillar,Economist,60,60,1
+1485,94737,Economist,Caterpillar,60,60,-1
+1486,152288,Caterpillar,Professor,60,60,1
+1487,152437,Professor,Caterpillar,60,60,1
+1488,62797,Hare,Lumberjack,60,60,1
+1489,35631,Lumberjack,Hare,60,60,-1
+1490,152183,Hare,Gardener,60,60,1
+1491,151888,Gardener,Hare,60,60,-1
+1492,3109,Hare,Economist,60,60,-1
+1493,23833,Economist,Hare,60,60,-1
+1494,20388,Hare,Professor,60,60,-1
+1495,111505,Professor,Hare,60,60,1
+1496,47356,Lumberjack,Professor,60,60,-1
+1497,31712,Professor,Lumberjack,60,60,1
+1498,22420,Gardener,Professor,60,60,1
+1499,114794,Professor,Gardener,60,60,-1
+1500,46789,Economist,Professor,60,60,1
+1501,101580,Professor,Economist,60,60,-1
+1502,49873,Hero,Lumberjack,60,60,1
+1503,50673,Lumberjack,Hero,60,60,-1
+1504,152426,Hero,Gardener,60,60,1
+1505,104784,Gardener,Hero,60,60,-1
+1506,28792,Hero,Economist,60,60,-1
+1507,84541,Economist,Hero,60,60,1
+1508,85960,Hero,Professor,60,60,-1
+1509,2962,Professor,Hero,60,60,1
+1510,73808,Sniper,Lumberjack,60,60,-1
+1511,5126,Lumberjack,Sniper,60,60,-1
+1512,125888,Sniper,Gardener,60,60,1
+1513,81904,Gardener,Sniper,60,60,1
+1514,87449,Sniper,Economist,60,60,1
+1515,101012,Economist,Sniper,60,60,1
+1516,11152,Sniper,Professor,60,60,1
+1517,88561,Professor,Sniper,60,60,-1
+1518,140523,Caterpillar,Lumberjack,60,60,-1
+1519,24916,Lumberjack,Caterpillar,60,60,1
+1520,71085,Caterpillar,Gardener,60,60,-1
+1521,35912,Gardener,Caterpillar,60,60,1
+1522,8316,Caterpillar,Economist,60,60,-1
+1523,1541,Economist,Caterpillar,60,60,1
+1524,16896,Caterpillar,Professor,60,60,1
+1525,114006,Professor,Caterpillar,60,60,1
+1526,31289,Hare,Lumberjack,60,60,1
+1527,3853,Lumberjack,Hare,60,60,1
+1528,143005,Hare,Gardener,60,60,-1
+1529,23511,Gardener,Hare,60,60,1
+1530,19810,Hare,Economist,60,60,1
+1531,787,Economist,Hare,60,60,-1
+1532,43241,Hare,Professor,60,60,-1
+1533,23208,Professor,Hare,60,60,1
+1534,144755,Lumberjack,Professor,60,60,-1
+1535,3332,Professor,Lumberjack,60,60,1
+1536,107985,Gardener,Professor,60,60,-1
+1537,62027,Professor,Gardener,60,60,1
+1538,140541,Economist,Professor,60,60,-1
+1539,60324,Professor,Economist,60,60,1
+1540,83003,Hero,Lumberjack,60,60,-2
+1541,22252,Lumberjack,Hero,60,60,1
+1542,44593,Hero,Gardener,60,60,-1
+1543,29015,Gardener,Hero,60,60,1
+1544,70024,Hero,Economist,60,60,1
+1545,101126,Economist,Hero,60,60,1
+1546,26247,Hero,Professor,60,60,-1
+1547,1072,Professor,Hero,60,60,1
+1548,57002,Sniper,Lumberjack,60,60,-1
+1549,116255,Lumberjack,Sniper,60,60,-1
+1550,54532,Sniper,Gardener,60,60,1
+1551,7565,Gardener,Sniper,60,60,1
+1552,23900,Sniper,Economist,60,60,-1
+1553,100676,Economist,Sniper,60,60,1
+1554,121361,Sniper,Professor,60,60,-1
+1555,152082,Professor,Sniper,60,60,-1
+1556,100019,Caterpillar,Lumberjack,60,60,1
+1557,33394,Lumberjack,Caterpillar,60,60,1
+1558,36021,Caterpillar,Gardener,60,60,-1
+1559,48520,Gardener,Caterpillar,60,60,-1
+1560,111922,Caterpillar,Economist,60,60,1
+1561,51036,Economist,Caterpillar,60,60,1
+1562,29621,Gardener,Economist,60,60,1
+1563,53556,Economist,Gardener,60,60,-1
+1564,11837,Gardener,Economist,60,60,-1
+1565,77003,Economist,Gardener,60,60,-1
+1566,62033,Gardener,Economist,60,60,-1
+1567,148308,Economist,Gardener,60,60,-1
+1568,131267,Gardener,Economist,60,60,-1
+1569,60661,Economist,Gardener,60,60,-1
+1570,4074,Gardener,Economist,60,60,1
+1571,15148,Lumberjack,Gardener,60,60,-1
+1572,107978,Lumberjack,Gardener,60,60,1
+1573,9558,Gardener,Lumberjack,60,60,-1
+1574,17720,Lumberjack,Gardener,60,60,1
+1575,23890,Gardener,Lumberjack,60,60,-1
+1576,92850,Lumberjack,Economist,60,60,-1
+1577,32140,Economist,Lumberjack,60,60,-1
+1578,113959,Lumberjack,Gardener,60,60,1
+1579,78438,Gardener,Lumberjack,60,60,1
+1580,118569,Lumberjack,Economist,60,60,1
+1581,4723,Economist,Lumberjack,60,60,1
+1582,49094,Lumberjack,Gardener,60,60,1
+1583,104733,Gardener,Lumberjack,60,60,-1
+1584,96836,Economist,Professor,60,60,1
+1585,41769,Professor,Economist,60,60,-1
+1586,4025,Lumberjack,Economist,60,60,-1
+1587,25702,Economist,Lumberjack,60,60,-1
+1588,87726,Gardener,Economist,60,60,1
+1589,117338,Economist,Gardener,60,60,-1
+1590,26602,Lumberjack,Gardener,60,60,-1
+1591,31931,Gardener,Lumberjack,60,60,1
+1592,102460,Lumberjack,Professor,60,60,-1
+1593,1786,Professor,Lumberjack,60,60,-1
+1594,137727,Gardener,Professor,60,60,1
+1595,100864,Professor,Gardener,60,60,1
+1596,107523,Economist,Professor,60,60,-1
+1597,65197,Lumberjack,Economist,60,60,1
+1598,52197,Economist,Lumberjack,60,60,1
+1599,21738,Gardener,Economist,60,60,1
+1600,39580,Economist,Gardener,60,60,-1
+1601,129967,Economist,Professor,60,60,1
+1602,67591,Professor,Economist,60,60,1
+1603,154464,Caterpillar,Professor,60,60,1
+1604,135786,Professor,Caterpillar,60,60,1
+1605,101190,Hare,Professor,60,60,-1
+1606,39662,Professor,Hare,60,60,1
+1607,8592,Lumberjack,Gardener,60,60,-1
+1608,38209,Gardener,Lumberjack,60,60,-1
+1609,24208,Lumberjack,Professor,60,60,1
+1610,100043,Professor,Lumberjack,60,60,1
+1611,125423,Gardener,Professor,60,60,-1
+1612,18977,Professor,Gardener,60,60,-1
+1613,91257,Lumberjack,Economist,60,60,1
+1614,51064,Economist,Lumberjack,60,60,1
+1615,22084,Gardener,Economist,60,60,2
+1616,35776,Economist,Gardener,60,60,-1
+1617,70906,Economist,Professor,60,60,1
+1618,71058,Professor,Economist,60,60,-1
+1619,17091,Hero,Professor,60,60,-1
+1620,52426,Professor,Hero,60,60,-1
+1621,106338,Sniper,Professor,60,60,-1
+1622,132044,Caterpillar,Professor,60,60,1
+1623,47191,Professor,Caterpillar,60,60,1
+1624,39578,Hare,Professor,60,60,-1
+1625,95414,Professor,Hare,60,60,1
+1626,40775,Lumberjack,Gardener,60,60,1
+1627,23132,Gardener,Lumberjack,60,60,1
+1628,54179,Lumberjack,Professor,60,60,-1
+1629,7739,Professor,Lumberjack,60,60,1
+1630,120395,Gardener,Professor,60,60,-1
+1631,145890,Professor,Gardener,60,60,1
+1632,14532,Sniper,Professor,60,60,1
+1633,95305,Professor,Sniper,60,60,-1
+1634,927,Lumberjack,Economist,60,60,-1
+1635,6663,Economist,Lumberjack,60,60,1
+1636,32810,Gardener,Economist,60,60,1
+1637,32206,Economist,Gardener,60,60,-1
+1638,78561,Economist,Professor,60,60,1
+1639,16068,Professor,Economist,60,60,1
+1640,40455,Hero,Professor,60,60,-1
+1641,114530,Professor,Hero,60,60,-1
+1642,37874,Caterpillar,Professor,60,60,1
+1643,82338,Professor,Caterpillar,60,60,1
+1644,31828,Hare,Professor,60,60,-1
+1645,469,Professor,Hare,60,60,1
+1646,28324,Lumberjack,Gardener,60,60,-1
+1647,10214,Gardener,Lumberjack,60,60,1
+1648,120035,Lumberjack,Professor,60,60,-1
+1649,32091,Gardener,Professor,60,60,-1
+1650,86493,Professor,Gardener,60,60,1
+1651,51100,Sniper,Professor,60,60,1
+1652,100205,Professor,Sniper,60,60,1
+1653,89745,Lumberjack,Economist,60,60,1
+1654,25475,Economist,Lumberjack,60,60,1
+1655,42038,Lumberjack,Professor,60,60,1
+1656,35030,Professor,Lumberjack,60,60,1
+1657,154057,Gardener,Economist,60,60,-1
+1658,147551,Economist,Gardener,60,60,-1
+1659,27067,Economist,Professor,60,60,-1
+1660,104070,Hero,Professor,60,60,-1
+1661,119392,Professor,Hero,60,60,1
+1662,22459,Caterpillar,Professor,60,60,1
+1663,82338,Professor,Caterpillar,60,60,1
+1664,20850,Hare,Professor,60,60,-1
+1665,58977,Lumberjack,Gardener,60,60,1
+1666,87082,Gardener,Lumberjack,60,60,1
+1667,87004,Gardener,Professor,60,60,1
+1668,24407,Professor,Gardener,60,60,1
+1669,87621,Economist,Professor,60,60,1
+1670,102341,Professor,Economist,60,60,1
+1671,17684,Sniper,Professor,60,60,-1
+1672,35776,Professor,Sniper,60,60,1
+1673,138834,Hare,Professor,60,60,-1
+1674,100278,Professor,Hare,60,60,1
+1675,18159,Lumberjack,Economist,60,60,-1
+1676,5839,Economist,Lumberjack,60,60,-1
+1677,43100,Lumberjack,Professor,60,60,1
+1678,137172,Professor,Lumberjack,60,60,-1
+1679,110120,Gardener,Economist,60,60,1
+1680,108684,Hero,Professor,60,60,1
+1681,116656,Professor,Hero,60,60,1
+1682,73453,Caterpillar,Professor,60,60,-1
+1683,110410,Professor,Caterpillar,60,60,1
+1684,20421,Lumberjack,Gardener,60,60,-1
+1685,5447,Gardener,Lumberjack,60,60,1
+1686,105875,Gardener,Economist,60,60,-1
+1687,102080,Economist,Gardener,60,60,1
+1688,54669,Gardener,Professor,60,60,1
+1689,17337,Professor,Gardener,60,60,1
+1690,155271,Economist,Professor,60,60,1
+1691,79302,Professor,Economist,60,60,1
+1692,75752,Sniper,Professor,60,60,-1
+1693,86792,Professor,Sniper,60,60,-1
+1694,6498,Hare,Professor,60,60,-1
+1695,9831,Professor,Hare,60,60,-1
+1696,114839,Lumberjack,Economist,60,60,1
+1697,15942,Economist,Lumberjack,60,60,1
+1698,57235,Lumberjack,Professor,60,60,-1
+1699,993,Professor,Lumberjack,60,60,-1
+1700,101789,Hero,Professor,60,60,1
+1701,10562,Professor,Hero,60,60,-1
+1702,54876,Caterpillar,Professor,60,60,1
+1703,54195,Professor,Caterpillar,60,60,1
+1704,37268,Lumberjack,Gardener,60,60,1
+1705,98885,Gardener,Lumberjack,60,60,-1
+1706,115772,Gardener,Economist,60,60,1
+1707,39293,Economist,Gardener,60,60,-1
+1708,88636,Gardener,Professor,60,60,-1
+1709,24825,Professor,Gardener,60,60,1
+1710,32806,Economist,Professor,60,60,1
+1711,128314,Professor,Economist,60,60,1
+1712,42424,Sniper,Professor,60,60,1
+1713,36080,Professor,Sniper,60,60,-1
+1714,42071,Hare,Professor,60,60,-1
+1715,7771,Professor,Hare,60,60,1
+1716,10620,Lumberjack,Economist,60,60,1
+1717,102718,Economist,Lumberjack,60,60,1
+1718,85691,Lumberjack,Professor,60,60,-1
+1719,85187,Professor,Lumberjack,60,60,1
+1720,91275,Hero,Professor,60,60,1
+1721,36555,Professor,Hero,60,60,1
+1722,35944,Caterpillar,Professor,60,60,1
+1723,3942,Professor,Caterpillar,60,60,-1
+1724,20988,Hare,Lumberjack,60,60,-1
+1725,47937,Lumberjack,Hare,60,60,-1
+1726,46131,Hare,Gardener,60,60,1
+1727,50893,Gardener,Hare,60,60,-1
+1728,83555,Hare,Economist,60,60,-1
+1729,2336,Economist,Hare,60,60,-1
+1730,139607,Lumberjack,Gardener,60,60,-1
+1731,20777,Gardener,Lumberjack,60,60,-1
+1732,148373,Gardener,Economist,60,60,1
+1733,56892,Economist,Gardener,60,60,-1
+1734,68572,Gardener,Professor,60,60,-1
+1735,87035,Professor,Gardener,60,60,-1
+1736,101220,Economist,Professor,60,60,-1
+1737,38343,Professor,Economist,60,60,1
+1738,52399,Sniper,Professor,60,60,-1
+1739,4948,Professor,Sniper,60,60,-1
+1740,121170,Hare,Professor,60,60,-1
+1741,34750,Professor,Hare,60,60,1
+1742,119981,Lumberjack,Economist,60,60,1
+1743,100957,Economist,Lumberjack,60,60,1
+1744,69626,Lumberjack,Professor,60,60,-1
+1745,16360,Professor,Lumberjack,60,60,1
+1746,20619,Hero,Economist,60,60,-1
+1747,8810,Economist,Hero,60,60,1
+1748,103175,Hero,Professor,60,60,-1
+1749,41256,Professor,Hero,60,60,1
+1750,54229,Sniper,Lumberjack,60,60,1
+1751,96926,Lumberjack,Sniper,60,60,1
+1752,128023,Sniper,Gardener,60,60,-1
+1753,31657,Gardener,Sniper,60,60,1
+1754,69826,Caterpillar,Economist,60,60,-1
+1755,4327,Economist,Caterpillar,60,60,1
+1756,53296,Caterpillar,Professor,60,60,-1
+1757,99225,Professor,Caterpillar,60,60,1
+1758,105305,Hare,Lumberjack,60,60,-1
+1759,54511,Lumberjack,Hare,60,60,1
+1760,70803,Hare,Gardener,60,60,-1
+1761,789,Gardener,Hare,60,60,1
+1762,134507,Hare,Economist,60,60,1
+1763,19808,Economist,Hare,60,60,-1
+1764,86236,Lumberjack,Gardener,60,60,1
+1765,36403,Gardener,Lumberjack,60,60,1
+1766,1209,Gardener,Economist,60,60,1
+1767,19052,Economist,Gardener,60,60,1
+1768,133565,Gardener,Professor,60,60,-1
+1769,29956,Professor,Gardener,60,60,-1
+1770,4284,Economist,Professor,60,60,1
+1771,19092,Professor,Economist,60,60,1
+1772,31399,Hero,Lumberjack,60,60,1
+1773,98273,Lumberjack,Hero,60,60,-1
+1774,70285,Hero,Gardener,60,60,1
+1775,35751,Gardener,Hero,60,60,1
+1776,42096,Sniper,Professor,60,60,1
+1777,104715,Professor,Sniper,60,60,1
+1778,133478,Caterpillar,Lumberjack,60,60,-1
+1779,23775,Lumberjack,Caterpillar,60,60,-1
+1780,56428,Caterpillar,Gardener,60,60,-1
+1781,37663,Gardener,Caterpillar,60,60,-1
+1782,15943,Hare,Professor,60,60,1
+1783,19089,Professor,Hare,60,60,1
+1784,31568,Lumberjack,Economist,60,60,1
+1785,94061,Economist,Lumberjack,60,60,1
+1786,72143,Lumberjack,Professor,60,60,1
+1787,116073,Professor,Lumberjack,60,60,1
+1788,50324,Hero,Economist,60,60,-1
+1789,48322,Economist,Hero,60,60,1
+1790,29883,Hero,Professor,60,60,1
+1791,10392,Professor,Hero,60,60,-1
+1792,135972,Sniper,Lumberjack,60,60,-1
+1793,7238,Lumberjack,Sniper,60,60,1
+1794,102437,Sniper,Gardener,60,60,-1
+1795,19282,Gardener,Sniper,60,60,1
+1796,62892,Sniper,Economist,60,60,1
+1797,7732,Economist,Sniper,60,60,1
+1798,31762,Caterpillar,Economist,60,60,1
+1799,19798,Economist,Caterpillar,60,60,-1
+1800,73877,Caterpillar,Professor,60,60,1
+1801,110254,Professor,Caterpillar,60,60,-1
+1802,57234,Hare,Lumberjack,60,60,1
+1803,3938,Lumberjack,Hare,60,60,1
+1804,124035,Hare,Gardener,60,60,1
+1805,118980,Gardener,Hare,60,60,-1
+1806,107935,Hare,Economist,60,60,-1
+1807,22731,Economist,Hare,60,60,-1
+1808,86416,Lumberjack,Gardener,60,60,1
+1809,39500,Gardener,Lumberjack,60,60,-1
+1810,32058,Gardener,Economist,60,60,1
+1811,23653,Economist,Gardener,60,60,1
+1812,54998,Gardener,Professor,60,60,-1
+1813,27281,Professor,Gardener,60,60,-1
+1814,57115,Economist,Professor,60,60,1
+1815,98058,Professor,Economist,60,60,-1
+1816,42621,Hero,Lumberjack,60,60,1
+1817,133140,Lumberjack,Hero,60,60,1
+1818,54829,Hero,Gardener,60,60,-1
+1819,15958,Gardener,Hero,60,60,1
+1820,74925,Sniper,Professor,60,60,1
+1821,131042,Professor,Sniper,60,60,1
+1822,4234,Caterpillar,Lumberjack,60,60,-1
+1823,7077,Lumberjack,Caterpillar,60,60,1
+1824,137691,Caterpillar,Gardener,60,60,1
+1825,19782,Gardener,Caterpillar,60,60,1
+1826,151132,Hare,Professor,60,60,-1
+1827,19258,Professor,Hare,60,60,1
+1828,42852,Lumberjack,Economist,60,60,-1
+1829,7182,Economist,Lumberjack,60,60,-1
+1830,109942,Lumberjack,Professor,60,60,1
+1831,94691,Professor,Lumberjack,60,60,-1
+1832,147690,Hero,Economist,60,60,-1
+1833,113189,Economist,Hero,60,60,1
+1834,6024,Hero,Professor,60,60,-1
+1835,148277,Professor,Hero,60,60,-1
+1836,24863,Sniper,Lumberjack,60,60,1
+1837,116616,Lumberjack,Sniper,60,60,1
+1838,112852,Sniper,Gardener,60,60,1
+1839,94037,Gardener,Sniper,60,60,1
+1840,90188,Sniper,Economist,60,60,-1
+1841,39248,Economist,Sniper,60,60,1
+1842,126325,Caterpillar,Economist,60,60,1
+1843,98363,Economist,Caterpillar,60,60,-1
+1844,114404,Caterpillar,Professor,60,60,1
+1845,144707,Professor,Caterpillar,60,60,1
+1846,133540,Hare,Lumberjack,60,60,-1
+1847,83441,Lumberjack,Hare,60,60,1
+1848,68472,Hare,Gardener,60,60,1
+1849,114611,Gardener,Hare,60,60,1
+1850,84671,Hare,Economist,60,60,1
+1851,9807,Economist,Hare,60,60,1
+1852,47233,Lumberjack,Gardener,60,60,-1
+1853,148493,Gardener,Lumberjack,60,60,1
+1854,2386,Gardener,Economist,60,60,1
+1855,23390,Economist,Gardener,60,60,1
+1856,36545,Gardener,Professor,60,60,1
+1857,54782,Professor,Gardener,60,60,1
+1858,44468,Economist,Professor,60,60,1
+1859,94217,Professor,Economist,60,60,1
+1860,47617,Hero,Lumberjack,60,60,-1
+1861,81984,Lumberjack,Hero,60,60,1
+1862,51225,Hero,Gardener,60,60,-1
+1863,84602,Gardener,Hero,60,60,1
+1864,84545,Sniper,Professor,60,60,-1
+1865,19670,Professor,Sniper,60,60,1
+1866,109481,Caterpillar,Lumberjack,60,60,-1
+1867,141381,Lumberjack,Caterpillar,60,60,1
+1868,15653,Caterpillar,Gardener,60,60,-1
+1869,4064,Gardener,Caterpillar,60,60,-1
+1870,26515,Hare,Professor,60,60,1
+1871,94116,Professor,Hare,60,60,1
+1872,73647,Lumberjack,Economist,60,60,1
+1873,23329,Economist,Lumberjack,60,60,-1
+1874,13634,Lumberjack,Professor,60,60,1
+1875,70540,Professor,Lumberjack,60,60,1
+1876,63242,Hero,Economist,60,60,-1
+1877,21466,Economist,Hero,60,60,-1
+1878,152084,Hero,Professor,60,60,1
+1879,29667,Professor,Hero,60,60,-1
+1880,70008,Sniper,Lumberjack,60,60,1
+1881,113227,Lumberjack,Sniper,60,60,1
+1882,44204,Sniper,Gardener,60,60,1
+1883,47056,Gardener,Sniper,60,60,-1
+1884,47376,Sniper,Economist,60,60,1
+1885,51631,Economist,Sniper,60,60,1
+1886,3552,Caterpillar,Economist,60,60,-2
+1887,78291,Economist,Caterpillar,60,60,1
+1888,21570,Caterpillar,Professor,60,60,-1
+1889,50646,Professor,Caterpillar,60,60,-1
+1890,115943,Hare,Lumberjack,60,60,-1
+1891,22088,Lumberjack,Hare,60,60,1
+1892,151522,Hare,Gardener,60,60,-1
+1893,291,Gardener,Hare,60,60,1
+1894,120490,Hare,Economist,60,60,1
+1895,95457,Economist,Hare,60,60,1
+1896,143646,Lumberjack,Gardener,60,60,1
+1897,51710,Gardener,Lumberjack,60,60,1
+1898,103704,Gardener,Economist,60,60,1
+1899,9963,Economist,Gardener,60,60,1
+1900,36000,Gardener,Professor,60,60,1
+1901,52316,Professor,Gardener,60,60,1
+1902,139764,Economist,Professor,60,60,-1
+1903,10152,Professor,Economist,60,60,1
+1904,18202,Hero,Lumberjack,60,60,1
+1905,24627,Lumberjack,Hero,60,60,-1
+1906,13908,Hero,Gardener,60,60,-1
+1907,92183,Gardener,Hero,60,60,1
+1908,47950,Sniper,Professor,60,60,-1
+1909,53461,Professor,Sniper,60,60,-1
+1910,117906,Caterpillar,Lumberjack,60,60,1
+1911,145752,Lumberjack,Caterpillar,60,60,-1
+1912,4688,Caterpillar,Gardener,60,60,1
+1913,101007,Gardener,Caterpillar,60,60,1
+1914,90513,Hare,Professor,60,60,1
+1915,26655,Professor,Hare,60,60,1
+1916,127928,Lumberjack,Economist,60,60,-1
+1917,24067,Economist,Lumberjack,60,60,1
+1918,51126,Lumberjack,Professor,60,60,1
+1919,109758,Professor,Lumberjack,60,60,1
+1920,37620,Hero,Economist,60,60,1
+1921,82088,Economist,Hero,60,60,1
+1922,38635,Hero,Professor,60,60,-1
+1923,55134,Professor,Hero,60,60,1
+1924,77122,Sniper,Lumberjack,60,60,-1
+1925,107557,Lumberjack,Sniper,60,60,-1
+1926,60408,Sniper,Gardener,60,60,-1
+1927,116877,Gardener,Sniper,60,60,-1
+1928,30357,Sniper,Economist,60,60,-1
+1929,10233,Economist,Sniper,60,60,-1
+1930,65970,Caterpillar,Economist,60,60,-1
+1931,79692,Economist,Caterpillar,60,60,-1
+1932,27353,Caterpillar,Professor,60,60,1
+1933,97712,Professor,Caterpillar,60,60,-1
+1934,45709,Hare,Lumberjack,60,60,1
+1935,3812,Lumberjack,Hare,60,60,1
+1936,120653,Hare,Gardener,60,60,-1
+1937,17677,Gardener,Hare,60,60,1
+1938,70668,Hare,Economist,60,60,-1
+1939,17667,Economist,Hare,60,60,1
+1940,23263,Lumberjack,Gardener,60,60,1
+1941,15709,Gardener,Lumberjack,60,60,1
+1942,11938,Gardener,Economist,60,60,1
+1943,104430,Economist,Gardener,60,60,-1
+1944,69564,Gardener,Professor,60,60,1
+1945,38658,Professor,Gardener,60,60,-1
+1946,153758,Economist,Professor,60,60,1
+1947,126496,Professor,Economist,60,60,-1
+1948,101739,Hero,Lumberjack,60,60,1
+1949,3308,Lumberjack,Hero,60,60,-1
+1950,68294,Hero,Gardener,60,60,-1
+1951,8300,Gardener,Hero,60,60,1
+1952,125610,Sniper,Professor,60,60,1
+1953,136218,Professor,Sniper,60,60,1
+1954,23113,Caterpillar,Lumberjack,60,60,-1
+1955,38488,Lumberjack,Caterpillar,60,60,-1
+1956,126445,Caterpillar,Gardener,60,60,-1
+1957,63188,Gardener,Caterpillar,60,60,-1
+1958,39639,Hare,Professor,60,60,-1
+1959,2006,Professor,Hare,60,60,-1
+1960,100692,Lumberjack,Economist,180,180,-1
+1961,45982,Lumberjack,Professor,180,180,-1
+1962,11786,Professor,Lumberjack,180,180,1
+1963,97064,Hero,Economist,180,180,1
+1964,101383,Economist,Hero,180,180,1
+1965,23230,Gardener,Professor,180,180,1
+1966,7078,Professor,Gardener,180,180,1
+1967,25823,Hero,Professor,180,180,-1
+1968,23294,Professor,Hero,180,180,1
+1969,77077,Sniper,Professor,180,180,-1
+1970,35038,Professor,Sniper,180,180,1
+1971,9308,Caterpillar,Professor,180,180,-1
+1972,126512,Professor,Caterpillar,180,180,-1
+1973,73655,Hare,Professor,180,180,-1
+1974,82536,Professor,Hare,180,180,1
+1975,10178,Lumberjack,Professor,180,180,1
+1976,23682,Professor,Lumberjack,180,180,-1
+1977,129927,Gardener,Professor,180,180,-1
+1978,29416,Economist,Professor,180,180,-1
+1979,40206,Professor,Economist,180,180,1
+1980,75027,Economist,Professor,180,180,-1
+1981,105087,Professor,Economist,180,180,1
+1982,42625,Economist,Professor,180,180,-1
+1983,96511,Professor,Economist,180,180,1
+1984,47761,Economist,Professor,180,180,-1
+1985,82510,Professor,Economist,180,180,-1
+1986,15245,Gardener,Professor,180,180,1
+1987,26455,Professor,Gardener,180,180,1
+1988,29811,Hero,Professor,180,180,1
+1989,97236,Professor,Hero,180,180,1
+1990,132175,Sniper,Professor,180,180,-1
+1991,3464,Professor,Sniper,180,180,1
+1992,137754,Caterpillar,Professor,180,180,-1
+1993,39659,Professor,Caterpillar,180,180,1
+1994,16415,Hare,Professor,180,180,-1
+1995,25160,Professor,Hare,180,180,1
+1996,11184,Lumberjack,Professor,180,180,1
+1997,113464,Professor,Lumberjack,180,180,1
+1998,127409,Gardener,Professor,180,180,1
+1999,46964,Professor,Gardener,180,180,-1
+2000,108518,Hero,Professor,180,180,-1
+2001,3165,Professor,Hero,180,180,1
+2002,95772,Sniper,Professor,180,180,-1
+2003,110643,Professor,Sniper,180,180,1
+2004,135252,Caterpillar,Professor,180,180,-1
+2005,135252,Professor,Caterpillar,180,180,1
+2006,128832,Hare,Professor,180,180,-1
+2007,128832,Professor,Hare,180,180,1
+2008,86104,Lumberjack,Professor,180,180,-1
+2009,86104,Professor,Lumberjack,180,180,-1
+2010,82120,Economist,Professor,180,180,1
+2011,82120,Professor,Economist,180,180,1
+2012,119366,Gardener,Professor,180,180,-1
+2013,119366,Professor,Gardener,180,180,1
+2014,119330,Hero,Professor,180,180,-1
+2015,119330,Professor,Hero,180,180,1
+2016,34362,Sniper,Professor,180,180,-1
+2017,34362,Professor,Sniper,180,180,1
+2018,135778,Caterpillar,Professor,180,180,-1
+2019,135778,Professor,Caterpillar,180,180,1
+2020,5085,Hare,Professor,180,180,1
+2021,5085,Professor,Hare,180,180,1
+2022,128989,Lumberjack,Professor,180,180,1
+2023,128989,Professor,Lumberjack,180,180,1
+2024,69368,Economist,Professor,180,180,-1
+2025,69368,Professor,Economist,180,180,1
+2026,29425,Gardener,Professor,180,180,1
+2027,29425,Professor,Gardener,180,180,1
+2028,118728,Hero,Professor,180,180,-1
+2029,118728,Professor,Hero,180,180,-1
+2030,21828,Sniper,Professor,180,180,-1
+2031,21828,Professor,Sniper,180,180,1
+2032,24185,Caterpillar,Professor,180,180,-1
+2033,24185,Professor,Caterpillar,180,180,1
+2034,30088,Hare,Professor,180,180,-1
+2035,30088,Professor,Hare,180,180,1
+2036,91298,Lumberjack,Professor,180,180,1
+2037,91298,Professor,Lumberjack,180,180,-1
+2038,20372,Economist,Professor,180,180,1
+2039,20372,Professor,Economist,180,180,-1
+2040,136517,Gardener,Professor,180,180,1
+2041,136517,Professor,Gardener,180,180,-1
+2042,133767,Hero,Professor,180,180,1
+2043,133767,Professor,Hero,180,180,1
+2044,74620,Sniper,Professor,180,180,-1
+2045,74620,Professor,Sniper,180,180,1
+2046,67089,Caterpillar,Professor,180,180,1
+2047,67089,Professor,Caterpillar,180,180,1
+2048,78931,Hare,Professor,180,180,-1
+2049,78931,Professor,Hare,180,180,1
+2050,7861,Lumberjack,Professor,180,180,1
+2051,7861,Professor,Lumberjack,180,180,1
+2052,116030,Economist,Professor,180,180,1
+2053,116030,Professor,Economist,180,180,-1
+2054,7777,Gardener,Professor,180,180,1
+2055,7777,Professor,Gardener,180,180,-1
+2056,105330,Hero,Professor,180,180,-1
+2057,105330,Professor,Hero,180,180,-1
+2058,129838,Sniper,Caterpillar,180,180,1
+2059,129838,Caterpillar,Sniper,180,180,1
+2060,60447,Sniper,Hare,180,180,-1
+2061,60447,Hare,Sniper,180,180,1
+2062,10507,Sniper,Lumberjack,180,180,-1
+2063,10507,Lumberjack,Sniper,180,180,1
+2064,81799,Sniper,Gardener,180,180,-1
+2065,81799,Gardener,Sniper,180,180,1
+2066,154824,Sniper,Professor,180,180,-1
+2067,154824,Professor,Sniper,180,180,1
+2068,68060,Caterpillar,Hare,180,180,1
+2069,68060,Hare,Caterpillar,180,180,1
+2070,29429,Caterpillar,Economist,180,180,-1
+2071,29429,Economist,Caterpillar,180,180,-1
+2072,27353,Caterpillar,Professor,180,180,-1
+2073,27353,Professor,Caterpillar,180,180,1
+2074,120656,Hare,Lumberjack,180,180,-1
+2075,120656,Lumberjack,Hare,180,180,1
+2076,8961,Hare,Gardener,180,180,-1
+2077,8961,Gardener,Hare,180,180,1
+2078,124461,Hare,Economist,180,180,1
+2079,124461,Economist,Hare,180,180,-1
+2080,2467,Hare,Professor,180,180,-1
+2081,2467,Professor,Hare,180,180,-1
+2082,57522,Lumberjack,Gardener,180,180,-1
+2083,57522,Gardener,Lumberjack,180,180,-1
+2084,83085,Lumberjack,Professor,180,180,1
+2085,83085,Professor,Lumberjack,180,180,-1
+2086,38544,Gardener,Economist,180,180,-1
+2087,38544,Economist,Gardener,180,180,1
+2088,154814,Economist,Professor,180,180,1
+2089,154814,Professor,Economist,180,180,1
+2090,59059,Hero,Sniper,180,180,-1
+2091,59059,Sniper,Hero,180,180,-1
+2092,3197,Hero,Caterpillar,180,180,1
+2093,3197,Caterpillar,Hero,180,180,1
+2094,126091,Hero,Lumberjack,180,180,-1
+2095,126091,Lumberjack,Hero,180,180,1
+2096,68915,Hero,Gardener,180,180,1
+2097,68915,Gardener,Hero,180,180,1
+2098,348634,Hero,Sniper,15,15,1
+2099,370760,Sniper,Economist,180,180,-1
+2100,370760,Economist,Sniper,180,180,1
+2101,370760,Hero,Lumberjack,180,180,-1
+2102,33408,Hero,Lumberjack,180,180,-1
+2103,370760,Lumberjack,Hero,180,180,1
+2104,33408,Lumberjack,Hero,180,180,-1
+2105,1908,Lumberjack,Hero,180,180,1
+2106,370760,Lumberjack,Hero,180,180,1
+2107,1908,Hero,Lumberjack,180,180,-1
+2108,370760,Hero,Lumberjack,180,180,-1
+2109,56087,Hero,Lumberjack,180,180,1
+2110,370760,Hero,Lumberjack,180,180,-1
+2111,56087,Lumberjack,Hero,180,180,-1
+2112,370760,Lumberjack,Hero,180,180,1
+2113,58126,Lumberjack,Hero,180,180,1
+2114,370760,Lumberjack,Hero,180,180,1
+2115,58126,Hero,Lumberjack,180,180,1
+2116,370760,Hero,Lumberjack,180,180,-1
+2117,7468,Sniper,Lumberjack,180,180,-1
+2118,370760,Sniper,Lumberjack,180,180,1
+2119,7468,Lumberjack,Sniper,180,180,1
+2120,370760,Lumberjack,Sniper,180,180,1
+2121,102178,Lumberjack,Sniper,180,180,1
+2122,111651,Caterpillar,Lumberjack,180,180,-1
+2123,76059,Lumberjack,Gardener,180,180,1
+2124,94007,Lumberjack,Hero,180,180,1
+2125,3337,Lumberjack,Economist,180,180,1
+2126,97064,Economist,Hero,180,180,1
+2127,104560,Economist,Sniper,180,180,1
+2128,105875,Lumberjack,Sniper,180,180,-1
+2129,156186,Hare,Sniper,180,180,1
+2130,47086,Hero,Lumberjack,180,180,-1
+2131,21589,Lumberjack,Hare,180,180,1
+2132,57042,Economist,Hero,180,180,1
+2133,69622,Gardener,Hero,180,180,1
+2134,17091,Hare,Sniper,180,180,-1
+2135,64365,Economist,Sniper,180,180,1
+2136,101935,Hare,Lumberjack,180,180,-1
+2137,127409,Professor,Gardener,180,180,1
+2138,75267,Gardener,Sniper,180,180,1
+2139,97236,Hero,Professor,180,180,-1
