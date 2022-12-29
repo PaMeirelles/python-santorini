@@ -1,17 +1,16 @@
 from time import perf_counter
-
-PRINT = False
+from functools import cmp_to_key
+PRINT = True
 DIVE_CHECK = 1
 MAX = 10000
 
 
 def get_best_move(board, turn, eval_func, search_func, time, extras=None):
     if extras is None:
-        extras = {"Scrapping": False}
+        extras = {"Scrapping": False, "Sorting": None}
     best_move = None
     depth = 1
-    best_score = 100 * -MAX
-
+    best_score = -float("inf")
     start = perf_counter()
     counter = 0
     running = True
@@ -37,7 +36,7 @@ def get_best_move(board, turn, eval_func, search_func, time, extras=None):
 
             board.make_move(move)
             s = -search_func(board, depth - 1, -turn, eval_func,
-                                       {"alpha": -float("inf"), "beta": float("inf")})
+                                       {"alpha": -float("inf"), "beta": float("inf"), "Sorting": extras["Sorting"]})
             if extras["Scrapping"]:
                 scores[i] = s
             else:
@@ -50,7 +49,7 @@ def get_best_move(board, turn, eval_func, search_func, time, extras=None):
             best_score = max(scores)
             best_move = moves[scores.index(max(scores))]
             if PRINT:
-                print(f"Depth: {depth} Score: {best_score} Move: ", end=" ")
+                print(f"Depth: {depth} Score: {best_score} Time: {round(perf_counter() - start, 2)}s Move: ", end=" ")
                 best_move.pretty_print()
             depth += 1
     return best_move, best_score, depth - 1
@@ -77,19 +76,25 @@ def negamax(board, depth, turn, eval_func, extra):
 def alphabeta(board, depth, turn, eval_func, extra):
     alpha = extra["alpha"]
     beta = extra["beta"]
+    sorting = extra["Sorting"]
     state = board.get_state()
     if state != 0:
         return (MAX + depth) * state * turn
     if depth == 0:
         return eval_func.eval(board) * turn
-    moves = board.gen_moves(turn)
+
+    if sorting is not None:
+        moves = sorted(board.gen_moves(turn, detailed=True), key=cmp_to_key(sorting))
+    else:
+        moves = board.gen_moves(turn)
+
     if len(moves) == 0:
         return -MAX - depth
 
     score = -float("inf")
     for move in moves:
         board.make_move(move)
-        score = max(score, -alphabeta(board, depth - 1, -turn, eval_func, {"alpha": -beta, "beta": -alpha}))
+        score = max(score, -alphabeta(board, depth - 1, -turn, eval_func, {"alpha": -beta, "beta": -alpha, "Sorting": sorting}))
         board.undo_move(move)
         alpha = max(alpha, score)
         if alpha >= beta:

@@ -2,8 +2,10 @@ from board import Board
 from time import perf_counter
 import datetime
 from evaluation import NHS, NHC, DBS
+from move import cmp_moves
 from search import get_best_move, negamax, alphabeta, PRINT
 from time_manage import ETS, ETP, ETF
+from view import display_pos
 
 
 def format_time(time):
@@ -59,7 +61,7 @@ class Controller:
                 self.evals.append(NHS())
                 self.searches.append(alphabeta)
                 self.timers.append(ETS())
-                self.extras.append({"Scrapping": True})
+                self.extras.append({"Scrapping": True, "Sorting": None})
             elif player == "Gardener":
                 self.evals.append(DBS())
                 self.searches.append(alphabeta)
@@ -69,13 +71,20 @@ class Controller:
                 self.evals.append(DBS())
                 self.searches.append(alphabeta)
                 self.timers.append(ETS())
-                self.extras.append({"Scrapping": True})
+                self.extras.append({"Scrapping": True, "Sorting": None})
+            elif player == "Helium":
+                self.evals.append(NHS())
+                self.searches.append(alphabeta)
+                self.timers.append(ETS())
+                self.extras.append({"Scrapping": True, "Sorting": cmp_moves})
             else:
                 print(f"Engine inválida ({player})")
                 exit(1)
 
     def play_game(self):
         while True:
+            if PRINT:
+                display_pos(self.board)
             if self.turn > 0:
                 index = 0
             else:
