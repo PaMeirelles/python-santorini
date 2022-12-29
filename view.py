@@ -1,19 +1,30 @@
 import pygame as pg
 from copy import copy
 
+from board import Board
+
 WIDTH = 680
 HEIGHT = 680
 
 
 class GameInfo:
-    def __init__(self, name):
-        with open(name, "r") as f:
-            linhas = [[int(y) for y in x.split()] for x in f.read().split("\n")]
-            self.cores = linhas[0].copy()
-            self.players = linhas[1].copy()
-            self.linhas = linhas
-            self.turn = 0
-            self.blocks = [0 for _ in range(25)]
+    def __init__(self, source):
+        if type(source) == str:
+            with open(source, "r") as f:
+                linhas = [[int(y) for y in x.split()] for x in f.read().split("\n")]
+                self.cores = linhas[0].copy()
+                self.players = linhas[1].copy()
+                self.linhas = linhas
+                self.turn = 0
+                self.blocks = [0 for _ in range(25)]
+        elif type(source) == Board:
+            self.cores = [0, 1]
+            self.players = source.players
+            self.blocks = source.blocks
+            self.turn = source.turn
+        else:
+            print("Tipo inválido de fonte")
+            exit(1)
 
     def make_move(self):
         try:
@@ -56,10 +67,10 @@ class GameInfo:
         self.draw_players(win)
 
 
-pg.init()
-clock = pg.time.Clock()
-running = True
-window = pg.display.set_mode((WIDTH, HEIGHT))
+def create_window():
+    pg.init()
+    return pg.display.set_mode((WIDTH, HEIGHT))
+
 
 bg_color = (0, 204, 153)
 
@@ -118,27 +129,38 @@ def convert_to_coord(n):
     return n % 5, n // 5
 
 
-def draw_all(win):
-    window.fill(bg_color)
+def draw_all(win, info):
+    win.fill(bg_color)
     draw_board(win)
     info.draw_all(win)
     pg.display.update()
 
 
-info = GameInfo("games/1999")
-while running:
-    clock.tick(60)
-    draw_all(window)
-    for e in pg.event.get():
-        if e.type == pg.QUIT:
-            running = False
-        elif e.type == pg.MOUSEBUTTONDOWN:
-            mouse = pg.mouse.get_pressed(3)
-            if mouse[0]:
-                info.make_move()
-            elif mouse[1]:
-                info.set_turn(0)
-            else:
-                info.undo_move()
-# end main loop
-pg.quit()
+def run(game):
+
+    window = create_window()
+    clock = pg.time.Clock()
+    running = True
+    info = GameInfo(f"games/{game}")
+    while running:
+        clock.tick(60)
+        draw_all(window, info)
+        for e in pg.event.get():
+            if e.type == pg.QUIT:
+                running = False
+            elif e.type == pg.MOUSEBUTTONDOWN:
+                mouse = pg.mouse.get_pressed(3)
+                if mouse[0]:
+                    info.make_move()
+                elif mouse[1]:
+                    info.set_turn(0)
+                else:
+                    info.undo_move()
+    # end main loop
+    pg.quit()
+
+
+def display_pos(board):
+    window = create_window()
+    info = GameInfo(board)
+    draw_all(window, info)

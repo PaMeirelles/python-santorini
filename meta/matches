@@ -2143,3 +2143,8 @@ id,starting_pos,player_a,player_b,time_a,time_b,result
 2146,40455,Lumberjack,Economist,180,180,1
 2147,28699,Economist,Caterpillar,180,180,1
 2148,3206,Sniper,Economist,180,180,-1
+2149,67467,Sniper,Hero,180,180,1
+2150,101082,Lumberjack,Economist,180,180,-1
+2151,34111,Caterpillar,Hero,180,180,1
+2152,22150,Economist,Gardener,180,180,1
+2153,131941,Sniper,Caterpillar,180,180,1
