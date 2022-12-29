@@ -41,7 +41,7 @@ class Board:
                     continue
                 if self.blocks[v] == 3:
                     if detailed:
-                        moves.append(Detailed(i, player, v, 25, 1, 3))
+                        moves.append(Detailed(i, player, v, 25, 1, 3, 0))
                     else:
                         moves.append(Move(i, player, v, 25))
                     continue
@@ -49,7 +49,9 @@ class Board:
                 for v2 in self.vizinhos[v]:
                     if self.is_free(v2):
                         if detailed:
-                            moves.append(Detailed(i, player, v, v2, self.blocks[v] - self.blocks[player], self.blocks[v]))
+                            moves.append(Detailed(i, player, v, v2,
+                                                  self.blocks[v] - self.blocks[player],
+                                                  self.blocks[v], self.blocks[v2] + 1))
                         else:
                             moves.append(Move(i, player, v, v2))
                 self.players[i] = player
