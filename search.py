@@ -51,7 +51,7 @@ def get_best_move(board, turn, eval_func, search_func, time, extras=None):
             best_move = moves[scores.index(max(scores))]
             if PRINT:
                 print(f"Depth: {depth} Score: {best_score} Move: ", end=" ")
-                best_move.print()
+                best_move.pretty_print()
             depth += 1
     return best_move, best_score, depth - 1
 

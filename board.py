@@ -1,4 +1,4 @@
-from move import Move
+from move import Move, Detailed
 
 
 class Board:
@@ -32,7 +32,7 @@ class Board:
                     continue
                 self.vizinhos[i].append(i + d)
 
-    def gen_moves(self, turn):
+    def gen_moves(self, turn, detailed=False):
         moves = []
         for i in range(1 - turn, 3 - turn):
             player = self.players[i]
@@ -40,12 +40,18 @@ class Board:
                 if not self.valid_half_move(player, v):
                     continue
                 if self.blocks[v] == 3:
-                    moves.append(Move(i, player, v, 25))
+                    if detailed:
+                        moves.append(Detailed(i, player, v, 25, 1, 3))
+                    else:
+                        moves.append(Move(i, player, v, 25))
                     continue
                 self.players[i] = -1
                 for v2 in self.vizinhos[v]:
                     if self.is_free(v2):
-                        moves.append(Move(i, player, v, v2))
+                        if detailed:
+                            moves.append(Detailed(i, player, v, v2, self.blocks[v] - self.blocks[player], self.blocks[v]))
+                        else:
+                            moves.append(Move(i, player, v, v2))
                 self.players[i] = player
         return moves
 

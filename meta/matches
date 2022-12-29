@@ -2134,3 +2134,8 @@ id,starting_pos,player_a,player_b,time_a,time_b,result
 2137,127409,Professor,Gardener,180,180,1
 2138,75267,Gardener,Sniper,180,180,1
 2139,97236,Hero,Professor,180,180,-1
+2140,86268,Hero,Sniper,180,180,1
+2141,38300,Gardener,Economist,180,180,-1
+2142,3464,Sniper,Professor,180,180,-1
+2143,82402,Hare,Gardener,180,180,1
+2144,29696,Hare,Caterpillar,180,180,1
