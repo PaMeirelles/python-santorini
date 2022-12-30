@@ -1,9 +1,9 @@
 player,elo
 Hero,1000.0
-Sniper,960.29
-Caterpillar,977.35
-Hare,974.17
-Lumberjack,1234.73
-Gardener,1242.51
-Economist,1301.32
-Professor,1245.21
+Sniper,945.49
+Caterpillar,976.3
+Hare,968.31
+Lumberjack,1242.31
+Gardener,1252.15
+Economist,1305.18
+Professor,1245.31

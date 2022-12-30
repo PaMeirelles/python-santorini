@@ -7,4 +7,4 @@ from search import get_best_move, negamax
 from view import display_pos
 from functools import cmp_to_key
 
-mini_match("Helium", "Economist", 1800)
+repair(180)

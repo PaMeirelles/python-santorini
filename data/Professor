@@ -1,8 +1,8 @@
 opponent,wins,losses,matches,eed,wr
-Hero,14,5,19,178.86,73.68%
+Hero,15,5,20,190.85,75.0%
 Sniper,18,2,20,381.7,90.0%
-Caterpillar,15,3,18,279.59,83.33%
+Caterpillar,16,3,19,290.8,84.21%
 Hare,14,4,18,217.63,77.78%
-Lumberjack,7,11,18,-78.52,38.89%
-Gardener,8,10,18,-38.76,44.44%
+Lumberjack,9,12,21,-49.98,42.86%
+Gardener,8,12,20,-70.44,40.0%
 Economist,11,7,18,78.52,61.11%
