@@ -1,6 +1,6 @@
 import pandas as pd
 from math import log10
-
+from matplotlib import pyplot as plt
 
 def elo_diff(e):
     if e == 0:
@@ -74,5 +74,38 @@ def adjust_elos(n, anchor, first=True):
     return adjust_elos(n - 1, anchor, False)
 
 
+def match_len():
+    lens = []
+    with open("meta/counter", "r") as f:
+        n = int(f.read())
+
+    for i in range(n):
+        try:
+            with open(f"games/{i}", "r") as f:
+                lens.append(len(f.readlines()))
+        except FileNotFoundError:
+            print("not found", i)
+    frequency = {}
+    for x in lens:
+        if x in frequency.keys():
+            frequency[x] += 1
+        else:
+            frequency[x] = 1
+    print(frequency)
+    mi = min(frequency.keys())
+    ma = max(frequency.keys())
+    print("Min", mi)
+    print("Max", ma)
+    x = [x for x in range(mi, ma+1) if x in frequency.keys()]
+    y = [frequency[x] for x in range(mi, ma+1) if x in frequency.keys()]
+    print("Avg", sum(lens) / len(lens))
+
+    plt.plot(x,
+             y)
+    plt.show()
+
+
+# match_len()
 fill_data(180)
 adjust_elos(10, ("Hero", 1000))
+

@@ -126,3 +126,13 @@ def repair(time):
         print(f"Reparando partidas {time}s {i}/{len(missing_matches)} {m[2]}")
         print(f"{m[0]} x {m[1]}")
         Controller(time, time, unhash_position(m[2]), (m[0], m[1])).play_game()
+
+
+def debut(player, min_elo, time):
+    elos = pd.read_csv("elos.txt")
+    opponents = elos[elos["elo"] > min_elo]["player"]
+
+    while True:
+        for op in opponents:
+            mini_match(player, op, time)
+

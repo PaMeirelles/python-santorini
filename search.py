@@ -1,6 +1,6 @@
 from time import perf_counter
 from functools import cmp_to_key
-PRINT = True
+PRINT = False
 DIVE_CHECK = 1
 MAX = 10000
 
