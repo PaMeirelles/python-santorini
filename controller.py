@@ -72,7 +72,7 @@ class Controller:
                 self.searches.append(alphabeta)
                 self.timers.append(ETS())
                 self.extras.append({"Scrapping": True, "Sorting": None})
-            elif player == "Helium":
+            elif player == "Zerg":
                 self.evals.append(NHS())
                 self.searches.append(alphabeta)
                 self.timers.append(ETS())
@@ -104,7 +104,7 @@ class Controller:
             self.time[index] -= (stop - start)
             if PRINT:
                 print(
-                    f"Depth:{depth} Eval: {score} Engine: {self.players[index]} Time left: {format_time(self.time[index])}")
+                    f"Depth:{depth} Eval: {self.evals[index].format_eval(score, depth)} Engine: {self.players[index]} Time left: {format_time(self.time[index])}")
             self.board.make_move(move)
 
             if self.board.blocks[move.end] == 3:

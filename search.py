@@ -1,6 +1,6 @@
 from time import perf_counter
 from functools import cmp_to_key
-PRINT = False
+PRINT = True
 DIVE_CHECK = 1
 MAX = 10000
 
@@ -49,7 +49,7 @@ def get_best_move(board, turn, eval_func, search_func, time, extras=None):
             best_score = max(scores)
             best_move = moves[scores.index(max(scores))]
             if PRINT:
-                print(f"Depth: {depth} Score: {best_score} Time: {round(perf_counter() - start, 2)}s Move: ", end=" ")
+                print(f"Depth: {depth} Score: {eval_func.format_eval(best_score, depth)} Time: {round(perf_counter() - start, 2)}s Move: ", end=" ")
                 best_move.pretty_print()
             depth += 1
     return best_move, best_score, depth - 1

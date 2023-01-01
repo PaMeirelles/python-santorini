@@ -134,5 +134,6 @@ def debut(player, min_elo, time):
 
     while True:
         for op in opponents:
-            mini_match(player, op, time)
+            if op != player:
+                mini_match(player, op, time)
 

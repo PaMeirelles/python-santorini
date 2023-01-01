@@ -1,7 +1,17 @@
 # Mother
+from search import MAX
+
+
 class Eval:
     def __init__(self):
-        pass
+        self.max_eval = None
+
+    def format_eval(self, ev, depth):
+        if ev > MAX:
+            return "#" + str(ev - MAX + depth)
+        if ev < -MAX:
+            return "#" + str(ev + MAX - depth)
+        return round(100 * ev / self.max_eval, 2)
 
 
 # Cores
@@ -55,13 +65,16 @@ class Double(PositionHeight):
 class NHS(NeighbourHeight):
     def __init__(self):
         super().__init__(6, 2, 1)
+        self.max_eval = 46
 
 
 class NHC(NeighbourHeight):
     def __init__(self):
         super().__init__(4, 3, 3)
+        self.max_eval = 92
 
 
 class DBS(Double):
     def __init__(self):
         super().__init__(9, 3, 1)
+        self.max_eval = 176

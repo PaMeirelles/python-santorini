@@ -7,6 +7,8 @@ from search import get_best_move, negamax
 from view import display_pos
 from functools import cmp_to_key
 
-repair(180)
-infinite_match("Gardener", "Professor",180)
-# debut("Helium", 1200, 180)
+#repair(180)
+# infinite_match("Gardener", "Professor",180)
+# debut("Zerg", 1200, 180)
+#fill_play(180)
+mini_match("Zerg", "Economist", 25 * 60)
