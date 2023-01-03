@@ -57,7 +57,7 @@ def infinite_match(player_a, player_b, time):
         print(f"{player_a} {result} x {played - result} {player_b}")
 
 
-def torney(players, time, sh):
+def tourney(players, time, sh):
     if sh:
         shuffle(players)
     while True:
@@ -113,7 +113,7 @@ def fill_play(time, any_time=True, cap=float('inf'), on_graph=False):
         return
     print(f"Matches: {lower_matches}")
     mini_match(pa, pb, time)
-    fill_play(time, False)
+    fill_play(time, False, on_graph=True)
 
 
 def tour(player, time):

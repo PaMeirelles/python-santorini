@@ -1,7 +1,7 @@
 from board import Board
 from controller import Controller
 from evaluation import NHS
-from matches import infinite_match, torney, smart_play, fill_play, mini_match, tour, repair, debut, gen_position
+from matches import infinite_match, tourney, smart_play, fill_play, mini_match, tour, repair, debut, gen_position
 from move import cmp_moves
 from search import get_best_move, negamax, alphabeta
 from time_manage import ETS
