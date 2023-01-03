@@ -2,6 +2,7 @@ import pandas as pd
 from math import log10
 from matplotlib import pyplot as plt
 
+
 def elo_diff(e):
     if e == 0:
         return -800
@@ -74,17 +75,29 @@ def adjust_elos(n, anchor, first=True):
     return adjust_elos(n - 1, anchor, False)
 
 
-def match_len():
+def match_len(elo=0):
     lens = []
+    df = pd.read_csv("meta/matches")
+    elos = pd.read_csv("elos.txt")
+    remendo = 0
     with open("meta/counter", "r") as f:
         n = int(f.read())
 
     for i in range(n):
         try:
             with open(f"games/{i}", "r") as f:
+                row = df[df["id"] == i]
+                pa, pb = row["player_a"][i - remendo], row["player_b"][i - remendo]
+                if int(elos[elos["player"] == pa]["elo"]) < elo:
+                    continue
+                if int(elos[elos["player"] == pb]["elo"]) < elo:
+                    continue
                 lens.append(len(f.readlines()) - 1)
         except FileNotFoundError:
             print("not found", i)
+        except KeyError:
+            print("Matches x games conflict", i)
+            remendo += 1
     frequency = {}
     for x in lens:
         if x in frequency.keys():
@@ -96,8 +109,8 @@ def match_len():
     ma = max(frequency.keys())
     print("Min", mi)
     print("Max", ma)
-    x = [x for x in range(mi, ma+1) if x in frequency.keys()]
-    y = [frequency[x] for x in range(mi, ma+1) if x in frequency.keys()]
+    x = [x for x in range(mi, ma + 1) if x in frequency.keys()]
+    y = [frequency[x] for x in range(mi, ma + 1) if x in frequency.keys()]
     print("Avg", sum(lens) / len(lens))
     print("Percentile 20%", sorted(lens)[len(lens) // 5])
 
@@ -105,7 +118,13 @@ def match_len():
     plt.show()
 
 
-# match_len()
+def count_matches(time):
+    df = pd.read_csv("meta/matches")
+    df = df[df["time_a"] == time]
+    return df.shape[0]
+
+
+# match_len(1200)
 fill_data(180)
 adjust_elos(10, ("Hero", 1000))
-
+print(count_matches(180))

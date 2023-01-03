@@ -8,9 +8,9 @@ class Eval:
 
     def format_eval(self, ev, depth):
         if ev >= MAX:
-            return "#" + str((MAX - ev + depth) / 2)
+            return "#" + str((MAX - ev + depth + 1) // 2)
         if ev <= -MAX:
-            return "#-" + str((ev + MAX + depth) / 2)
+            return "#-" + str((ev + MAX + depth + 1) // 2)
         return round(100 * ev / self.max_eval, 2)
 
 

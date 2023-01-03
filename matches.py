@@ -6,6 +6,18 @@ from search import PRINT
 import pandas as pd
 
 
+graph = {"Hero": ["Sniper", "Hare", "Caterpillar", "Lumberjack"],
+         "Sniper": ["Hero"],
+         "Hare": ["Hero"],
+         "Caterpillar": ["Hero"],
+         "Lumberjack": ["Gardener", "Economist", "Professor"],
+         "Gardener": ["Lumberjack", "Professor"],
+         "Economist": ["Lumberjack", "Professor"],
+         "Professor": ["Lumberjack", "Gardener", "Economist"],
+         "Zerg": [],
+         "DoomDrop": []}
+
+
 def gen_position():
     while True:
         n = randint(0, 25 ** 4)
@@ -73,7 +85,7 @@ def smart_play(time):
                 smart_play(time)
 
 
-def fill_play(time, any_time=True):
+def fill_play(time, any_time=True, cap=float('inf'), on_graph=False):
     if any_time:
         fill_data("any")
     else:
@@ -92,9 +104,13 @@ def fill_play(time, any_time=True):
             if row["opponent"] == p:
                 continue
             if row["matches"] < lower_matches:
+                if on_graph and row["opponent"] not in graph[p]:
+                    continue
                 lower_matches = row["matches"]
                 pa = p
                 pb = row["opponent"]
+    if lower_matches > cap:
+        return
     print(f"Matches: {lower_matches}")
     mini_match(pa, pb, time)
     fill_play(time, False)
