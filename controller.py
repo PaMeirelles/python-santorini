@@ -4,7 +4,7 @@ import datetime
 from evaluation import NHS, NHC, DBS
 from move import cmp_moves
 from search import get_best_move, negamax, alphabeta, PRINT
-from time_manage import ETS, ETP, ETF
+from time_manage import ETS, ETP, ETF, PHG
 from view import display_pos
 
 
@@ -26,6 +26,7 @@ class Controller:
         self.timers = []
         self.extras = []
 
+        self.counter = 0
         self.moves = []
         self.headers = [[0, 1], starting_pos.copy()]
         self.assembly()
@@ -77,6 +78,11 @@ class Controller:
                 self.searches.append(alphabeta)
                 self.timers.append(ETS())
                 self.extras.append({"Scrapping": True, "Sorting": cmp_moves})
+            elif player == "DoomDrop":
+                self.evals.append(NHS())
+                self.searches.append(alphabeta)
+                self.timers.append(PHG())
+                self.extras.append({"Scrapping": True, "Sorting": cmp_moves})
             else:
                 print(f"Engine inválida ({player})")
                 exit(1)
@@ -94,7 +100,9 @@ class Controller:
                                                self.turn,
                                                self.evals[index],
                                                self.searches[index],
-                                               self.timers[index].calculate_time(self.time[index]),
+                                               self.timers[index].calculate_time(self.time[index],
+                                                                                 self.original_time[index],
+                                                                                 self.counter),
                                                extras=self.extras[index])
             stop = perf_counter()
             if move is None:
@@ -115,7 +123,8 @@ class Controller:
                 break
 
             self.turn *= -1
-
+            if self.turn == 1:
+                self.counter += 1
         with open("meta/counter", "r") as f:
             n = int(f.read())
         self.write_file(n)

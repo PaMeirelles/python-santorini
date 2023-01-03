@@ -82,7 +82,7 @@ def match_len():
     for i in range(n):
         try:
             with open(f"games/{i}", "r") as f:
-                lens.append(len(f.readlines()))
+                lens.append(len(f.readlines()) - 1)
         except FileNotFoundError:
             print("not found", i)
     frequency = {}
@@ -99,9 +99,9 @@ def match_len():
     x = [x for x in range(mi, ma+1) if x in frequency.keys()]
     y = [frequency[x] for x in range(mi, ma+1) if x in frequency.keys()]
     print("Avg", sum(lens) / len(lens))
+    print("Percentile 20%", sorted(lens)[len(lens) // 5])
 
-    plt.plot(x,
-             y)
+    plt.plot(x, y)
     plt.show()
 
 

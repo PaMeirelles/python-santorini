@@ -7,10 +7,10 @@ class Eval:
         self.max_eval = None
 
     def format_eval(self, ev, depth):
-        if ev > MAX:
-            return "#" + str(ev - MAX + depth)
-        if ev < -MAX:
-            return "#" + str(ev + MAX - depth)
+        if ev >= MAX:
+            return "#" + str((MAX - ev + depth) / 2)
+        if ev <= -MAX:
+            return "#-" + str((ev + MAX + depth) / 2)
         return round(100 * ev / self.max_eval, 2)
 
 
