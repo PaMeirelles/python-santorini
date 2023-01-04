@@ -1,5 +1,6 @@
+import pandas as pd
 from board import fix_hash, unhash_position
 
-print(fix_hash(382710))
-print(unhash_position(382710))
-print(unhash_position(fix_hash(382710)))
+df = pd.read_csv("meta/matches")
+df["starting_pos"] = df["starting_pos"].apply(fix_hash)
+df.to_csv("meta/matches")

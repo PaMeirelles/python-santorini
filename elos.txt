@@ -3,9 +3,9 @@ Hero,1000.0
 Sniper,925.08
 Caterpillar,995.14
 Hare,980.19
-Lumberjack,1204.02
+Lumberjack,1204.03
 Gardener,1234.17
 Economist,1270.84
 Professor,1252.28
-Librarian,1235.42
-Farmer,1238.31
+Librarian,1235.44
+Farmer,1238.27

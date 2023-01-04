@@ -2,7 +2,7 @@ from random import randint, shuffle
 
 from analysis import fill_data
 from controller import Controller
-from board import hash_position, unhash_position
+from board import unhash_position, organize_pos
 from search import PRINT
 import pandas as pd
 
@@ -25,7 +25,7 @@ def gen_position():
         a, b, c, d = n // 25 ** 3, (n // 25 ** 2) % 25, (n // 25) % 25, n % 25
         if len({a, b, c, d}) != 4:
             continue
-        return [a, b, c, d]
+        return organize_pos([a, b, c, d])
 
 
 def mini_match(player_a, player_b, time, pos=None, half=False):
