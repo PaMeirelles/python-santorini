@@ -1,8 +1,17 @@
 from time import perf_counter
 from functools import cmp_to_key
+
 PRINT = True
 DIVE_CHECK = 1
 MAX = 10000
+
+
+class TtEntry:
+    def __init__(self, valid, depth=None, flag=None, value=None):
+        self.valid = valid
+        self.depth = depth
+        self.flag = flag
+        self.value = value
 
 
 def get_best_move(board, turn, eval_func, search_func, time, extras=None):
@@ -36,7 +45,7 @@ def get_best_move(board, turn, eval_func, search_func, time, extras=None):
 
             board.make_move(move)
             s = -search_func(board, depth - 1, -turn, eval_func,
-                                       {"alpha": -float("inf"), "beta": float("inf"), "Sorting": extras["Sorting"]})
+                             {"alpha": -float("inf"), "beta": float("inf"), "Sorting": extras["Sorting"]})
             if extras["Scrapping"]:
                 scores[i] = s
             else:
@@ -49,7 +58,9 @@ def get_best_move(board, turn, eval_func, search_func, time, extras=None):
             best_score = max(scores)
             best_move = moves[scores.index(max(scores))]
             if PRINT:
-                print(f"Depth: {depth} Score: {eval_func.format_eval(best_score, depth)} Time: {round(perf_counter() - start, 2)}s Move: ", end=" ")
+                print(
+                    f"Depth: {depth} Score: {eval_func.format_eval(best_score, depth)} Time: {round(perf_counter() - start, 2)}s Move: ",
+                    end=" ")
                 best_move.pretty_print()
             depth += 1
     return best_move, best_score, depth - 1
@@ -94,7 +105,8 @@ def alphabeta(board, depth, turn, eval_func, extra):
     score = -float("inf")
     for move in moves:
         board.make_move(move)
-        score = max(score, -alphabeta(board, depth - 1, -turn, eval_func, {"alpha": -beta, "beta": -alpha, "Sorting": sorting}))
+        score = max(score, -alphabeta(board, depth - 1, -turn, eval_func,
+                                      {"alpha": -beta, "beta": -alpha, "Sorting": sorting}))
         board.undo_move(move)
         alpha = max(alpha, score)
         if alpha >= beta:
