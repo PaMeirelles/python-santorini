@@ -1,7 +1,8 @@
 from random import randint, shuffle
 
 from analysis import fill_data
-from controller import Controller, hash_position, unhash_position
+from controller import Controller
+from board import hash_position, unhash_position
 from search import PRINT
 import pandas as pd
 
@@ -12,10 +13,10 @@ graph = {"Hero": ["Sniper", "Hare", "Caterpillar", "Lumberjack"],
          "Caterpillar": ["Hero"],
          "Lumberjack": ["Gardener", "Economist", "Professor"],
          "Gardener": ["Lumberjack", "Professor"],
-         "Economist": ["Lumberjack", "Professor"],
+         "Economist": ["Lumberjack", "Professor", "Librarian"],
          "Professor": ["Lumberjack", "Gardener", "Economist"],
-         "Zerg": [],
-         "DoomDrop": []}
+         "Librarian": ["Economist", "Farmer"],
+         "Farmer": ["Librarian"]}
 
 
 def gen_position():

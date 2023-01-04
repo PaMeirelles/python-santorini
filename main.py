@@ -8,7 +8,7 @@ from time_manage import ETS
 from view import display_pos
 from functools import cmp_to_key
 
+
 repair(180)
-# tour("DoomDrop", 180)
 smart_play(180)
 fill_play(180, on_graph=True)

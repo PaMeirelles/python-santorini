@@ -86,7 +86,7 @@ def match_len(elo=0):
     for i in range(n):
         try:
             with open(f"games/{i}", "r") as f:
-                row = df[df["id"] == i]
+                row = df[df.index == i]
                 pa, pb = row["player_a"][i - remendo], row["player_b"][i - remendo]
                 if int(elos[elos["player"] == pa]["elo"]) < elo:
                     continue

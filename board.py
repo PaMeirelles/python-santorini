@@ -11,6 +11,16 @@ class Board:
         self.vizinhos = [[] for _ in range(25)]
         self.init_vizinhos()
 
+    def __hash__(self):
+       return hash((hash_blocks(self.blocks), hash_position(self.players)))
+
+    def __eq__(self, other):
+        return (hash_blocks(self.blocks), hash_position(self.players)) \
+               == (hash_blocks(other.blocks), hash_position(other.players))
+
+    def __ne__(self, other):
+        return not (self == other)
+
     def init_vizinhos(self):
         directions = [-6, -5, -4, -1, 1, 4, 5, 6]
         up = (-6, -5, -4)
@@ -94,3 +104,19 @@ class Board:
 
     def worker_neighbour(self, worker):
         return self.vizinhos[worker]
+
+
+def hash_position(pos):
+    return pos[3] + 25 * pos[2] + 25 ** 2 * pos[1] + 25 ** 3 * pos[0]
+
+
+def unhash_position(hashed):
+    return [hashed // 25 ** 3, (hashed // 25 ** 2) % 25, (hashed // 25) % 25, hashed % 25]
+
+
+def hash_blocks(blocks):
+    return sum([x * 5 ** i for i, x in enumerate(blocks)])
+
+
+def unhash_blocks(hashed):
+    return [(hashed // (5 ** i)) % 5 for i in range(25)]

@@ -1,4 +1,4 @@
-from board import Board
+from board import Board, hash_position
 from time import perf_counter
 import datetime
 from evaluation import NHS, NHC, DBS
@@ -73,12 +73,12 @@ class Controller:
                 self.searches.append(alphabeta)
                 self.timers.append(ETS())
                 self.extras.append({"Scrapping": True, "Sorting": None})
-            elif player == "Zerg":
+            elif player == "Librarian":
                 self.evals.append(NHS())
                 self.searches.append(alphabeta)
                 self.timers.append(ETS())
                 self.extras.append({"Scrapping": True, "Sorting": cmp_moves})
-            elif player == "DoomDrop":
+            elif player == "Farmer":
                 self.evals.append(NHS())
                 self.searches.append(alphabeta)
                 self.timers.append(PHG())
@@ -142,11 +142,4 @@ class Controller:
             for move in self.moves:
                 f.write(move.to_register() + "\n")
 
-
-def hash_position(pos):
-    return pos[3] + 25 * pos[2] + 25 ** 2 * pos[1] + 25 ** 3 * pos[0]
-
-
-def unhash_position(hashed):
-    return [hashed // 25 ** 3, (hashed // 25 ** 2) % 25, (hashed // 25) % 25, hashed % 25]
 
