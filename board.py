@@ -124,3 +124,7 @@ def unhash_blocks(hashed):
 
 def organize_pos(pos):
     return sorted(pos[:2]) + sorted(pos[2:])
+
+
+def fix_hash(hashed):
+    return hash_position(organize_pos(unhash_position(hashed)))

@@ -1,5 +1,5 @@
-from board import organize_pos
+from board import fix_hash, unhash_position
 
-pos = [10, 1, 23, 24]
-
-print(organize_pos(pos))
+print(fix_hash(382710))
+print(unhash_position(382710))
+print(unhash_position(fix_hash(382710)))
