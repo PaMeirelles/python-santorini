@@ -12,7 +12,7 @@ class Board:
         self.init_vizinhos()
 
     def __hash__(self):
-       return hash((hash_blocks(self.blocks), hash_position(self.players)))
+        return hash((hash_blocks(self.blocks), hash_position(self.players)))
 
     def __eq__(self, other):
         return (hash_blocks(self.blocks), hash_position(self.players)) \
@@ -120,3 +120,7 @@ def hash_blocks(blocks):
 
 def unhash_blocks(hashed):
     return [(hashed // (5 ** i)) % 5 for i in range(25)]
+
+
+def organize_pos(pos):
+    return sorted(pos[:2]) + sorted(pos[2:])
