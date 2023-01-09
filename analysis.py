@@ -1,6 +1,10 @@
 import pandas as pd
 from math import log10
 from matplotlib import pyplot as plt
+from random import randint
+
+from board import Board, hash_blocks, hash_position
+from move import Move
 
 
 def elo_diff(e):
@@ -128,3 +132,28 @@ def count_matches(time):
 fill_data(180)
 adjust_elos(10, ("Hero", 1000))
 print(count_matches(180))
+
+
+def get_positions(n):
+    positions = []
+    with open("meta/counter", 'r') as f:
+        num_games = int(f.read())
+    for _ in range(n):
+        x = randint(0, num_games)
+        with open(f"games/{x}", "r") as m:
+            moves = m.readlines()
+
+        b = Board([int(x) for x in moves[1].split()])
+        for move in moves[2:]:
+            who, to, block = [int(x) for x in move.split()]
+            begin = b.players[who]
+            b.make_move(Move(who, begin, to, block))
+
+        positions.append({"id": x, "blocks": hash_blocks(b.blocks), "players": hash_position(b.players)})
+    with open("positions", "w") as f:
+        f.write("id,blocks,players\n")
+        for pos in positions:
+            f.write(f"{pos['id']},{pos['blocks']},{pos['players']}\n")
+
+
+get_positions(100)

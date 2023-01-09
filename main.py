@@ -11,4 +11,5 @@ from functools import cmp_to_key
 
 repair(180)
 smart_play(180)
+infinite_match("Hero", "Sniper", 180)
 fill_play(180, on_graph=True)

@@ -130,7 +130,7 @@ class Controller:
         self.write_file(n)
         with open("meta/matches", "a") as f:
             f.write(
-                f"{n},{str(hash_position(self.headers[1]))},{self.players[0]},{self.players[1]},{self.original_time[0]},{self.original_time[1]},{result}\n")
+                f"{str(hash_position(self.headers[1]))},{self.players[0]},{self.players[1]},{self.original_time[0]},{self.original_time[1]},{result}\n")
         with open("meta/counter", "w") as f:
             f.write(str(n + 1))
         return result
