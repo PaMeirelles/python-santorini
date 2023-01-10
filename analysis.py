@@ -144,16 +144,62 @@ def get_positions(n):
             moves = m.readlines()
 
         b = Board([int(x) for x in moves[1].split()])
-        for move in moves[2:]:
+        y = randint(2, len(moves))
+        for move in moves[2:y]:
             who, to, block = [int(x) for x in move.split()]
             begin = b.players[who]
             b.make_move(Move(who, begin, to, block))
 
-        positions.append({"id": x, "blocks": hash_blocks(b.blocks), "players": hash_position(b.players)})
-    with open("positions", "w") as f:
-        f.write("id,blocks,players\n")
+        if y % 2 == 0:
+            turn = 1
+        else:
+            turn = -1
+        positions.append({"id": x, "blocks": hash_blocks(b.blocks), "players": hash_position(b.players), "turn": turn})
+    with open(f"positions{n}", "w") as f:
+        f.write("id,blocks,players,turn\n")
         for pos in positions:
-            f.write(f"{pos['id']},{pos['blocks']},{pos['players']}\n")
+            f.write(f"{pos['id']},{pos['blocks']},{pos['players']},{pos['turn']}\n")
 
 
-get_positions(100)
+def compare_tests(file_a, file_b):
+    plt.style.use('ggplot')
+
+    df_a = pd.read_csv(file_a)
+    df_b = pd.read_csv(file_b)
+
+    scores_a = df_a["score"]
+    scores_b = df_b["score"]
+
+    times_a = sorted(df_a["time"].apply(lambda x: round(1000 * x, 2)))
+    times_b = sorted(df_b["time"].apply(lambda x: round(1000 * x, 2)))
+    size = len(scores_a)
+
+    compatibility = [i for i in range(size) if scores_a[i] == scores_b[i]]
+
+    min_a, max_a, avg_a = min(times_a), max(times_a), sum(times_a) / size
+    min_b, max_b, avg_b = min(times_b), max(times_b), sum(times_b) / size
+
+    percents_a = [times_a[i * size // 10] for i in range(1, 10)]
+    print(percents_a)
+    percents_b = [times_b[i * size // 10] for i in range(1, 10)]
+
+    print(f"{file_a} X {file_b}")
+    print(f"Score match: {round(100 * len(compatibility)/size, 2)}%")
+    print(f"Stats for {file_a}: Min: {min_a}ms Max: {max_a}ms Avg: {round(avg_a, 2)}ms")
+    print(f"Stats for {file_b}: Min: {min_b}ms Max: {max_b}ms Avg: {round(avg_b, 2)}ms")
+
+    x = [f"{10 * i}%" for i in range(1, 10)]
+    y_a = percents_a
+    z_b = percents_b
+
+    x_axis = [i for i in range(1, 10)]
+
+    plt.bar([x - 0.2 for x in x_axis], y_a, 0.4, label=file_a)
+    plt.bar([x + 0.2 for x in x_axis], z_b, 0.4, label=file_b)
+
+    plt.xticks(x_axis, x)
+    plt.xlabel("Percentiles")
+    plt.ylabel("Time")
+    plt.title("Time for move search in each percentile")
+    plt.legend()
+    plt.show()

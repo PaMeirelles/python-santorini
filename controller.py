@@ -2,7 +2,7 @@ from board import Board, hash_position
 from time import perf_counter
 import datetime
 from evaluation import NHS, NHC, DBS
-from move import cmp_moves
+from move_ordering import cmp_moves
 from search import get_best_move, negamax, alphabeta, PRINT
 from time_manage import ETS, ETP, ETF, PHG
 from view import display_pos

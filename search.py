@@ -1,8 +1,8 @@
 from time import perf_counter
 from functools import cmp_to_key
 
-PRINT = True
-DIVE_CHECK = 1
+PRINT = False
+DIVE_CHECK = 100
 MAX = 10000
 
 
@@ -14,7 +14,7 @@ class TtEntry:
         self.value = value
 
 
-def get_best_move(board, turn, eval_func, search_func, time, extras=None):
+def get_best_move(board, turn, eval_func, search_func, time, max_depth=float('inf'), extras=None):
     if extras is None:
         extras = {"Scrapping": False, "Sorting": None}
     best_move = None
@@ -25,7 +25,7 @@ def get_best_move(board, turn, eval_func, search_func, time, extras=None):
     running = True
     if extras["Scrapping"]:
         scores = [-float("inf") for _ in range(len(board.gen_moves(turn)))]
-    while perf_counter() - start < time and running:
+    while perf_counter() - start < time and running and depth < max_depth:
         if not extras["Scrapping"]:
             scores = []
         moves = board.gen_moves(turn)
